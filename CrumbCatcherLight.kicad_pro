@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CrumbCatcher.kicad_pro",
+    "filename": "CrumbCatcherLight.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -326,6 +326,14 @@
     [
       "eedae293-eb5b-47bd-b383-bccfdf81bf72",
       ""
+    ],
+    [
+      "71112edd-09dd-4ea7-a638-0abe9125ce5c",
+      "STM32"
+    ],
+    [
+      "1682b9f6-7d62-400a-a0b2-d2d916d42f36",
+      "Switches"
     ]
   ],
   "text_variables": {}
