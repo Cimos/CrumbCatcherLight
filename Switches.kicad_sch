@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Crumb Catcher")
+    (date "2023-10-25")
+    (rev "A")
+    (company "MadMan")
+  )
+
   (lib_symbols
     (symbol "Device:RotaryEncoder_Switch" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (at 0 6.604 0)
