@@ -1,1967 +1,5745 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 7af801c9-4fdd-4534-99e8-4a829bc1ad1b)
-
-  (paper "A4")
-
-  (title_block
-    (title "Crumb Catcher")
-    (date "2023-10-25")
-    (rev "A")
-    (company "MadMan")
-  )
-
-  (lib_symbols
-    (symbol "Device:RotaryEncoder_Switch" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 0 6.604 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "RotaryEncoder_Switch" (at 0 -6.604 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -3.81 4.064 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 6.604 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "rotary switch encoder switch push button" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "RotaryEncoder*Switch*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "RotaryEncoder_Switch_0_1"
-        (rectangle (start -5.08 5.08) (end 5.08 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (circle (center -3.81 0) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center -0.381 0) (radius 1.905)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (arc (start -0.381 2.667) (mid -3.0988 -0.0635) (end -0.381 -2.794)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.635 -1.778)
-            (xy -0.635 1.778)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.381 -1.778)
-            (xy -0.381 1.778)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.127 1.778)
-            (xy -0.127 -1.778)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 0)
-            (xy 3.429 0)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 1.016)
-            (xy 3.81 -1.016)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -2.54)
-            (xy -3.81 -2.54)
-            (xy -3.81 -2.032)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 2.54)
-            (xy -3.81 2.54)
-            (xy -3.81 2.032)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 -3.048)
-            (xy -0.508 -2.794)
-            (xy 0.127 -2.413)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 2.921)
-            (xy -0.508 2.667)
-            (xy 0.127 2.286)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 -2.54)
-            (xy 4.318 -2.54)
-            (xy 4.318 -1.016)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 2.54)
-            (xy 4.318 2.54)
-            (xy 4.318 1.016)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 0)
-            (xy -3.81 0)
-            (xy -3.81 -1.016)
-            (xy -3.302 -2.032)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.318 0)
-            (xy -3.81 0)
-            (xy -3.81 1.016)
-            (xy -3.302 2.032)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 4.318 -1.016) (radius 0.127)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (circle (center 4.318 1.016) (radius 0.127)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "RotaryEncoder_Switch_1_1"
-        (pin passive line (at -7.62 2.54 0) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "A" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -7.62 -2.54 0) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "B" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -7.62 0 0) (length 2.54)
-          (name "C" (effects (font (size 1.27 1.27))))
-          (number "C" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 2.54 180) (length 2.54)
-          (name "S1" (effects (font (size 1.27 1.27))))
-          (number "S1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -2.54 180) (length 2.54)
-          (name "S2" (effects (font (size 1.27 1.27))))
-          (number "S2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Diode:LL4148" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "LL4148" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Diode_SMD:D_MiniMELF" (at 0 -4.445 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Device" "D" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Sim.Pins" "1=K 2=A" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "100V 0.15A standard switching diode, MiniMELF" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "D*MiniMELF*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LL4148_0_1"
-        (polyline
-          (pts
-            (xy -1.27 1.27)
-            (xy -1.27 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 1.27 -1.27)
-            (xy -1.27 0)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "LL4148_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Switch:SW_SPST" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "SW" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "SW_SPST" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "switch lever" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Single Pole Single Throw (SPST) switch" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SW_SPST_0_0"
-        (circle (center -2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.254)
-            (xy 1.524 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.032 0) (radius 0.508)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "SW_SPST_1_1"
-        (pin passive line (at -5.08 0 0) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 127.635 67.945) (diameter 0) (color 0 0 0 0)
-    (uuid 1861d31d-c249-483b-b3b5-42b9c5b5430e)
-  )
-  (junction (at 192.405 118.745) (diameter 0) (color 0 0 0 0)
-    (uuid 18647982-5d9a-4fcc-83de-27f4c8952ae3)
-  )
-  (junction (at 141.605 67.945) (diameter 0) (color 0 0 0 0)
-    (uuid 23e36e2d-026d-4488-b40d-d42c2caeec3f)
-  )
-  (junction (at 120.015 67.945) (diameter 0) (color 0 0 0 0)
-    (uuid 23ed46df-9b54-431c-b99d-3ff38a044954)
-  )
-  (junction (at 120.015 106.045) (diameter 0) (color 0 0 0 0)
-    (uuid 2aa13940-75b7-4a7a-abdd-8e8fcd502135)
-  )
-  (junction (at 120.015 131.445) (diameter 0) (color 0 0 0 0)
-    (uuid 2d957306-77ab-4d80-a705-6cc47e9390a2)
-  )
-  (junction (at 94.615 106.045) (diameter 0) (color 0 0 0 0)
-    (uuid 44eeeb9c-a7af-4215-b758-6752b65de65c)
-  )
-  (junction (at 94.615 131.445) (diameter 0) (color 0 0 0 0)
-    (uuid 4ad44a6b-8794-4a21-8f92-2e1c9972c2b7)
-  )
-  (junction (at 116.205 93.345) (diameter 0) (color 0 0 0 0)
-    (uuid 5a953488-ff4b-40e8-8c8a-c944e02fe01f)
-  )
-  (junction (at 192.405 67.945) (diameter 0) (color 0 0 0 0)
-    (uuid 70a540f9-1e82-436f-bef6-69d16f731e9f)
-  )
-  (junction (at 145.415 80.645) (diameter 0) (color 0 0 0 0)
-    (uuid 7c5eca00-daa0-4bab-bfd7-ef9e7ccc1d52)
-  )
-  (junction (at 192.405 93.345) (diameter 0) (color 0 0 0 0)
-    (uuid 7efe8926-dd03-49e8-80a5-831b5f4a2358)
-  )
-  (junction (at 167.005 67.945) (diameter 0) (color 0 0 0 0)
-    (uuid 86f4abd2-aed9-4708-81a6-67006123b16e)
-  )
-  (junction (at 145.415 156.845) (diameter 0) (color 0 0 0 0)
-    (uuid 88dee774-a69c-492c-a723-7ff2ee6ad0f0)
-  )
-  (junction (at 170.815 80.645) (diameter 0) (color 0 0 0 0)
-    (uuid 90e409f1-aed2-4fec-aaa8-b1e0385ace7a)
-  )
-  (junction (at 120.015 80.645) (diameter 0) (color 0 0 0 0)
-    (uuid a4005ac4-3eab-4996-bd64-fa00c767e017)
-  )
-  (junction (at 116.205 118.745) (diameter 0) (color 0 0 0 0)
-    (uuid a7104632-6236-4976-8aee-d41046b8c6d8)
-  )
-  (junction (at 220.345 67.945) (diameter 0) (color 0 0 0 0)
-    (uuid a89f971a-5391-41ee-9b56-79f20ca42779)
-  )
-  (junction (at 120.015 156.845) (diameter 0) (color 0 0 0 0)
-    (uuid a9a5dc22-4766-48ec-af99-bafa09424084)
-  )
-  (junction (at 141.605 93.345) (diameter 0) (color 0 0 0 0)
-    (uuid bb5af415-8260-45fa-a480-f0c17fb174d7)
-  )
-  (junction (at 141.605 118.745) (diameter 0) (color 0 0 0 0)
-    (uuid bdf8b52a-8e7b-419b-a77a-5a79ffc49529)
-  )
-  (junction (at 167.005 93.345) (diameter 0) (color 0 0 0 0)
-    (uuid be3f1d07-b522-4cf1-bfa3-cbb0e7dea80e)
-  )
-  (junction (at 116.205 67.945) (diameter 0) (color 0 0 0 0)
-    (uuid bf0ac67d-412d-44b2-8f80-923c8a022730)
-  )
-  (junction (at 170.815 131.445) (diameter 0) (color 0 0 0 0)
-    (uuid ca40f31d-ca67-43d6-9d79-7e29b1ca728d)
-  )
-  (junction (at 167.005 118.745) (diameter 0) (color 0 0 0 0)
-    (uuid cd0270c5-0306-4bc4-8c4f-7bb966ae58d8)
-  )
-  (junction (at 94.615 80.645) (diameter 0) (color 0 0 0 0)
-    (uuid ea3dd654-babd-482a-bcd9-e4caac0d5b01)
-  )
-  (junction (at 149.225 106.045) (diameter 0) (color 0 0 0 0)
-    (uuid ebb54213-859b-4b77-b968-4b70cd205e1b)
-  )
-  (junction (at 94.615 156.845) (diameter 0) (color 0 0 0 0)
-    (uuid f55a01f3-96db-4086-a9f6-0a59a9947576)
-  )
-  (junction (at 145.415 131.445) (diameter 0) (color 0 0 0 0)
-    (uuid f758215d-1a00-456d-9d17-1f12fa4da79d)
-  )
-
-  (wire (pts (xy 94.615 106.045) (xy 88.265 106.045))
-    (stroke (width 0) (type default))
-    (uuid 00cff94c-4bf6-457e-bb1c-c993fd22bc93)
-  )
-  (wire (pts (xy 116.205 93.345) (xy 112.395 93.345))
-    (stroke (width 0) (type default))
-    (uuid 0369fe3d-b327-4a9e-8b65-9d0a57348822)
-  )
-  (wire (pts (xy 120.015 80.645) (xy 145.415 80.645))
-    (stroke (width 0) (type default))
-    (uuid 03e9aafb-f57e-4d06-b665-43a5d3b369ec)
-  )
-  (wire (pts (xy 170.815 67.945) (xy 170.815 80.645))
-    (stroke (width 0) (type default))
-    (uuid 055bf139-efce-4b38-b1f3-08f51f3c1176)
-  )
-  (wire (pts (xy 208.915 67.945) (xy 220.345 67.945))
-    (stroke (width 0) (type default))
-    (uuid 090e07bd-f020-4869-a531-4ea727eba39e)
-  )
-  (wire (pts (xy 94.615 93.345) (xy 94.615 106.045))
-    (stroke (width 0) (type default))
-    (uuid 0efdd951-9717-4560-94e3-8deafd27727c)
-  )
-  (wire (pts (xy 167.005 118.745) (xy 167.005 144.145))
-    (stroke (width 0) (type default))
-    (uuid 114e458c-398e-4c57-9b0b-69ca11196e08)
-  )
-  (wire (pts (xy 192.405 34.925) (xy 192.405 67.945))
-    (stroke (width 0) (type default))
-    (uuid 11f78daf-c966-4a94-a52d-447a50ac9a4d)
-  )
-  (wire (pts (xy 135.255 34.925) (xy 141.605 34.925))
-    (stroke (width 0) (type default))
-    (uuid 14bf3508-335e-4d9b-a2a5-6e3da8734aa2)
-  )
-  (wire (pts (xy 94.615 131.445) (xy 88.265 131.445))
-    (stroke (width 0) (type default))
-    (uuid 15fe7527-4656-4f55-b486-b89f6d19c869)
-  )
-  (wire (pts (xy 120.015 93.345) (xy 120.015 106.045))
-    (stroke (width 0) (type default))
-    (uuid 17662a9f-b54c-4758-b2b4-a76e9c8e16f1)
-  )
-  (wire (pts (xy 116.205 118.745) (xy 112.395 118.745))
-    (stroke (width 0) (type default))
-    (uuid 1a69092f-0dc2-4dad-b2bb-38b3119950e0)
-  )
-  (wire (pts (xy 141.605 67.945) (xy 137.795 67.945))
-    (stroke (width 0) (type default))
-    (uuid 1d3772a4-65dd-4861-bcf5-f54b4ade499d)
-  )
-  (wire (pts (xy 149.225 93.345) (xy 149.225 106.045))
-    (stroke (width 0) (type default))
-    (uuid 1d9c5e8d-c597-4c0b-bb4d-b409332b2b23)
-  )
-  (wire (pts (xy 116.205 34.925) (xy 116.205 67.945))
-    (stroke (width 0) (type default))
-    (uuid 24b184a4-f4fc-4bd5-a3fa-855a71f10717)
-  )
-  (wire (pts (xy 116.205 34.925) (xy 111.125 34.925))
-    (stroke (width 0) (type default))
-    (uuid 27aeb4ab-933e-4fe4-adc4-010c6bd9cbb5)
-  )
-  (wire (pts (xy 170.815 131.445) (xy 145.415 131.445))
-    (stroke (width 0) (type default))
-    (uuid 2c166afd-9206-4d3b-acde-e7020de9a170)
-  )
-  (wire (pts (xy 141.605 118.745) (xy 137.795 118.745))
-    (stroke (width 0) (type default))
-    (uuid 2d68ae85-7456-4c89-ba5d-639f478b4f20)
-  )
-  (wire (pts (xy 88.265 80.645) (xy 94.615 80.645))
-    (stroke (width 0) (type default))
-    (uuid 2df8d3fa-dbcd-41eb-923b-ab003a0390d1)
-  )
-  (wire (pts (xy 203.835 67.945) (xy 203.835 65.405))
-    (stroke (width 0) (type default))
-    (uuid 2e2a2886-66f3-4fff-8b34-9f29c42ed3b4)
-  )
-  (wire (pts (xy 120.015 131.445) (xy 94.615 131.445))
-    (stroke (width 0) (type default))
-    (uuid 349cf0ce-fa7f-4361-adfb-958f6e2c3044)
-  )
-  (wire (pts (xy 116.205 67.945) (xy 112.395 67.945))
-    (stroke (width 0) (type default))
-    (uuid 37c9f84d-a427-4ad6-9e76-f34256376312)
-  )
-  (wire (pts (xy 192.405 144.145) (xy 192.405 118.745))
-    (stroke (width 0) (type default))
-    (uuid 3835b324-3398-4c45-b044-b61d2bd39ad5)
-  )
-  (wire (pts (xy 167.005 144.145) (xy 163.195 144.145))
-    (stroke (width 0) (type default))
-    (uuid 38fc799d-4d50-495b-85c9-3dcebe4c22e1)
-  )
-  (wire (pts (xy 192.405 93.345) (xy 192.405 67.945))
-    (stroke (width 0) (type default))
-    (uuid 3b8c327f-2d57-49a3-ba5a-512fab5a6af4)
-  )
-  (wire (pts (xy 145.415 118.745) (xy 145.415 131.445))
-    (stroke (width 0) (type default))
-    (uuid 3b93b2cf-763d-418d-bca9-9e8265e4d5e3)
-  )
-  (wire (pts (xy 94.615 80.645) (xy 120.015 80.645))
-    (stroke (width 0) (type default))
-    (uuid 3de92189-0c15-407f-aecc-67355e18aceb)
-  )
-  (wire (pts (xy 145.415 131.445) (xy 120.015 131.445))
-    (stroke (width 0) (type default))
-    (uuid 48a8643b-a4a0-433b-b0e4-55f210c72d2f)
-  )
-  (wire (pts (xy 141.605 34.925) (xy 141.605 67.945))
-    (stroke (width 0) (type default))
-    (uuid 4de4e54f-3c97-4b62-bdb0-845ce6f8d27c)
-  )
-  (wire (pts (xy 170.815 118.745) (xy 170.815 131.445))
-    (stroke (width 0) (type default))
-    (uuid 51520fcd-ba13-4857-a2f5-fdb45b514491)
-  )
-  (wire (pts (xy 141.605 67.945) (xy 141.605 93.345))
-    (stroke (width 0) (type default))
-    (uuid 51b2c22b-1f18-4942-b7b4-2964c922ab83)
-  )
-  (wire (pts (xy 220.345 67.945) (xy 220.345 118.745))
-    (stroke (width 0) (type default))
-    (uuid 51f928df-bf6c-481f-9e55-b405dc20d495)
-  )
-  (wire (pts (xy 203.835 116.205) (xy 203.835 118.745))
-    (stroke (width 0) (type default))
-    (uuid 5391cc50-08d0-489b-8e1f-56379ffe3c5e)
-  )
-  (wire (pts (xy 192.405 93.345) (xy 188.595 93.345))
-    (stroke (width 0) (type default))
-    (uuid 55025dae-942f-4788-9a87-5b2bfe04cc8d)
-  )
-  (wire (pts (xy 167.005 93.345) (xy 163.195 93.345))
-    (stroke (width 0) (type default))
-    (uuid 550a1bbe-f6e9-4c3d-882f-52e2fd31850a)
-  )
-  (wire (pts (xy 192.405 118.745) (xy 192.405 93.345))
-    (stroke (width 0) (type default))
-    (uuid 5c14d3bd-e2db-402a-9bf2-370c16c19af3)
-  )
-  (wire (pts (xy 94.615 156.845) (xy 88.265 156.845))
-    (stroke (width 0) (type default))
-    (uuid 5d926d4d-71bc-4624-91a8-c9a48756c413)
-  )
-  (wire (pts (xy 120.015 118.745) (xy 120.015 131.445))
-    (stroke (width 0) (type default))
-    (uuid 5dc9f6ce-d7b3-438c-a34a-5226137e4b07)
-  )
-  (wire (pts (xy 186.055 34.925) (xy 192.405 34.925))
-    (stroke (width 0) (type default))
-    (uuid 60214d54-e30a-4022-8921-d60d1c135ded)
-  )
-  (wire (pts (xy 94.615 144.145) (xy 94.615 156.845))
-    (stroke (width 0) (type default))
-    (uuid 6101a960-6db1-4e04-84ac-8b32bc37282e)
-  )
-  (wire (pts (xy 120.015 156.845) (xy 94.615 156.845))
-    (stroke (width 0) (type default))
-    (uuid 6115f0d4-fd07-43df-8ab5-0a7b2ae4c7d1)
-  )
-  (wire (pts (xy 116.205 67.945) (xy 116.205 93.345))
-    (stroke (width 0) (type default))
-    (uuid 67692305-0451-4ff9-bcee-018e735a9346)
-  )
-  (wire (pts (xy 167.005 93.345) (xy 167.005 118.745))
-    (stroke (width 0) (type default))
-    (uuid 690a353f-bbe7-4e72-93a6-7b3a335d97e5)
-  )
-  (wire (pts (xy 167.005 34.925) (xy 167.005 67.945))
-    (stroke (width 0) (type default))
-    (uuid 6c201f72-6c9d-4d2a-a55a-4061bd4a1ae8)
-  )
-  (wire (pts (xy 94.615 67.945) (xy 94.615 80.645))
-    (stroke (width 0) (type default))
-    (uuid 73267bb7-fe73-4746-a2fb-d7c746e3a650)
-  )
-  (wire (pts (xy 167.005 67.945) (xy 163.195 67.945))
-    (stroke (width 0) (type default))
-    (uuid 750f06a8-e755-46b7-9835-a47291366fbe)
-  )
-  (wire (pts (xy 196.215 131.445) (xy 170.815 131.445))
-    (stroke (width 0) (type default))
-    (uuid 850400c6-7944-4c37-ba3d-3f08a17b7aec)
-  )
-  (wire (pts (xy 192.405 144.145) (xy 188.595 144.145))
-    (stroke (width 0) (type default))
-    (uuid 85e5529a-ad91-443c-bd64-7620359d1365)
-  )
-  (wire (pts (xy 145.415 80.645) (xy 170.815 80.645))
-    (stroke (width 0) (type default))
-    (uuid 88503e2b-d6e2-4745-8899-abdc529ac055)
-  )
-  (wire (pts (xy 208.915 65.405) (xy 208.915 67.945))
-    (stroke (width 0) (type default))
-    (uuid 948cb2f7-e799-487b-832f-8403736e1263)
-  )
-  (wire (pts (xy 120.015 144.145) (xy 120.015 156.845))
-    (stroke (width 0) (type default))
-    (uuid 9ba5ea82-038b-44bb-b7b2-101c4f678118)
-  )
-  (wire (pts (xy 131.445 93.345) (xy 127.635 93.345))
-    (stroke (width 0) (type default))
-    (uuid 9bdcbb79-7dca-49ed-8bf6-2c1251a63db9)
-  )
-  (wire (pts (xy 160.655 34.925) (xy 167.005 34.925))
-    (stroke (width 0) (type default))
-    (uuid 9ca86791-d1e4-4b80-a178-319e32774d46)
-  )
-  (wire (pts (xy 116.205 93.345) (xy 116.205 118.745))
-    (stroke (width 0) (type default))
-    (uuid 9ec712aa-98e6-4913-b829-3a5816a83c8e)
-  )
-  (wire (pts (xy 141.605 144.145) (xy 137.795 144.145))
-    (stroke (width 0) (type default))
-    (uuid 9ef91f15-f5ce-4e32-bd8b-88224d58ea3e)
-  )
-  (wire (pts (xy 170.815 93.345) (xy 170.815 106.045))
-    (stroke (width 0) (type default))
-    (uuid a0d869c7-2b44-4481-aff8-dbc04a043831)
-  )
-  (wire (pts (xy 116.205 144.145) (xy 112.395 144.145))
-    (stroke (width 0) (type default))
-    (uuid a27375ea-60fa-4a4b-94c1-3d05d4ed99bc)
-  )
-  (wire (pts (xy 141.605 118.745) (xy 141.605 144.145))
-    (stroke (width 0) (type default))
-    (uuid a3f3bfd1-321f-421f-afdf-3ac3fce4dad5)
-  )
-  (wire (pts (xy 167.005 118.745) (xy 163.195 118.745))
-    (stroke (width 0) (type default))
-    (uuid a7de4fb6-4105-4f13-bf50-560904211998)
-  )
-  (wire (pts (xy 120.015 106.045) (xy 94.615 106.045))
-    (stroke (width 0) (type default))
-    (uuid adc6c45e-60f1-4151-92d9-9ec775270629)
-  )
-  (wire (pts (xy 156.845 93.345) (xy 153.035 93.345))
-    (stroke (width 0) (type default))
-    (uuid ae42432a-4f9b-4856-8a17-372184701dfa)
-  )
-  (wire (pts (xy 145.415 67.945) (xy 145.415 80.645))
-    (stroke (width 0) (type default))
-    (uuid b2a5ac1b-bee8-474e-aa4e-f7414a347093)
-  )
-  (wire (pts (xy 116.205 118.745) (xy 116.205 144.145))
-    (stroke (width 0) (type default))
-    (uuid b607b47d-44d2-4e64-9fd1-84a375888d76)
-  )
-  (wire (pts (xy 196.215 118.745) (xy 196.215 131.445))
-    (stroke (width 0) (type default))
-    (uuid b7447789-befe-46f3-88e1-fd8036729e0b)
-  )
-  (wire (pts (xy 120.015 106.045) (xy 149.225 106.045))
-    (stroke (width 0) (type default))
-    (uuid b7bf1034-4d81-44c5-a711-da7baccf68d3)
-  )
-  (wire (pts (xy 192.405 118.745) (xy 188.595 118.745))
-    (stroke (width 0) (type default))
-    (uuid b9fa5c5c-51e1-41d1-8a11-cfaca03bbdd2)
-  )
-  (wire (pts (xy 208.915 116.205) (xy 208.915 118.745))
-    (stroke (width 0) (type default))
-    (uuid be01bd4e-f674-4ce5-a1f1-98c73578ff8b)
-  )
-  (wire (pts (xy 145.415 156.845) (xy 120.015 156.845))
-    (stroke (width 0) (type default))
-    (uuid c1637ac8-3667-4a64-ae42-38465b62b2e4)
-  )
-  (wire (pts (xy 220.345 118.745) (xy 208.915 118.745))
-    (stroke (width 0) (type default))
-    (uuid c3b0e4b6-072a-4dab-807a-499a081c1ec5)
-  )
-  (wire (pts (xy 141.605 93.345) (xy 141.605 118.745))
-    (stroke (width 0) (type default))
-    (uuid c620c5e2-1584-43e5-bf8a-f741e82922be)
-  )
-  (wire (pts (xy 167.005 67.945) (xy 167.005 93.345))
-    (stroke (width 0) (type default))
-    (uuid c7a378bb-9475-403b-bae3-c285a784af4a)
-  )
-  (wire (pts (xy 170.815 156.845) (xy 145.415 156.845))
-    (stroke (width 0) (type default))
-    (uuid d139a267-1a24-444d-9177-aaf23b2a8fa6)
-  )
-  (wire (pts (xy 220.345 34.925) (xy 220.345 67.945))
-    (stroke (width 0) (type default))
-    (uuid df3dcc9b-546f-4311-b559-5c776fc958e5)
-  )
-  (wire (pts (xy 192.405 67.945) (xy 188.595 67.945))
-    (stroke (width 0) (type default))
-    (uuid e298cf37-8e83-4c11-8131-53c4986cdba8)
-  )
-  (wire (pts (xy 94.615 118.745) (xy 94.615 131.445))
-    (stroke (width 0) (type default))
-    (uuid e41368f7-30fc-4d24-8913-03e996889ee3)
-  )
-  (wire (pts (xy 196.215 80.645) (xy 170.815 80.645))
-    (stroke (width 0) (type default))
-    (uuid e7615292-0304-4540-8072-25d76504615f)
-  )
-  (wire (pts (xy 196.215 67.945) (xy 196.215 80.645))
-    (stroke (width 0) (type default))
-    (uuid eb2c2eda-8268-4589-9afc-3e4088e5a018)
-  )
-  (wire (pts (xy 120.015 67.945) (xy 120.015 80.645))
-    (stroke (width 0) (type default))
-    (uuid ecfa1f21-38b1-47e8-be69-a5e9cb4c9e86)
-  )
-  (wire (pts (xy 213.995 34.925) (xy 220.345 34.925))
-    (stroke (width 0) (type default))
-    (uuid f336b11d-cd5d-44a6-acdb-394f2898cfd9)
-  )
-  (wire (pts (xy 170.815 144.145) (xy 170.815 156.845))
-    (stroke (width 0) (type default))
-    (uuid fbb28f74-9efb-4996-ac56-d81676b13a99)
-  )
-  (wire (pts (xy 145.415 144.145) (xy 145.415 156.845))
-    (stroke (width 0) (type default))
-    (uuid fc36ec8c-0f54-42fe-93c2-9d470ae76616)
-  )
-  (wire (pts (xy 170.815 106.045) (xy 149.225 106.045))
-    (stroke (width 0) (type default))
-    (uuid fe4252eb-c390-4d8b-a8bc-8f85507593a3)
-  )
-
-  (global_label "Col3" (shape input) (at 213.995 34.925 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 252e9ab7-2441-4879-a513-a1bedabb9ca8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 206.7955 34.925 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-
-  (hierarchical_label "ROW0" (shape input) (at 88.265 80.645 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0046d1ca-620b-439c-b791-6182e0a5ab57)
-  )
-  (hierarchical_label "COL1" (shape input) (at 135.255 34.925 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0ad2f0ca-265f-4fe0-897c-08ccc34a0e6d)
-  )
-  (hierarchical_label "ROW2" (shape input) (at 88.265 131.445 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0d55c236-10ea-49e8-bd5b-097455234453)
-  )
-  (hierarchical_label "COL2" (shape input) (at 160.655 34.925 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1c84887a-4d8c-4092-b2bd-717c91e06399)
-  )
-  (hierarchical_label "ROW3" (shape input) (at 88.265 156.845 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 58772ad1-d843-46a0-93f1-5cdf0fa75c5d)
-  )
-  (hierarchical_label "ROW1" (shape input) (at 88.265 106.045 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 6f99e890-513d-4084-af0d-618dbf2545ff)
-  )
-  (hierarchical_label "COL0" (shape input) (at 111.125 34.925 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b60930b3-d02f-464f-98c2-469aa743aa30)
-  )
-  (hierarchical_label "COL3" (shape input) (at 186.055 34.925 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid fba08af6-729c-457c-8fe6-35e650c36d2c)
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 174.625 67.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 00d4f183-4fef-4422-9960-1ffc0fa671db)
-    (property "Reference" "D1" (at 174.625 61.595 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 174.625 64.135 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 174.625 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 174.625 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 174.625 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 174.625 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 79649080-6298-467b-bd4b-b3b0ba24633c))
-    (pin "2" (uuid 0f4a607e-31e2-482e-b2c6-ae0d74cb6df6))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D1") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 107.315 67.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 02d46e9f-6a49-4ea7-ade5-b1d41b749466)
-    (property "Reference" "SW1" (at 107.315 61.595 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 107.315 64.135 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 107.315 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 107.315 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bd645a23-80c0-47c0-80ca-c723f2b86999))
-    (pin "2" (uuid ba6fa11f-7d0b-45f1-9743-bb91f1745d6e))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW1") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 174.625 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0bb14a05-e739-4e43-a1c3-7d7ec414acd2)
-    (property "Reference" "D2" (at 174.625 86.995 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 174.625 89.535 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 174.625 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 174.625 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 174.625 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 174.625 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a577999c-a952-4e0a-89f2-be6de45cff45))
-    (pin "2" (uuid 5ba42e27-3542-466d-9b9d-05d870e3d845))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D2") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 183.515 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 14dadf2f-76c2-4d71-a0f3-f8aceed8a4aa)
-    (property "Reference" "SW17" (at 183.515 86.995 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 183.515 89.535 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 183.515 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 183.515 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0178a911-6843-4f89-bbfa-b6d2be1e0db6))
-    (pin "2" (uuid 58a701eb-eb76-45d7-9548-c07671e288c7))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW17") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 132.715 67.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2739ba65-17a6-4df0-b680-51822d11eb39)
-    (property "Reference" "SW2" (at 132.715 61.595 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 132.715 64.135 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 132.715 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 132.715 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 661ce480-7370-4f7e-a355-0c1b00c858a0))
-    (pin "2" (uuid 0113e158-739a-40c6-9d5f-be75d1005bb0))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW2") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 149.225 67.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 27b9db5b-d6c3-4112-941e-915ef8ad10eb)
-    (property "Reference" "D14" (at 149.225 61.595 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 149.225 64.135 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 149.225 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 149.225 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 149.225 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 149.225 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e41ffe9f-57f9-4d41-a8ac-b61f8dfb8d34))
-    (pin "2" (uuid 2125072d-b0cb-496a-b0e6-da4b7402efe1))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D14") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 174.625 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 29910daa-0f28-4a8b-a9fb-584ff828e8d2)
-    (property "Reference" "D9" (at 174.625 137.795 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 174.625 140.335 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 174.625 148.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 174.625 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 174.625 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 174.625 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 07da0547-9300-4441-9b9c-e161d4c877ef))
-    (pin "2" (uuid a5da3522-a6fa-4a86-a26e-27576aec3780))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D9") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 183.515 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 34164c18-b277-487a-bc01-c623f2e74bc7)
-    (property "Reference" "SW19" (at 183.515 137.795 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 183.515 140.335 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 183.515 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 183.515 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e8844a80-5bd6-4d76-8e68-5f17fbe8ec46))
-    (pin "2" (uuid 281b1290-8619-4169-89e3-989dac0f74b4))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW19") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 136.525 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3fc95547-d89c-447b-96f0-58e9eafc134b)
-    (property "Reference" "SW5" (at 136.525 86.995 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 136.525 89.535 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 136.525 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 136.525 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9662e6f2-147d-4e5b-83dd-7e8e6dba0dd5))
-    (pin "2" (uuid d7c3e149-cbb9-46ba-92c7-2cc3033e9d8e))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW5") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 98.425 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 49b9abc2-31fe-4fd5-85d5-8b8505a6e921)
-    (property "Reference" "D7" (at 98.425 137.795 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 98.425 140.335 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 98.425 148.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 98.425 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 98.425 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 98.425 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 85a025f8-4c6c-4de9-8c16-8a8244a05784))
-    (pin "2" (uuid 7d3319c0-9852-42b5-9c45-97b23a16aff7))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D7") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 174.625 118.745 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4b92a849-99dd-493d-ac16-3b23c1aa97a9)
-    (property "Reference" "D3" (at 174.625 112.395 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 174.625 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 174.625 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 174.625 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 174.625 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 174.625 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b2731da9-6646-4d07-851b-7b7c2bd09938))
-    (pin "2" (uuid 921ab658-0890-41c0-b012-aa24c349b457))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D3") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D16") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 183.515 118.745 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4d34cdb0-9f0d-4522-9722-ce8e05c93b48)
-    (property "Reference" "SW18" (at 183.515 112.395 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 183.515 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 183.515 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 183.515 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f8cccae8-d35d-4b10-b443-c3c5222779f3))
-    (pin "2" (uuid 2917407d-a48b-48b5-b997-6e0a6831cf41))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW18") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW16") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 200.025 67.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4d3c6126-390b-42f8-a9dd-9a72cdb4a520)
-    (property "Reference" "D18" (at 200.025 61.595 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 200.025 64.135 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 200.025 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 200.025 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 200.025 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 200.025 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d9530f19-e2d7-4fdd-85fb-d1e9ac0b8c78))
-    (pin "2" (uuid 74af89d2-565c-438c-bb95-855e0d590242))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D18") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 98.425 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 509ca246-4def-45a1-b030-d775996194d9)
-    (property "Reference" "D16" (at 98.425 86.995 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 98.425 89.535 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 98.425 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 98.425 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 98.425 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 98.425 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1d0bad5b-7e43-4853-bef6-5a5dcf79afe4))
-    (pin "2" (uuid ef100665-b5e6-4cae-9456-3ea8b69388e0))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D16") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:RotaryEncoder_Switch") (at 206.375 108.585 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 50d87176-ae2e-49a1-ab94-3c7c5d037290)
-    (property "Reference" "SW20" (at 212.725 107.315 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Rotary" (at 212.725 109.855 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 210.439 104.775 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 212.979 108.585 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "A" (uuid bc73d9a5-e276-42ac-bda0-882ae9e21abf))
-    (pin "B" (uuid e07e6d09-4f70-4a7e-807d-40c93f4192a0))
-    (pin "C" (uuid d74b05a1-fa23-4cf0-b167-8802c1cd72f0))
-    (pin "S1" (uuid 879a2a33-6974-4296-826a-dfceb707b4f1))
-    (pin "S2" (uuid 9c2c8f12-c96e-4687-a90c-2aaae8774621))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW20") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW19") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 149.225 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 571265d2-e228-4f70-9e53-b52c3722d070)
-    (property "Reference" "D8" (at 149.225 137.795 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 149.225 140.335 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 149.225 148.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 149.225 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 149.225 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 149.225 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c988e46b-ff01-4a67-95a7-6be399cd3466))
-    (pin "2" (uuid 0fc3c14d-7ce9-4f41-8f99-858a0c574a23))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D8") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 200.025 118.745 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5cc6c0ab-d51a-4d4a-9735-af1a49f0a0ec)
-    (property "Reference" "D19" (at 200.025 112.395 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 200.025 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 200.025 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 200.025 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 200.025 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 200.025 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e09c9ad8-9e7c-4051-b759-2674846a9138))
-    (pin "2" (uuid a88128b3-21d1-41b5-afd2-648a9be679f2))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D19") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D19") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 123.825 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5fa6c537-433c-479e-b503-dad4e89d4d29)
-    (property "Reference" "D11" (at 123.825 86.995 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 123.825 89.535 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 123.825 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 123.825 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 123.825 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 123.825 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 77f260b8-70f1-435b-b43c-e9673b8167eb))
-    (pin "2" (uuid 32c7af15-4ce2-4295-a847-461c8267b449))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D11") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 107.315 118.745 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 63922239-365c-453a-9988-c5c84c0362ab)
-    (property "Reference" "SW7" (at 107.315 112.395 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 107.315 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 107.315 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 107.315 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0a0b8d4c-88d5-45b4-bc11-e1d441591a08))
-    (pin "2" (uuid 38c3423a-5ede-4314-918c-7938b0e49fc7))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW7") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 98.425 118.745 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 71b735ed-b17d-4f16-a1ec-b8f1b2bdf2c1)
-    (property "Reference" "D6" (at 98.425 112.395 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 98.425 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 98.425 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 98.425 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 98.425 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 98.425 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 11cf0d42-f40b-4af2-ba28-493195d89943))
-    (pin "2" (uuid 5fb5a1c5-cc26-46f8-bce2-de3a33b7af6f))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D6") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 132.715 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 73575b16-5ecd-4388-a7ad-b6d24b2d8976)
-    (property "Reference" "SW10" (at 132.715 137.795 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 132.715 140.335 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 132.715 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 132.715 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a02aa64d-6750-41ee-a4ac-4dcf626da46f))
-    (pin "2" (uuid 009f169a-4943-4228-8eca-b0729589acdc))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW10") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 123.825 67.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 75f8ad72-815f-470b-83ea-87397c3e4c26)
-    (property "Reference" "D13" (at 123.825 61.595 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 123.825 64.135 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 123.825 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 123.825 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 123.825 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 123.825 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c5e0e357-e76f-4842-bacc-9f624c919ad6))
-    (pin "2" (uuid 5204e501-7692-4a0e-8ac0-2501dcdda189))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D13") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 123.825 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7767dd21-407f-47c3-98f0-cf71b7324158)
-    (property "Reference" "D10" (at 123.825 137.795 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 123.825 140.335 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 123.825 148.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 123.825 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 123.825 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 123.825 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bb0f89fa-ec77-4746-b895-602cca2f92c3))
-    (pin "2" (uuid c6935947-06bb-4237-8444-a7a6451c500a))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D10") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 107.315 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9114e4de-b116-46b4-a170-918400a97494)
-    (property "Reference" "SW4" (at 107.315 86.995 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 107.315 89.535 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 107.315 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 107.315 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8006a97e-69c0-40e8-ac43-312d79be5204))
-    (pin "2" (uuid 40aca445-7783-41c6-a9fb-2edc0c64eeaa))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW4") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 107.315 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a0b71546-ec36-428e-8682-1cfc474aead7)
-    (property "Reference" "SW8" (at 107.315 137.795 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 107.315 140.335 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 107.315 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 107.315 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid afcb5d53-f41c-418c-b77e-37611e69ff5a))
-    (pin "2" (uuid 3f149257-7936-4bd0-a635-cf4102680062))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW8") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 183.515 67.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a52ed3a8-fb44-4009-bf66-bb232a8a72ac)
-    (property "Reference" "SW16" (at 183.515 61.595 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 183.515 64.135 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 183.515 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 183.515 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3dea010b-735f-4da0-95b7-53549d083de3))
-    (pin "2" (uuid fc31db3a-0156-4b0a-ba1b-8193ac0761af))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW16") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW14") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 123.825 67.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b70265dc-e034-4e29-a6a4-3403917a4d87)
-    (property "Reference" "D17" (at 123.825 61.595 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 123.825 64.135 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 123.825 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 123.825 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 123.825 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 123.825 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 73ba4885-65e8-442d-bab0-7c6bb9ce4181))
-    (pin "2" (uuid 60bf4f55-1b1e-4e11-880c-cbfbb73e2e41))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D17") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 158.115 118.745 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b9e5db82-75ce-4b12-943b-5e64609aa9e0)
-    (property "Reference" "SW11" (at 158.115 112.395 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 158.115 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 158.115 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 158.115 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 055acbdd-9080-4e13-82cb-cf181da41244))
-    (pin "2" (uuid 8f771c10-40bc-4738-866c-43d065b50d46))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW11") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 158.115 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c070292e-c134-4ba6-a326-7e9d8737ad9f)
-    (property "Reference" "SW6" (at 158.115 86.995 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 158.115 89.535 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 158.115 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 158.115 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ac1f9aa5-9f9c-48da-89e4-f7bd0c98a648))
-    (pin "2" (uuid 396fa6a9-6686-48aa-bb77-7874d49787c9))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW6") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 158.115 67.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c7b4a01b-e38a-42c1-b307-c19e9b548d2f)
-    (property "Reference" "SW3" (at 158.115 61.595 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 158.115 64.135 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 158.115 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 158.115 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 49cf00e0-c61f-44ac-b035-a7ba304ed28f))
-    (pin "2" (uuid 283dbd22-6ece-4f16-aae3-de073105b9eb))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW3") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 132.715 118.745 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c9917910-09cc-442d-b424-b11116af3c16)
-    (property "Reference" "SW9" (at 132.715 112.395 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 132.715 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 132.715 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 132.715 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 20a5d87f-2733-4628-bcfd-369f380e334d))
-    (pin "2" (uuid ff128141-ecb0-4ae2-96df-ed0e7d3aa93e))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW9") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 153.035 93.345 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid eea08613-ac7a-467a-93f4-8dd6431fe081)
-    (property "Reference" "D12" (at 153.035 86.995 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 153.035 89.535 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 153.035 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 153.035 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 153.035 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 153.035 93.345 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eead43f2-be55-43de-84c2-63e95ade3fe5))
-    (pin "2" (uuid 031b0ac3-99da-41c3-b469-321a62f15eab))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D12") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 123.825 118.745 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f0919517-2114-49ab-9f6d-2a949e97a0f5)
-    (property "Reference" "D5" (at 123.825 112.395 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 123.825 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 123.825 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 123.825 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 123.825 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 123.825 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 16d863d0-57ce-4350-9680-dec2ccb30fc5))
-    (pin "2" (uuid 2b4c3e91-d62c-4e0b-a6fa-602355fb5421))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D5") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Switch:SW_SPST") (at 158.115 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f25c40fd-3755-42d3-a1bd-b2eb92366feb)
-    (property "Reference" "SW12" (at 158.115 137.795 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SW_SPST" (at 158.115 140.335 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u" (at 158.115 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 158.115 144.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6c57f2ea-9be7-4034-98a1-56d4d05d0f47))
-    (pin "2" (uuid 1fad7c14-2f34-4acb-94fa-782a7f68be15))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW12") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:RotaryEncoder_Switch") (at 206.375 57.785 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f6bb02d5-51a4-4170-a27e-cdcee461a24f)
-    (property "Reference" "SW15" (at 212.725 56.515 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Rotary" (at 212.725 59.055 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 210.439 53.975 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 212.979 57.785 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "A" (uuid ec4591b1-0529-430a-8033-ad8781874eae))
-    (pin "B" (uuid 0b7b9949-9572-47cb-ad05-b09152578744))
-    (pin "C" (uuid a6c2a7eb-eb2f-49d0-8bdd-37f241abfd1e))
-    (pin "S1" (uuid db4375a1-7b13-4f72-abe5-70cd5a0007b6))
-    (pin "S2" (uuid 2c86580a-db73-432c-a1b4-14e85230007a))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "SW15") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "SW18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 149.225 118.745 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fb7d95eb-ccd2-48c2-813f-5a9e36906e44)
-    (property "Reference" "D4" (at 149.225 112.395 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 149.225 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 149.225 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 149.225 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 149.225 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 149.225 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 723bda67-c84a-4b4c-8de4-d813fcfa0e7a))
-    (pin "2" (uuid 288c74be-fb2b-45e2-beff-7d09181399e6))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D4") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Diode:LL4148") (at 98.425 67.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid fe04a3d6-a657-40ba-9132-a4d86d5ced17)
-    (property "Reference" "D15" (at 98.425 61.595 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LL4148" (at 98.425 64.135 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Diode_SMD:D_MiniMELF" (at 98.425 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf" (at 98.425 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Device" "D" (at 98.425 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Pins" "1=K 2=A" (at 98.425 67.945 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3ae47f09-ecc2-41ab-a5d4-eabf3b854df0))
-    (pin "2" (uuid e173d97e-a172-4606-adb8-2f25a1741c65))
-    (instances
-      (project "CrumbCatcherLight"
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-          (reference "D15") (unit 1)
-        )
-        (path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-          (reference "D1") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7af801c9-4fdd-4534-99e8-4a829bc1ad1b")
+	(paper "A4")
+	(title_block
+		(title "Crumb Catcher")
+		(date "2023-10-25")
+		(rev "A")
+		(company "MadMan")
+	)
+	(lib_symbols
+		(symbol "Device:RotaryEncoder_Switch"
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 2.667)
+					(mid -3.0988 -0.0635)
+					(end -0.381 -2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:LL4148"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LL4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_MiniMELF"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, MiniMELF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*MiniMELF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LL4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LL4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 115.57 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04d69aac-9604-4a09-8a5c-6abdea133a6c")
+	)
+	(junction
+		(at 120.65 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0be58e58-fc84-41f5-ab93-da0bb90f6ede")
+	)
+	(junction
+		(at 176.53 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d720c8e-2bd5-441c-a701-7fc3f9f2d7fd")
+	)
+	(junction
+		(at 171.45 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3421b7cd-d2ab-4b54-ac19-9a1217bbe653")
+	)
+	(junction
+		(at 171.45 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b50f8d2-c41c-4299-8d86-adcc660ba2fb")
+	)
+	(junction
+		(at 92.71 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cd6c1eb-6640-4dcc-8f15-e21ebf609aa5")
+	)
+	(junction
+		(at 148.59 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c88ad94-9962-4962-8f5a-2013e689aa61")
+	)
+	(junction
+		(at 92.71 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c51d776-405e-4e1b-a890-8ce30029eaf2")
+	)
+	(junction
+		(at 120.65 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78827617-6409-4544-82ad-f12cfb2b88f8")
+	)
+	(junction
+		(at 115.57 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c1126fb-df01-4018-a429-d4c20a79216e")
+	)
+	(junction
+		(at 148.59 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fdbab49-89f4-4ba7-a6d5-88157421e776")
+	)
+	(junction
+		(at 143.51 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c02a599-cb3b-4a77-92a3-7bc72a73aca5")
+	)
+	(junction
+		(at 120.65 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95c3f6c1-8125-4697-afc3-2cc740e52b10")
+	)
+	(junction
+		(at 176.53 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bad4508-11e3-4589-9173-b04ef931b616")
+	)
+	(junction
+		(at 143.51 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a28dce01-5b9e-4fde-a81d-b1e27bbb0007")
+	)
+	(junction
+		(at 148.59 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a32351da-fde3-423f-86a3-a871c2f45e2c")
+	)
+	(junction
+		(at 92.71 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4a5f547-382e-4356-97c0-b4dcb967242c")
+	)
+	(junction
+		(at 148.59 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c45371a5-3805-4d82-9439-9b4007e37167")
+	)
+	(junction
+		(at 171.45 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8d1cfaf-2a64-4b41-a2e1-2519169eddea")
+	)
+	(junction
+		(at 229.87 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c943703e-9c73-4cfb-b9b4-1c2db79b0659")
+	)
+	(junction
+		(at 92.71 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbd5d4a6-fdfb-43a3-898b-d8c798a73f36")
+	)
+	(junction
+		(at 115.57 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1bfb624-ffa0-40c7-b52b-a5b4cd224026")
+	)
+	(junction
+		(at 199.39 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6c93847-26f0-43e6-aa27-b0a46f1b3f13")
+	)
+	(junction
+		(at 199.39 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8797032-ca4b-47e3-810e-f0f293f19868")
+	)
+	(junction
+		(at 120.65 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc039a0b-20b7-4c18-8136-b95915b574e3")
+	)
+	(junction
+		(at 143.51 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e181eec4-edde-4eab-bc74-e307a884b561")
+	)
+	(junction
+		(at 199.39 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e62ac629-de17-4cd7-9dcc-15b9856b7fbf")
+	)
+	(wire
+		(pts
+			(xy 171.45 63.5) (xy 167.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b6f0a7-a1b5-4ef6-9f0f-bb895e11b02e")
+	)
+	(wire
+		(pts
+			(xy 222.25 60.96) (xy 222.25 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a93040-7d81-4881-abee-ebc4546f453e")
+	)
+	(wire
+		(pts
+			(xy 199.39 63.5) (xy 195.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "093f5816-1f50-467f-814d-75105816bf88")
+	)
+	(wire
+		(pts
+			(xy 171.45 40.64) (xy 171.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba10d1e-692b-4d4f-ba70-d592d7a0b4b8")
+	)
+	(wire
+		(pts
+			(xy 92.71 114.3) (xy 92.71 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6a6359-e785-4e79-90cb-6fc1f7db9ede")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7d150c-d41f-4444-8fe1-083535c796a3")
+	)
+	(wire
+		(pts
+			(xy 199.39 114.3) (xy 195.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12df74c2-9670-40a4-be8f-503a3400f157")
+	)
+	(wire
+		(pts
+			(xy 199.39 139.7) (xy 199.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1328f68d-2b47-4a04-80f5-d01c4f339710")
+	)
+	(wire
+		(pts
+			(xy 204.47 114.3) (xy 204.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1527c10c-a03f-49b8-8565-bc04e353383d")
+	)
+	(wire
+		(pts
+			(xy 92.71 88.9) (xy 92.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1565e3da-6fce-4ef9-a2ec-f41f4190531f")
+	)
+	(wire
+		(pts
+			(xy 176.53 114.3) (xy 176.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c44aa7-de66-4246-81c4-18161c01d47a")
+	)
+	(wire
+		(pts
+			(xy 143.51 63.5) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f33ee3-e2f9-4b89-8579-bfacc9e6d2be")
+	)
+	(wire
+		(pts
+			(xy 87.63 76.2) (xy 92.71 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb365a9-a235-4fe7-91e4-48a601f442e6")
+	)
+	(wire
+		(pts
+			(xy 148.59 152.4) (xy 120.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cbcd05d-d8d8-4d32-8adf-12a8d2cbe1be")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264f8f6e-526a-4e20-9103-9d1b68c30917")
+	)
+	(wire
+		(pts
+			(xy 171.45 63.5) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d71fbe-8c53-4dd3-965e-28c32152a271")
+	)
+	(wire
+		(pts
+			(xy 199.39 139.7) (xy 195.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fef646-a019-4ec0-8dc4-c594b843caa0")
+	)
+	(wire
+		(pts
+			(xy 171.45 88.9) (xy 171.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e3c448-d8c0-4aab-8ff3-ad82eeeed523")
+	)
+	(wire
+		(pts
+			(xy 148.59 139.7) (xy 148.59 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b45e9fd-0a7d-4d35-93a9-8c5232647c75")
+	)
+	(wire
+		(pts
+			(xy 217.17 111.76) (xy 217.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4f1afe-ba01-4a03-8442-93845083223d")
+	)
+	(wire
+		(pts
+			(xy 120.65 114.3) (xy 120.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c61058a-df6f-49d5-a65e-8165f4c08ee3")
+	)
+	(wire
+		(pts
+			(xy 120.65 88.9) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e195ef4-e822-4952-b24a-ade5b4919da6")
+	)
+	(wire
+		(pts
+			(xy 120.65 139.7) (xy 120.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec1fb9d-7f19-4ea8-bdae-285091090955")
+	)
+	(wire
+		(pts
+			(xy 148.59 63.5) (xy 149.86 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ec77b77-c080-491a-ad6f-687a004cd868")
+	)
+	(wire
+		(pts
+			(xy 204.47 127) (xy 176.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3050e03d-5e53-4d30-8dbf-99c056bb6c62")
+	)
+	(wire
+		(pts
+			(xy 204.47 76.2) (xy 176.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315d694a-cffb-429b-ac4b-1f500496cfa2")
+	)
+	(wire
+		(pts
+			(xy 120.65 139.7) (xy 121.92 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31da7322-60c4-4cc1-bacd-8def82f62c8d")
+	)
+	(wire
+		(pts
+			(xy 171.45 114.3) (xy 167.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35390e21-6a78-460c-aad1-c7c147f181c9")
+	)
+	(wire
+		(pts
+			(xy 204.47 114.3) (xy 205.74 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356ae67b-a7f0-4822-807a-f91125d56263")
+	)
+	(wire
+		(pts
+			(xy 217.17 63.5) (xy 217.17 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0c45d2-3598-48ba-aaa5-774bb6dacf4a")
+	)
+	(wire
+		(pts
+			(xy 137.16 40.64) (xy 143.51 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4038fa1a-55dc-4306-97fa-6534aa34ec64")
+	)
+	(wire
+		(pts
+			(xy 222.25 111.76) (xy 222.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4286d315-2eba-4f9a-8720-6629d44ad643")
+	)
+	(wire
+		(pts
+			(xy 92.71 63.5) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "430493ab-a92c-4692-8a0c-8a50d84b2cf0")
+	)
+	(wire
+		(pts
+			(xy 115.57 88.9) (xy 115.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43babb99-e530-4491-bfa1-fc5a6711ba50")
+	)
+	(wire
+		(pts
+			(xy 120.65 88.9) (xy 121.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a6c1f3-e097-4e54-b477-4949a38df090")
+	)
+	(wire
+		(pts
+			(xy 229.87 40.64) (xy 229.87 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4870b8-7cae-419d-9208-d1b31a9eb5c3")
+	)
+	(wire
+		(pts
+			(xy 171.45 139.7) (xy 167.64 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c32a0ce-fb84-46bb-8a32-1088440313a3")
+	)
+	(wire
+		(pts
+			(xy 143.51 139.7) (xy 139.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd9e164-b8d2-4298-b856-af6b555e3dde")
+	)
+	(wire
+		(pts
+			(xy 115.57 40.64) (xy 115.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5173acbe-df98-4842-9813-d313ddb50fd7")
+	)
+	(wire
+		(pts
+			(xy 120.65 63.5) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b106b4-285f-4a4c-a80b-1c8938ddbc3b")
+	)
+	(wire
+		(pts
+			(xy 176.53 139.7) (xy 177.8 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52cfcb2c-1a6b-4bab-a3ca-a29bc8e5b5ae")
+	)
+	(wire
+		(pts
+			(xy 92.71 139.7) (xy 92.71 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ece99f-4003-4272-a446-076949bd4d9e")
+	)
+	(wire
+		(pts
+			(xy 148.59 139.7) (xy 149.86 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566ea028-f653-457c-97c5-d2923844c034")
+	)
+	(wire
+		(pts
+			(xy 148.59 63.5) (xy 148.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e4681d-4557-453c-a672-f3fdb4410360")
+	)
+	(wire
+		(pts
+			(xy 143.51 88.9) (xy 143.51 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efc0f8a-c264-4430-85ed-979a1685a78a")
+	)
+	(wire
+		(pts
+			(xy 171.45 114.3) (xy 171.45 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6291c5-a79a-49b3-a9fc-4065f00fad1c")
+	)
+	(wire
+		(pts
+			(xy 176.53 88.9) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc0ef25-849d-4c2b-b10e-a55a994352c5")
+	)
+	(wire
+		(pts
+			(xy 92.71 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63be7e73-bdcb-4b66-a2bd-c93bacb7c4bb")
+	)
+	(wire
+		(pts
+			(xy 171.45 88.9) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67269b29-aec7-4e62-8c16-315fb000110e")
+	)
+	(wire
+		(pts
+			(xy 120.65 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a860168-ae6d-4c6b-b57f-74f91f3acf29")
+	)
+	(wire
+		(pts
+			(xy 199.39 114.3) (xy 199.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac95ce3-cb71-462e-85eb-0e244b9c3921")
+	)
+	(wire
+		(pts
+			(xy 148.59 76.2) (xy 176.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ee8270-dedb-470c-8716-b46943e886eb")
+	)
+	(wire
+		(pts
+			(xy 115.57 63.5) (xy 115.57 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78cf7e31-7ff8-43c2-aa3a-0f5744b916f0")
+	)
+	(wire
+		(pts
+			(xy 176.53 63.5) (xy 177.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e166a3c-f2b3-461c-b53f-2fb7e43aaf0a")
+	)
+	(wire
+		(pts
+			(xy 92.71 127) (xy 120.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee819c3-3589-404e-9a47-5812969ab3af")
+	)
+	(wire
+		(pts
+			(xy 115.57 40.64) (xy 110.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ecf2b7-bbad-4339-893b-f03634333990")
+	)
+	(wire
+		(pts
+			(xy 143.51 63.5) (xy 143.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92db56cd-35e7-49fd-837e-12ee72b49005")
+	)
+	(wire
+		(pts
+			(xy 92.71 76.2) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95cd84dc-ac05-4b49-a1ad-d7347b172a7f")
+	)
+	(wire
+		(pts
+			(xy 92.71 127) (xy 87.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97dfd193-6e70-44d7-b503-4c5002633158")
+	)
+	(wire
+		(pts
+			(xy 92.71 139.7) (xy 93.98 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed51fd6-2238-419b-b15c-e79f6a36585e")
+	)
+	(wire
+		(pts
+			(xy 217.17 114.3) (xy 213.36 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee759a4-7ac1-4404-b2cd-732804707d64")
+	)
+	(wire
+		(pts
+			(xy 204.47 63.5) (xy 204.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dea07b-f3db-4bff-9bc5-49c994c35276")
+	)
+	(wire
+		(pts
+			(xy 115.57 63.5) (xy 111.76 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a206c918-977d-4b26-b79f-e198f93355e1")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3983865-0ab9-4d4c-8909-e33cb9ade432")
+	)
+	(wire
+		(pts
+			(xy 92.71 88.9) (xy 93.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5cfe798-c5d7-4b32-a54e-f30415a4ba79")
+	)
+	(wire
+		(pts
+			(xy 92.71 63.5) (xy 92.71 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a881ba79-c71b-47c0-b930-1db3f098ee88")
+	)
+	(wire
+		(pts
+			(xy 115.57 88.9) (xy 111.76 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac562643-1329-4337-9f76-557925b82f14")
+	)
+	(wire
+		(pts
+			(xy 148.59 101.6) (xy 176.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc1fb72-5b6a-4ff4-97d6-b942874809f7")
+	)
+	(wire
+		(pts
+			(xy 176.53 88.9) (xy 176.53 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1ba74d-a146-4d22-9a79-8fc70df1b6a6")
+	)
+	(wire
+		(pts
+			(xy 148.59 114.3) (xy 148.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b9ed36-9ec6-4eb2-8450-f9b05c889c6b")
+	)
+	(wire
+		(pts
+			(xy 176.53 114.3) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cd081b-6675-48a1-966e-463e594fa276")
+	)
+	(wire
+		(pts
+			(xy 148.59 127) (xy 120.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba969d74-23e4-4969-acd8-f2bcd0ae6de7")
+	)
+	(wire
+		(pts
+			(xy 148.59 114.3) (xy 149.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd32ef01-a24e-41ed-92d7-140fd566acfa")
+	)
+	(wire
+		(pts
+			(xy 199.39 40.64) (xy 199.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be408783-ae01-407d-91fe-b2de18f37276")
+	)
+	(wire
+		(pts
+			(xy 92.71 101.6) (xy 87.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf97fd5c-8951-4f17-9b99-dd0f6b274d5a")
+	)
+	(wire
+		(pts
+			(xy 115.57 114.3) (xy 115.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0102cd0-f12d-458b-937b-0a6ced925224")
+	)
+	(wire
+		(pts
+			(xy 217.17 63.5) (xy 213.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c214c174-2afa-4cef-9590-422ed00a18e2")
+	)
+	(wire
+		(pts
+			(xy 229.87 114.3) (xy 222.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0114059-4cc1-4ce8-b2a6-c64fc1bfa105")
+	)
+	(wire
+		(pts
+			(xy 193.04 40.64) (xy 199.39 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30ff846-137f-4998-80e3-98d595b22800")
+	)
+	(wire
+		(pts
+			(xy 92.71 152.4) (xy 87.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4973c37-06a7-4ca0-824c-319e780707e8")
+	)
+	(wire
+		(pts
+			(xy 120.65 76.2) (xy 148.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80a104c-4416-4929-86dd-d75c9d698f08")
+	)
+	(wire
+		(pts
+			(xy 143.51 40.64) (xy 143.51 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae60fb2-b00a-4225-82f1-87c555f0ac67")
+	)
+	(wire
+		(pts
+			(xy 204.47 63.5) (xy 205.74 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3cad77-10eb-473e-abfb-6ec5e2a50fbb")
+	)
+	(wire
+		(pts
+			(xy 133.35 88.9) (xy 129.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df406617-91c8-479f-bfca-5a34ffa2a62b")
+	)
+	(wire
+		(pts
+			(xy 229.87 63.5) (xy 229.87 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df65b219-537e-431d-9387-71a4e65921a0")
+	)
+	(wire
+		(pts
+			(xy 165.1 40.64) (xy 171.45 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e014afa4-6521-4d19-9bb9-08b17ee9863a")
+	)
+	(wire
+		(pts
+			(xy 92.71 114.3) (xy 93.98 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e050aabd-61d5-4f2b-9239-9807e4712984")
+	)
+	(wire
+		(pts
+			(xy 115.57 114.3) (xy 111.76 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f23d30-bb7e-4b22-b20d-6565cab68c1b")
+	)
+	(wire
+		(pts
+			(xy 143.51 114.3) (xy 143.51 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4879664-c5b0-4ac6-a6a9-e5d39dc87fc5")
+	)
+	(wire
+		(pts
+			(xy 120.65 114.3) (xy 121.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51866ff-8fc1-4efd-b8d9-c6c44e3bdfc0")
+	)
+	(wire
+		(pts
+			(xy 222.25 63.5) (xy 229.87 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97afe70-4809-4ba9-b8a1-8c6005075448")
+	)
+	(wire
+		(pts
+			(xy 176.53 127) (xy 148.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec24f51d-0158-47d2-b474-fcc4f20a7a7b")
+	)
+	(wire
+		(pts
+			(xy 199.39 88.9) (xy 195.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5c1414-2efa-4011-b46b-bf394dc40daa")
+	)
+	(wire
+		(pts
+			(xy 92.71 152.4) (xy 120.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee20d96-80e7-404c-a324-e38250832108")
+	)
+	(wire
+		(pts
+			(xy 176.53 139.7) (xy 176.53 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd2e3be-2d71-414e-b85b-db1949845482")
+	)
+	(wire
+		(pts
+			(xy 199.39 88.9) (xy 199.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08f4d28-acca-4240-96d3-2940e1197db3")
+	)
+	(wire
+		(pts
+			(xy 176.53 152.4) (xy 148.59 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28303e0-3723-4cd8-b088-78a518673693")
+	)
+	(wire
+		(pts
+			(xy 115.57 139.7) (xy 111.76 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50a64fd-5ba1-46b6-87e9-c39e4a66ea1d")
+	)
+	(wire
+		(pts
+			(xy 176.53 63.5) (xy 176.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1f078a-6851-4bc2-aabb-610a6d3ac8a7")
+	)
+	(wire
+		(pts
+			(xy 143.51 114.3) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe69130e-4880-4a0b-b86c-8ac3388df01c")
+	)
+	(wire
+		(pts
+			(xy 223.52 40.64) (xy 229.87 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff50b530-69ed-4388-9a89-f371a45d421a")
+	)
+	(text_box "Diodes:\nCan use either 1N4148W or LL4148."
+		(exclude_from_sim no)
+		(at 19.685 167.005 0)
+		(size 56.515 22.225)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "79ad9816-ab20-4ac7-9db9-27dea4e6a997")
+	)
+	(global_label "Col2"
+		(shape input)
+		(at 165.1 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3093e5d2-16ee-4563-8956-0f31e8183225")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.9005 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row1"
+		(shape input)
+		(at 87.63 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e38a673-2499-4e3a-a9f7-5c66e12f014e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.7652 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row3"
+		(shape input)
+		(at 87.63 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7834d022-755f-4630-ba54-4503264270c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.7652 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col1"
+		(shape input)
+		(at 137.16 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "907532a7-add5-4d7c-8b07-008da5a0dc9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.9605 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col4"
+		(shape input)
+		(at 223.52 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98c8ba23-f12e-452e-879a-5ee588ac9695")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.2411 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row2"
+		(shape input)
+		(at 87.63 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a35da4fd-58bc-4e10-976a-00c5d010ab41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.7652 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col3"
+		(shape input)
+		(at 193.04 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3f50d71-b919-4d0d-b9d4-775a354cef34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.8405 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col0"
+		(shape input)
+		(at 110.49 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3d37cd6-7060-43a5-a6dd-adef59216955")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.2905 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row4"
+		(shape input)
+		(at 87.63 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df8a7690-5e0e-4db6-9584-59aeda0a0177")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.7652 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 97.79 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00f14c2c-e855-475a-800a-bb078d232ec7")
+		(property "Reference" "D1"
+			(at 97.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 97.79 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c54a4769-edaa-4e5e-aac1-803004ff58fd")
+		)
+		(pin "2"
+			(uuid "939a5e3a-d46a-4f9a-a25a-a9c8267e9de9")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 134.62 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a3e3dcc-4a90-47c5-8055-8d4e86d874e8")
+		(property "Reference" "SW5"
+			(at 134.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bb69404-649e-4e3a-85b8-0d29308f559f")
+		)
+		(pin "2"
+			(uuid "88da65bf-1137-466c-8f19-d0421a0987f4")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 181.61 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13ad3ca5-de10-4496-bc95-fb0786e15e5d")
+		(property "Reference" "D14"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 181.61 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d37f5c34-7d7b-4d0b-a79d-c61bd4480c97")
+		)
+		(pin "2"
+			(uuid "63241ad4-3c2b-480d-a630-23943d0ddc0c")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 153.67 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a99c519-1dc5-48d7-a03a-8d19737c9f37")
+		(property "Reference" "D12"
+			(at 153.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 153.67 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd761f1f-8013-418b-b455-52af4677eb7f")
+		)
+		(pin "2"
+			(uuid "c29cff2e-8181-424d-b49c-d34cdaa644b2")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 97.79 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bcc85e1-a837-4e11-bce6-5c8a399b1caf")
+		(property "Reference" "D2"
+			(at 97.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 97.79 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "204fca2e-9238-438b-94e1-f8da6f80d1e5")
+		)
+		(pin "2"
+			(uuid "b264cf68-20af-490e-ac8a-3d5b1c727ffa")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 134.62 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e2d527a-f9a1-4ed6-aa09-ab2ed916be63")
+		(property "Reference" "SW6"
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a12fa391-8f39-4a3e-a744-8fae3bef5f2f")
+		)
+		(pin "2"
+			(uuid "1664f889-74de-402e-9817-ed737a85af66")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 97.79 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2480ea8d-5295-47b5-a281-3cb48cef168c")
+		(property "Reference" "D3"
+			(at 97.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 97.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 97.79 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de88032d-563e-42aa-b7cf-9e0d22ff2c44")
+		)
+		(pin "2"
+			(uuid "c242b0d8-5730-4f31-a8bc-99fd4d2fb262")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 209.55 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26e4237e-6afa-40aa-88f3-2597d7b55634")
+		(property "Reference" "D17"
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 209.55 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 209.55 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd57be75-aa13-45ea-bc0c-0904c7fd7103")
+		)
+		(pin "2"
+			(uuid "d1c76647-5baa-435d-a6fe-bbff8c6be3eb")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3152cb7f-9609-4ff5-a71d-f2e15a671f2c")
+		(property "Reference" "SW2"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d8d3715-a2d6-42cc-b96f-fb87f06791e9")
+		)
+		(pin "2"
+			(uuid "98cc8e44-ebb7-49ed-a724-b9b946a40e4d")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 162.56 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38512480-8750-4b7e-be71-007815dc3ebf")
+		(property "Reference" "SW12"
+			(at 162.56 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3783ade4-9a32-43a2-846f-71c9cd07c7b6")
+		)
+		(pin "2"
+			(uuid "8e6ffb4f-bfa6-4b18-8074-fcee61d9f9cd")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 162.56 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b29caae-8531-42d3-9d8f-5901fab0a2e4")
+		(property "Reference" "SW10"
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19cec0cc-8f98-4f40-bb12-16cf35152ae1")
+		)
+		(pin "2"
+			(uuid "c2ac826c-6f28-416c-8f8b-1b2131ee33d6")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 153.67 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b7d9189-97f3-44a0-8362-c6e742eed111")
+		(property "Reference" "D11"
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 153.67 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7313f8e3-5144-4f5a-88a1-905a7d85ab32")
+		)
+		(pin "2"
+			(uuid "37e78852-f56a-4ee9-b176-99658ed4ccc8")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 190.5 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43a0a620-d098-4fb6-8726-81dcb2128182")
+		(property "Reference" "SW14"
+			(at 190.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c69b895-2b9c-4b14-afa3-b5a278e2b6b5")
+		)
+		(pin "2"
+			(uuid "0528ad68-dfdf-4528-bd31-4e86062385c5")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f8a7531-5318-4571-bc72-f33f0484ff99")
+		(property "Reference" "SW1"
+			(at 106.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60cc3c6c-ce71-42a0-9cb5-aadb5d072317")
+		)
+		(pin "2"
+			(uuid "9800736f-11c6-4e75-9223-2b951e0d030c")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 134.62 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52067a92-2a19-4efa-ac14-04a3d9ec4e96")
+		(property "Reference" "SW7"
+			(at 134.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 134.62 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dc9df96-6ee1-477f-88f1-43b494c92257")
+		)
+		(pin "2"
+			(uuid "84a20b75-9740-4f5f-b0ad-26f42e463c9f")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 125.73 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59907968-96b3-4c4b-96e6-5103b32f628b")
+		(property "Reference" "D5"
+			(at 125.73 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 125.73 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 125.73 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c87918d1-8eee-40da-9acc-3ed2192e7357")
+		)
+		(pin "2"
+			(uuid "1a3e1726-4d32-49d3-8a5d-9184e1ffdbb0")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 181.61 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7524ae28-a917-4759-b9ba-5363e374a066")
+		(property "Reference" "D16"
+			(at 181.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 181.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 181.61 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 181.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54937e70-f3ca-42b4-a651-981067a5eba8")
+		)
+		(pin "2"
+			(uuid "9ee5d310-90d7-4110-ad77-c4af0b59720e")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 181.61 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b833a7b-e1a5-4100-84e1-15bbb2188b0c")
+		(property "Reference" "D15"
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 181.61 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21161fdc-fc1c-4d7c-9410-485d2f40c90d")
+		)
+		(pin "2"
+			(uuid "8ce056a1-090c-4898-8762-25bd5583cc38")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 153.67 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c16c373-5816-4b91-9119-89acdbc2fa85")
+		(property "Reference" "D10"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 153.67 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d5d965a-c856-4453-987e-423f03fe090a")
+		)
+		(pin "2"
+			(uuid "5cf1e865-9372-458a-9efa-8cacbcb1f602")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 125.73 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9db99bcc-5747-4393-a732-10a202cf0fd5")
+		(property "Reference" "D7"
+			(at 125.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 125.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 125.73 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a074d67-37e0-423f-8a66-47b49ba14dd7")
+		)
+		(pin "2"
+			(uuid "5dae9a64-32f5-4376-ade9-449fb6a4d7c0")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f3a8c35-e361-4be6-8ad3-f0ef8de36f27")
+		(property "Reference" "SW3"
+			(at 106.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "772460a4-2472-49f2-a6b6-1e08769a5e1c")
+		)
+		(pin "2"
+			(uuid "43c30cd5-e8d1-4c7c-aa6d-d9d5b6652e98")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 190.5 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0269c14-173c-4a05-88ce-72ad95c959f0")
+		(property "Reference" "SW17"
+			(at 190.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09513e3f-e527-4f7e-b75b-d8fe32258e09")
+		)
+		(pin "2"
+			(uuid "4ad90096-823c-4dba-80c6-e409821effd6")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 209.55 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9c189d1-5283-4d51-8fd0-08b1a29c6222")
+		(property "Reference" "D18"
+			(at 209.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 209.55 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 209.55 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 209.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8b68be6-5dfd-4a02-b777-4e3f45b0ab94")
+		)
+		(pin "2"
+			(uuid "290b49f7-c4ca-4c72-9922-75bd32c9e9b2")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 219.71 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6e01379-18e8-4243-a9ef-e72a0ea24cc4")
+		(property "Reference" "SW18"
+			(at 219.71 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Rotary"
+			(at 219.71 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.774 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.314 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "ca48ea82-33b6-492e-aae3-292cbd152af5")
+		)
+		(pin "B"
+			(uuid "fb3fcf74-15df-4fae-b1cf-366ed4222541")
+		)
+		(pin "C"
+			(uuid "73bc5470-59ad-45f0-b27e-8f261492c7cb")
+		)
+		(pin "S1"
+			(uuid "b76369d9-d1e9-4c90-b88e-3fba52f7094e")
+		)
+		(pin "S2"
+			(uuid "d13facd9-448f-44aa-acf2-0a84217898da")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 162.56 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf9f55c5-63eb-4fe2-b306-1d329d40a227")
+		(property "Reference" "SW11"
+			(at 162.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 162.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1111411-e952-4d48-ab0e-5548eb76eb7c")
+		)
+		(pin "2"
+			(uuid "be033f0e-df06-411c-a596-7d42cb269e5e")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 125.73 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c037e5d0-429d-45dd-a3c0-535209ec2a7d")
+		(property "Reference" "D8"
+			(at 125.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 125.73 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 125.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 125.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 125.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 125.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 125.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 125.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 125.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 125.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 125.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24ed21e6-7d2a-47e9-8381-44543784a26f")
+		)
+		(pin "2"
+			(uuid "8012a3cd-eb90-4356-ac53-fbd6ee54f0c7")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 190.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7ba0ceb-9091-4e56-9a67-a08e7a3f2f6f")
+		(property "Reference" "SW15"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8ba752f-9c8a-4e91-850c-3acb62badebd")
+		)
+		(pin "2"
+			(uuid "97968be6-32be-4d88-bd95-5ad31894a9cd")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 162.56 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8c0f9d0-ade0-4ba6-86fb-91c2d9283df8")
+		(property "Reference" "SW9"
+			(at 162.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 162.56 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9825a0b-17b6-45de-b3a1-63ef1f945a7c")
+		)
+		(pin "2"
+			(uuid "453a3465-435d-43a1-a616-922ff479bc8b")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 138.43 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2874833-fdee-46d1-80a6-1bc266801836")
+		(property "Reference" "SW8"
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a4b5d81-2569-4f98-b623-25e6e8ddb50e")
+		)
+		(pin "2"
+			(uuid "a5c562f3-481d-4ad4-b300-33bc5b293a7f")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 219.71 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e402c9e7-fa13-4d3a-9fd1-184c87d82e44")
+		(property "Reference" "SW19"
+			(at 219.71 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Rotary"
+			(at 219.71 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.774 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.314 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "5659e5b5-b37b-4cd3-90c3-c6445ebc2176")
+		)
+		(pin "B"
+			(uuid "c6d645fe-b257-40b4-a0ea-2a48dea9fd00")
+		)
+		(pin "C"
+			(uuid "3eb00e31-e7c5-4378-98e4-901f2bebfd80")
+		)
+		(pin "S1"
+			(uuid "fdc7d17b-7ee1-4de0-ba9f-3dd1e013f61c")
+		)
+		(pin "S2"
+			(uuid "090758d7-9521-4ca0-8a71-65e0c00a6b23")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 125.73 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6f2309e-2844-4160-90a8-dc86aacd23cb")
+		(property "Reference" "D6"
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 125.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 125.73 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39139173-f5ee-4625-9c8c-855d9d40324d")
+		)
+		(pin "2"
+			(uuid "7f97f0ff-896a-4ed5-a6f9-3efc075e0701")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 190.5 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e72fe4ae-51e4-447a-a999-924d754318e0")
+		(property "Reference" "SW16"
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "155d25db-b7db-4437-a442-cc32fc0e1e89")
+		)
+		(pin "2"
+			(uuid "3933d6ab-445a-4435-bf06-ee2b505c71d1")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 181.61 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8bf5eab-5524-4077-a3c7-54c88d085f77")
+		(property "Reference" "D13"
+			(at 181.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 181.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 181.61 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94ec13d9-6853-44cb-a094-be0638bd4192")
+		)
+		(pin "2"
+			(uuid "46ae62e0-ce89-4680-95ff-87f38a3291f2")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 106.68 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec7da9d7-a7fb-4837-99f7-b532172391c3")
+		(property "Reference" "SW4"
+			(at 106.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5caf6976-ee45-42f2-9c94-b917308405bb")
+		)
+		(pin "2"
+			(uuid "73006564-489f-4bf5-b23f-33054b6e94fb")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 153.67 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f05dd341-2a3b-493c-b6ba-54b1e5ddca84")
+		(property "Reference" "D9"
+			(at 153.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 153.67 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1d4bfc6-af3e-47be-aa74-7a8fa05fd1c4")
+		)
+		(pin "2"
+			(uuid "79b8a74e-2adb-4d85-a880-bb3bb6698cc5")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:LL4148")
+		(at 97.79 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc1878c0-8fef-4bd4-b9e2-6e3081bc5580")
+		(property "Reference" "D4"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LL4148"
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 97.79 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.18 "
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 97.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74926b99-1ddd-4fbf-911e-270ecac12ebd")
+		)
+		(pin "2"
+			(uuid "f5e202ea-2299-4236-b2f3-e9fa7f884936")
+		)
+		(instances
+			(project "pcb2blender_tmp"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
