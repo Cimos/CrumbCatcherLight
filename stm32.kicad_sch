@@ -4204,7 +4204,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 194.31 64.77 0)
 			(effects
 				(font
@@ -4213,7 +4213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 194.31 64.77 0)
 			(effects
 				(font
@@ -4222,7 +4222,70 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104K3RAC7867 KEMET  $0.33  CAP CER 0.1UF 25V X7R 0402 Digikey 399-14148-1-ND  KEMET  $0.33  CAP CER 0.1UF 25V X7R 0402 Digikey 399-14148-1-ND "
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.33 "
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 194.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "399-14148-1-ND"
 			(at 194.31 64.77 0)
 			(effects
 				(font
@@ -4238,7 +4301,7 @@
 			(uuid "12a6f32d-14c8-41dc-b52e-ace608798011")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C7")
 					(unit 1)
@@ -4305,7 +4368,7 @@
 			(uuid "9e15d3f9-57bb-4227-b5b0-f0d7842306a0")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "TP1")
 					(unit 1)
@@ -4341,7 +4404,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 95.25 94.615 0)
 			(effects
 				(font
@@ -4359,7 +4422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "18 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 95.25 94.615 0)
 			(effects
 				(font
@@ -4368,7 +4431,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603FRNPO9BN180"
+		(property "MPN" "CC0402FRNPO9BN180"
 			(at 95.25 94.615 0)
 			(effects
 				(font
@@ -4386,7 +4449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-3889-1-ND"
+		(property "Notes" ""
 			(at 95.25 94.615 0)
 			(effects
 				(font
@@ -4395,7 +4458,43 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "CAP CER 18PF 50V C0G/NPO 0603"
+		(property "Price" "$0.16 "
+			(at 95.25 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP CER 18PF 50V C0G/NPO 0402"
+			(at 95.25 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 95.25 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "311-1643-1-ND"
+			(at 95.25 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
 			(at 95.25 94.615 0)
 			(effects
 				(font
@@ -4411,7 +4510,7 @@
 			(uuid "bd7465b5-f0cf-47d2-a9d3-5e01b5015e06")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C9")
 					(unit 1)
@@ -4619,7 +4718,7 @@
 			(uuid "f2ff34b3-ee67-4c1f-b5dd-8740dac58761")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "U1")
 					(unit 1)
@@ -4654,7 +4753,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 150.495 64.77 0)
 			(effects
 				(font
@@ -4663,7 +4762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 150.495 64.77 0)
 			(effects
 				(font
@@ -4672,7 +4771,70 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 150.495 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104K3RAC7867 KEMET  $0.33  CAP CER 0.1UF 25V X7R 0402 Digikey 399-14148-1-ND  KEMET  $0.33  CAP CER 0.1UF 25V X7R 0402 Digikey 399-14148-1-ND "
+			(at 150.495 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 150.495 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 150.495 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.33 "
+			(at 150.495 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+			(at 150.495 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 150.495 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "399-14148-1-ND"
 			(at 150.495 64.77 0)
 			(effects
 				(font
@@ -4688,7 +4850,7 @@
 			(uuid "a6d58eeb-a413-474a-b87b-7ed6a82c9336")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C3")
 					(unit 1)
@@ -4757,7 +4919,7 @@
 			(uuid "ecc71b5d-b4be-437b-9c25-cbf450a0bcac")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "R7")
 					(unit 1)
@@ -4833,7 +4995,7 @@
 			(uuid "6075d39d-c0dd-4660-adfb-c67e9a14e56f")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "Q1")
 					(unit 1)
@@ -4901,7 +5063,7 @@
 			(uuid "483c3724-a17d-4a2a-8c90-e86cd9ef3bc2")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C2")
 					(unit 1)
@@ -4937,7 +5099,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 95.25 86.995 0)
 			(effects
 				(font
@@ -4955,7 +5117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "18 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 95.25 86.995 0)
 			(effects
 				(font
@@ -4964,7 +5126,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603FRNPO9BN180"
+		(property "MPN" "CC0402FRNPO9BN180"
 			(at 95.25 86.995 0)
 			(effects
 				(font
@@ -4982,7 +5144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "311-3889-1-ND"
+		(property "Notes" ""
 			(at 95.25 86.995 0)
 			(effects
 				(font
@@ -4991,7 +5153,43 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "CAP CER 18PF 50V C0G/NPO 0603"
+		(property "Price" "$0.16 "
+			(at 95.25 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP CER 18PF 50V C0G/NPO 0402"
+			(at 95.25 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 95.25 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "311-1643-1-ND"
+			(at 95.25 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
 			(at 95.25 86.995 0)
 			(effects
 				(font
@@ -5007,7 +5205,7 @@
 			(uuid "a3caf059-14d5-4371-8c17-3ec3760b6cdd")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C8")
 					(unit 1)
@@ -5042,7 +5240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 161.29 64.77 0)
 			(effects
 				(font
@@ -5051,7 +5249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 161.29 64.77 0)
 			(effects
 				(font
@@ -5060,7 +5258,70 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104K3RAC7867 KEMET  $0.33  CAP CER 0.1UF 25V X7R 0402 Digikey 399-14148-1-ND  KEMET  $0.33  CAP CER 0.1UF 25V X7R 0402 Digikey 399-14148-1-ND "
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.33 "
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "399-14148-1-ND"
 			(at 161.29 64.77 0)
 			(effects
 				(font
@@ -5076,7 +5337,7 @@
 			(uuid "7aded120-9fe2-41b5-b217-319b1f216f0c")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C4")
 					(unit 1)
@@ -5145,7 +5406,7 @@
 			(uuid "fa7197a4-3b55-458c-b7f0-903388fb9f9f")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "R5")
 					(unit 1)
@@ -5199,7 +5460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
 			(at 38.1 31.115 0)
 			(effects
 				(font
@@ -5226,7 +5487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "732-4978-1-ND"
+		(property "Notes" ""
 			(at 38.1 31.115 0)
 			(effects
 				(font
@@ -5235,7 +5496,43 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+		(property "Supplier PN" "732-4978-1-ND"
+			(at 38.1 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.24 "
+			(at 38.1 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "LED RED CLEAR 0603 SMD"
+			(at 38.1 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 38.1 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
 			(at 38.1 31.115 0)
 			(effects
 				(font
@@ -5251,7 +5548,7 @@
 			(uuid "b18a1a82-4f39-4da8-94ba-ee1e5b2613c2")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "D20")
 					(unit 1)
@@ -5320,7 +5617,7 @@
 			(uuid "be2ee785-bebb-4928-8f76-ad0bdaba267c")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "R4")
 					(unit 1)
@@ -5355,7 +5652,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 182.88 64.77 0)
 			(effects
 				(font
@@ -5364,7 +5661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 182.88 64.77 0)
 			(effects
 				(font
@@ -5373,7 +5670,70 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104K3RAC7867 KEMET  $0.33  CAP CER 0.1UF 25V X7R 0402 Digikey 399-14148-1-ND  KEMET  $0.33  CAP CER 0.1UF 25V X7R 0402 Digikey 399-14148-1-ND "
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.33 "
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "399-14148-1-ND"
 			(at 182.88 64.77 0)
 			(effects
 				(font
@@ -5389,7 +5749,7 @@
 			(uuid "1134a79a-b64d-4227-aeef-88afbdb9f076")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C6")
 					(unit 1)
@@ -5457,7 +5817,7 @@
 			(uuid "78d0a61b-4b8d-4cb8-ad43-aae935ab7fab")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "SW13")
 					(unit 1)
@@ -5526,7 +5886,7 @@
 			(uuid "27912012-0bc4-4f8b-8c3b-6f3d22b8ba18")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "R6")
 					(unit 1)
@@ -5609,7 +5969,7 @@
 			(uuid "28f20d4f-54d4-4e58-afca-4cab70a2343e")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "J2")
 					(unit 1)
@@ -5642,7 +6002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm"
+		(property "Footprint" "LocalLib:Crystal_SMD_ECX-32-4Pin_3.2x2.5mm"
 			(at 85.09 90.805 0)
 			(effects
 				(font
@@ -5651,7 +6011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/Resonators/abm3b.pdf"
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ecx-32.pdf"
 			(at 85.09 90.805 0)
 			(effects
 				(font
@@ -5660,7 +6020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8 MHz ±20ppm Crystal 12pF 400 Ohms 4-SMD, No Lead"
 			(at 85.09 90.805 0)
 			(effects
 				(font
@@ -5669,7 +6029,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ABM3B-8.000MHZ-B2-T"
+		(property "MPN" "ECS-80-12-33-JGN-TR"
 			(at 85.09 90.805 0)
 			(effects
 				(font
@@ -5678,7 +6038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Abracon LLC"
+		(property "Manufacturer" "ECS Inc."
 			(at 85.09 90.805 0)
 			(effects
 				(font
@@ -5687,7 +6047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey PN" "535-9720-1-ND"
+		(property "Notes" ""
 			(at 85.09 90.805 0)
 			(effects
 				(font
@@ -5696,7 +6056,43 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "CRYSTAL 8.0000MHZ 18PF SMD"
+		(property "Supplier" "Digikey"
+			(at 85.09 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "50-ECS-80-12-33-JGN-CT-ND"
+			(at 85.09 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$1.00 "
+			(at 85.09 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 85.09 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CRYSTAL 8.0000MHZ 12PF SMD"
 			(at 85.09 90.805 0)
 			(effects
 				(font
@@ -5718,7 +6114,7 @@
 			(uuid "e6605228-f57e-49b8-89eb-5170de4511d0")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "Y1")
 					(unit 1)
@@ -5753,7 +6149,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.085 64.77 0)
 			(effects
 				(font
@@ -5762,7 +6158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 172.085 64.77 0)
 			(effects
 				(font
@@ -5771,7 +6167,70 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 172.085 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104K3RAC7867 KEMET  $0.33  CAP CER 0.1UF 25V X7R 0402 Digikey 399-14148-1-ND  KEMET  $0.33  CAP CER 0.1UF 25V X7R 0402 Digikey 399-14148-1-ND "
+			(at 172.085 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 172.085 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 172.085 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.33 "
+			(at 172.085 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+			(at 172.085 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 172.085 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "399-14148-1-ND"
 			(at 172.085 64.77 0)
 			(effects
 				(font
@@ -5787,7 +6246,7 @@
 			(uuid "bc43e759-5e96-4cf5-ae54-53c8f3957170")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C5")
 					(unit 1)
@@ -5854,7 +6313,7 @@
 			(uuid "83c58026-85f5-4923-b919-67d09c6c2bfd")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "TP2")
 					(unit 1)
@@ -5924,7 +6383,7 @@
 			(uuid "fe6257ea-abbb-4754-acbb-4e9fed44f17e")
 		)
 		(instances
-			(project "pcb2blender_tmp"
+			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/71112edd-09dd-4ea7-a638-0abe9125ce5c"
 					(reference "C1")
 					(unit 1)
