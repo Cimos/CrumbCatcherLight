@@ -4966,7 +4966,7 @@
 				)
 			)
 		)
-		(property "Value" "LP38691SD-3.3"
+		(property "Value" "LP38691SDX-3.3"
 			(at 165.1 22.86 0)
 			(effects
 				(font
@@ -4992,7 +4992,70 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 3.3V output voltage, WSON-6"
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 500mA 6-WSON (3x3)"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$2.40"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "IC REG LINEAR 3.3V 500MA 6WSON"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "296-LP38691SDX-3.3/NOPBCT-ND"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LP38691SDX-3.3/NOPB"
 			(at 165.1 29.21 0)
 			(effects
 				(font
@@ -5162,7 +5225,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "71112edd-09dd-4ea7-a638-0abe9125ce5c")
-		(property "Sheetname" "STM32"
+		(property "Sheetname" "STM32F0"
 			(at 128.27 88.1884 0)
 			(effects
 				(font
@@ -5171,7 +5234,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "stm32.kicad_sch"
+		(property "Sheetfile" "mad_lib/schematics/STM32F0.kicad_sch"
 			(at 128.27 109.1696 0)
 			(effects
 				(font
