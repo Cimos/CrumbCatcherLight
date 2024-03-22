@@ -1726,218 +1726,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LP38691SD-3.3"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LP38691SD-3.3"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SON:WSON-6-1EP_3x3mm_P0.95mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp38691.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "500-mA Low-Dropout CMOS Linear Regulators Stable With Ceramic Output Capacitors, 3.3V output voltage, WSON-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LDO Linear Regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "WSON*1EP*3x3mm*P0.95mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LP38691SD-3.3_0_1"
-				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 4.445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LP38691SD-3.3_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 0 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SNS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54) hide
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+3V3"
+		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1954,7 +1743,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1980,7 +1769,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1998,7 +1787,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2036,7 +1825,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2287,12 +2076,6 @@
 		(uuid "2527ddc5-67cd-4157-ab38-2816acad5de7")
 	)
 	(junction
-		(at 167.64 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cc7b3e1-6a5b-48bb-ba5e-a6784bc9c613")
-	)
-	(junction
 		(at 48.26 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2311,18 +2094,6 @@
 		(uuid "3ce5f872-a7cd-4bb5-8668-d9c72a6bdf2c")
 	)
 	(junction
-		(at 180.34 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49d46093-cb16-44b2-917a-c3185ad267eb")
-	)
-	(junction
-		(at 180.34 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94fcd66e-2b1d-4ca7-9624-6a94c10e26aa")
-	)
-	(junction
 		(at 44.45 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2335,10 +2106,16 @@
 		(uuid "ad8d1572-f496-4c0e-ab54-8dedf1988dd3")
 	)
 	(junction
-		(at 180.34 29.21)
+		(at 114.3 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c6c09f45-4222-4177-9af6-2e917aff51a0")
+		(uuid "cd1eceda-202b-4b7f-b583-9eb6f679b972")
+	)
+	(junction
+		(at 130.81 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d116f98f-b6dd-4da2-8fc0-e9a49eee6c8f")
 	)
 	(junction
 		(at 96.52 26.67)
@@ -2360,16 +2137,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 39.37) (xy 180.34 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "110f8543-31c5-4de3-ac5a-784e78bdcae3")
-	)
-	(wire
-		(pts
 			(xy 70.485 41.91) (xy 85.725 41.91)
 		)
 		(stroke
@@ -2380,53 +2147,23 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 39.37) (xy 180.34 40.64)
+			(xy 114.3 39.37) (xy 130.81 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "148e54b1-b174-4833-93c8-d3c5ea823ac7")
+		(uuid "2ab53625-a309-4dab-8fc2-b7261ad50b92")
 	)
 	(wire
 		(pts
-			(xy 121.92 91.44) (xy 128.27 91.44)
+			(xy 96.52 39.37) (xy 114.3 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "185cf476-8df3-40a6-b0c1-c5a92c89f4a8")
-	)
-	(wire
-		(pts
-			(xy 180.34 35.56) (xy 180.34 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20a95e0d-c741-43e9-a79b-16c4d1475099")
-	)
-	(wire
-		(pts
-			(xy 130.81 26.67) (xy 154.94 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2203d3fe-d9b3-449b-beda-6a7d5583596a")
-	)
-	(wire
-		(pts
-			(xy 180.34 26.67) (xy 180.34 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "225ffa99-9558-433e-9d56-06d022ba04d2")
+		(uuid "33d6ea83-da3b-4bed-9999-c0c23befdebf")
 	)
 	(wire
 		(pts
@@ -2440,26 +2177,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 29.21) (xy 180.34 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb79ef8-f54a-478f-9bfb-0db70a0ce0b2")
-	)
-	(wire
-		(pts
-			(xy 167.64 39.37) (xy 165.1 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48684408-5d84-4412-996e-ba9d4986fbda")
-	)
-	(wire
-		(pts
 			(xy 48.26 31.75) (xy 49.53 31.75)
 		)
 		(stroke
@@ -2470,13 +2187,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 106.68) (xy 128.27 106.68)
+			(xy 130.81 24.13) (xy 130.81 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a35b07e-5d7f-4714-b5a3-5a72753c2b11")
+		(uuid "5877aa1b-eaa5-43d7-8e08-dcc6af9570e7")
 	)
 	(wire
 		(pts
@@ -2490,6 +2207,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 116.84) (xy 118.11 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "681c96db-1881-4164-836b-75c3525ed70e")
+	)
+	(wire
+		(pts
 			(xy 114.3 26.67) (xy 130.81 26.67)
 		)
 		(stroke
@@ -2497,26 +2224,6 @@
 			(type default)
 		)
 		(uuid "6833f1bb-041e-444e-ae42-aaaa48ef1313")
-	)
-	(wire
-		(pts
-			(xy 184.15 26.67) (xy 180.34 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f782fef-8d0a-40d1-82a0-6b805f8a3608")
-	)
-	(wire
-		(pts
-			(xy 121.92 91.44) (xy 121.92 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b7b40a8-b3e5-4e74-8c6f-dbf1abec48c8")
 	)
 	(wire
 		(pts
@@ -2530,13 +2237,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 35.56) (xy 96.52 40.64)
+			(xy 96.52 35.56) (xy 96.52 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "804fd997-32d9-4f7b-9131-0ef5d5919d21")
+	)
+	(wire
+		(pts
+			(xy 107.95 95.25) (xy 107.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80efa6de-e53a-4175-92b1-f2e4969effee")
 	)
 	(wire
 		(pts
@@ -2550,23 +2267,33 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 97.79) (xy 113.03 97.79)
+			(xy 114.3 35.56) (xy 114.3 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81cc1579-a2a7-4372-aa85-19212da594b6")
+		(uuid "81c9270a-716e-4731-8841-9c0f092e40e7")
 	)
 	(wire
 		(pts
-			(xy 128.27 100.33) (xy 113.03 100.33)
+			(xy 107.95 99.06) (xy 118.11 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e987adf-a993-405d-ab4e-b90ab851929e")
+		(uuid "83b99e5a-0d0d-4422-b2c0-8b08b594168b")
+	)
+	(wire
+		(pts
+			(xy 107.95 120.65) (xy 107.95 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d63b28c-f014-43d1-8147-12a260994ee9")
 	)
 	(wire
 		(pts
@@ -2610,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 40.64) (xy 130.81 35.56)
+			(xy 130.81 43.18) (xy 130.81 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2670,26 +2397,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 35.56) (xy 114.3 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8c8f055-5a62-4255-bd71-709796deaa65")
-	)
-	(wire
-		(pts
-			(xy 121.92 106.68) (xy 121.92 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba6814b3-258c-4f95-aaca-f46b501fdce2")
-	)
-	(wire
-		(pts
 			(xy 48.26 31.75) (xy 48.26 34.29)
 		)
 		(stroke
@@ -2700,23 +2407,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 26.67) (xy 184.15 22.86)
+			(xy 130.81 39.37) (xy 130.81 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c08bc232-c1aa-47cc-b083-e96da39c5ea4")
-	)
-	(wire
-		(pts
-			(xy 180.34 29.21) (xy 180.34 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e86475-2bdc-4ac0-8615-dde7cb676c0f")
+		(uuid "c3b3d8e1-7edb-483c-9d7a-6b8f423d02c6")
 	)
 	(wire
 		(pts
@@ -2770,16 +2467,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 26.67) (xy 180.34 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de8ad640-00d2-41ca-82ac-59c9abc98af0")
-	)
-	(wire
-		(pts
 			(xy 109.22 26.67) (xy 114.3 26.67)
 		)
 		(stroke
@@ -2797,26 +2484,6 @@
 			(type default)
 		)
 		(uuid "ea21b1f2-1d98-4aba-8a7a-3918033aa7ed")
-	)
-	(wire
-		(pts
-			(xy 167.64 36.83) (xy 167.64 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6b53ca1-180e-48a3-8b98-5f4a97d35c92")
-	)
-	(wire
-		(pts
-			(xy 165.1 39.37) (xy 165.1 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faf45e6d-1b6f-4cfb-8590-6a9041ba2877")
 	)
 	(wire
 		(pts
@@ -2849,28 +2516,6 @@
 			(justify right bottom)
 		)
 		(uuid "37aba3da-8b07-462f-a7a5-0482533177b4")
-	)
-	(label "USB_D-"
-		(at 113.03 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ff4cece-9707-4dd2-a2f8-6e13c9603509")
-	)
-	(label "USB_D+"
-		(at 113.03 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5e65737-8b22-40c2-b6a3-01049cf16dc0")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -2974,7 +2619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10b156e8-20f6-47de-98b5-470e71124a15")
-		(property "Reference" "C11"
+		(property "Reference" "C2"
 			(at 116.84 31.7562 0)
 			(effects
 				(font
@@ -3073,7 +2718,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867 KEMET  $0.33  CAP CER 0.1UF 25V X7R 0402 Digikey 399-14148-1-ND  KEMET  $0.33  CAP CER 0.1UF 25V X7R 0402 Digikey 399-14148-1-ND "
+		(property "MPN" "C0402C104K3RAC7867"
 			(at 114.3 33.02 0)
 			(effects
 				(font
@@ -3100,24 +2745,24 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "C11")
+					(reference "C2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 184.15 22.86 0)
+		(lib_id "power:+5V")
+		(at 130.81 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "47a640cf-3219-45f9-ba34-a58775134d35")
-		(property "Reference" "#PWR09"
-			(at 184.15 26.67 0)
+		(uuid "27693b04-a5f5-467d-b386-76eda6db556f")
+		(property "Reference" "#PWR05"
+			(at 130.81 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,8 +2770,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 184.15 17.78 0)
+		(property "Value" "+5V"
+			(at 130.81 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +2779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 22.86 0)
+			(at 130.81 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +2788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 22.86 0)
+			(at 130.81 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,8 +2796,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 184.15 22.86 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 130.81 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,12 +2806,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "771ede9a-eb8b-418d-8167-c986bf8866c8")
+			(uuid "eac48922-a585-412a-b561-27e23b1f387c")
 		)
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR09")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3181,7 +2826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51c14926-cde2-4d5e-908f-b2f7f5fa20a4")
-		(property "Reference" "C10"
+		(property "Reference" "C1"
 			(at 99.06 31.7562 0)
 			(effects
 				(font
@@ -3190,7 +2835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 99.06 34.2962 0)
 			(effects
 				(font
@@ -3208,7 +2853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0402C103K3REC7411"
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
 			(at 96.52 33.02 0)
 			(effects
 				(font
@@ -3217,7 +2862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10000 pF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 96.52 33.02 0)
 			(effects
 				(font
@@ -3226,7 +2871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.16 "
+		(property "Price" "$0.33 "
 			(at 96.52 33.02 0)
 			(effects
 				(font
@@ -3244,7 +2889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0402 10NF 25V X7R 10%"
+		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
 			(at 96.52 33.02 0)
 			(effects
 				(font
@@ -3262,7 +2907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-C0402C103K3REC7411CT-ND"
+		(property "Supplier PN" "399-14148-1-ND"
 			(at 96.52 33.02 0)
 			(effects
 				(font
@@ -3280,7 +2925,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C103K3REC7411"
+		(property "MPN" "C0402C104K3RAC7867"
 			(at 96.52 33.02 0)
 			(effects
 				(font
@@ -3298,7 +2943,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "C10")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3313,7 +2958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "559f157b-257d-446f-b41f-560cb82a2780")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 55.88 31.75 0)
 			(effects
 				(font
@@ -3364,73 +3009,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5add032b-0991-46d0-80dd-d8f3474107c1")
-		(property "Reference" "#PWR011"
-			(at 121.92 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.952 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38b0e6c0-8201-40e0-81fb-0c44b867d0e8")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR011")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3446,7 +3025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65ad84f1-9211-43e9-bfa9-a7060a9ccab0")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 44.45 27.94 0)
 			(effects
 				(font
@@ -3496,23 +3075,24 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 180.34 40.64 0)
+		(lib_id "power:+5V")
+		(at 107.95 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "75763f0a-b352-4609-8699-b1100096a890")
-		(property "Reference" "#PWR010"
-			(at 180.34 46.99 0)
+		(fields_autoplaced yes)
+		(uuid "6a00ba4d-19bb-465b-832c-b2e2be7cab34")
+		(property "Reference" "#PWR07"
+			(at 107.95 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,17 +3100,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 182.372 44.704 0)
+		(property "Value" "+5V"
+			(at 107.95 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 40.64 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 40.64 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,8 +3126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 180.34 40.64 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,12 +3136,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "85875e9f-ea69-4861-b6e9-92eec11398c0")
+			(uuid "1d44af39-d67d-41ce-b77a-ba9ddbfa46e2")
 		)
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3570,15 +3149,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 40.64 0)
+		(at 107.95 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7f4fa0fe-115d-4e3e-b920-6eca6763299d")
-		(property "Reference" "#PWR06"
-			(at 114.3 46.99 0)
+		(uuid "7be496a6-af74-4853-85f4-0725bc066637")
+		(property "Reference" "#PWR08"
+			(at 107.95 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3166,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.332 44.704 0)
+			(at 109.982 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3175,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 40.64 0)
+			(at 107.95 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 40.64 0)
+			(at 107.95 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3193,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 40.64 0)
+			(at 107.95 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,12 +3202,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1931c89b-282d-4dbd-a69e-2271cc8a562f")
+			(uuid "48676f4e-c1ed-488e-9f03-22510cad7812")
 		)
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3643,7 +3222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d3210af-51b4-48c9-a9da-add7106388e7")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 60.325 36.195 0)
 			(effects
 				(font
@@ -3677,7 +3256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pair Common Mode Filter with ESD Protection, UQFN-6L"
+		(property "Description" "2 Line Common Mode Choke Surface Mount 200mA DCR 2.5Ohm"
 			(at 59.309 53.086 0)
 			(effects
 				(font
@@ -3686,7 +3265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Price" "$0.83 "
 			(at 60.325 44.45 0)
 			(effects
 				(font
@@ -3704,7 +3283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" ""
+		(property "Rating" "CMC 200MA 2LN SMD ESD"
 			(at 60.325 44.45 0)
 			(effects
 				(font
@@ -3713,7 +3292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
 			(at 60.325 44.45 0)
 			(effects
 				(font
@@ -3722,7 +3301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
+		(property "Supplier PN" "497-10773-1-ND"
 			(at 60.325 44.45 0)
 			(effects
 				(font
@@ -3731,7 +3310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "STMicroelectronics"
 			(at 60.325 44.45 0)
 			(effects
 				(font
@@ -3740,7 +3319,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ECMF02-2AMX6"
 			(at 60.325 44.45 0)
 			(effects
 				(font
@@ -3770,7 +3349,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4017,7 +3596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -4026,7 +3605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
+		(property "Price" "$1.29 "
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -4044,7 +3623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" ""
+		(property "Rating" "CONN RCP USB2.0 TYP C 24P SMD RA"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -4053,7 +3632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "Digikey"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -4062,7 +3641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
+		(property "Supplier PN" "2073-USB4105-GF-ACT-ND"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -4071,7 +3650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "GCT"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -4080,7 +3659,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "USB4105"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -4158,7 +3737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e37c3ad-9d26-44e5-97d7-06afe60b2b67")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 44.45 29.845 90)
 			(effects
 				(font
@@ -4273,7 +3852,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4347,147 +3926,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7428d09-4251-4261-a645-3816d2047b90")
-		(property "Reference" "#PWR07"
-			(at 96.52 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 98.552 44.704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fc5dded-cefe-4ffa-8c2d-4f8c541c690c")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 121.92 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac566054-6e80-4890-8b08-500061e82fb0")
-		(property "Reference" "#PWR08"
-			(at 121.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 121.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 121.92 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1225742c-5a02-4bc3-90da-2067989423fd")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 40.64 0)
+		(at 130.81 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b59ad123-d37b-4c26-ba53-9006903f08ec")
-		(property "Reference" "#PWR05"
-			(at 130.81 46.99 0)
+		(property "Reference" "#PWR06"
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,7 +3943,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.842 44.704 0)
+			(at 132.842 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +3952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 40.64 0)
+			(at 130.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,7 +3961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 40.64 0)
+			(at 130.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +3970,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 40.64 0)
+			(at 130.81 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,140 +3984,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 180.34 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db810006-bc1d-4682-b5d3-6c6077dd7535")
-		(property "Reference" "C13"
-			(at 182.88 31.7562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF		"
-			(at 182.88 34.2962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 180.34 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
-			(at 180.34 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 180.34 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.43"
-			(at 180.34 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 180.34 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP CER 10UF 25V X5R 0805"
-			(at 180.34 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 180.34 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "399-11939-1-ND"
-			(at 180.34 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 180.34 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0805C106K3PAC7800"
-			(at 180.34 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "99a9988a-29cb-415e-b6e3-2212d7d9e37e")
-		)
-		(pin "1"
-			(uuid "ae4cb1e6-56de-4a72-b8b4-1d3469c379f4")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "C13")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4685,7 +3999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dffce9d7-0449-4d0a-ad88-fae6f5f30d59")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 44.45 36.195 90)
 			(effects
 				(font
@@ -4809,7 +4123,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4825,7 +4139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f15092d5-9e2d-4d20-ad97-eafa8c33b872")
-		(property "Reference" "C12"
+		(property "Reference" "C3"
 			(at 133.35 31.7562 0)
 			(effects
 				(font
@@ -4834,7 +4148,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF		"
+		(property "Value" "10uF"
 			(at 133.35 34.2962 0)
 			(effects
 				(font
@@ -4843,7 +4157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 130.81 33.02 0)
 			(effects
 				(font
@@ -4942,161 +4256,15 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LP38691SD-3.3")
-		(at 165.1 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fca90b96-df4d-4569-9545-10179e0f5e54")
-		(property "Reference" "U3"
-			(at 165.1 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LP38691SDX-3.3"
-			(at 165.1 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_3x3mm_P0.95mm"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lp38691.pdf"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 500mA 6-WSON (3x3)"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$2.40"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "IC REG LINEAR 3.3V 500MA 6WSON"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "296-LP38691SDX-3.3/NOPBCT-ND"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LP38691SDX-3.3/NOPB"
-			(at 165.1 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "0ba3fbd5-1028-448c-848e-5b544dc1ebf7")
-		)
-		(pin "1"
-			(uuid "8e54af63-0e54-428b-91c5-9c3be57c1d90")
-		)
-		(pin "3"
-			(uuid "442edde2-e941-4b0c-956f-c4f5129f304f")
-		)
-		(pin "4"
-			(uuid "68c64fea-5662-45a2-9bf8-15d387d95592")
-		)
-		(pin "5"
-			(uuid "006aa7fa-f691-4a96-9b32-4aab37fe1d50")
-		)
-		(pin "6"
-			(uuid "259d09b0-5c34-42a6-ae0e-4da04180b8d2")
-		)
-		(pin "2"
-			(uuid "ddfd4179-a3e7-4561-aed0-df6169d2d587")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(reference "U3")
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 197.485 88.9)
-		(size 15.875 19.05)
+		(at 189.865 95.25)
+		(size 15.875 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5107,7 +4275,7 @@
 		)
 		(uuid "1682b9f6-7d62-400a-a0b2-d2d916d42f36")
 		(property "Sheetname" "Switches"
-			(at 197.485 88.1884 0)
+			(at 189.865 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +4284,7 @@
 			)
 		)
 		(property "Sheetfile" "Switches.kicad_sch"
-			(at 197.485 108.5346 0)
+			(at 189.865 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +4294,7 @@
 			)
 		)
 		(pin "COL2" input
-			(at 197.485 94.615 180)
+			(at 189.865 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +4304,7 @@
 			(uuid "e62a082e-7192-4206-a454-2b9ebf1899d1")
 		)
 		(pin "COL0" input
-			(at 197.485 90.805 180)
+			(at 189.865 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +4314,7 @@
 			(uuid "a22e13e2-0725-444c-9b3b-8607b11f44e5")
 		)
 		(pin "COL1" input
-			(at 197.485 92.71 180)
+			(at 189.865 99.695 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,7 +4324,7 @@
 			(uuid "f443fa96-346a-49b6-80c1-18d814a55d89")
 		)
 		(pin "COL3" input
-			(at 197.485 96.52 180)
+			(at 189.865 103.505 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +4334,7 @@
 			(uuid "d7a31753-491a-4ab3-a4b7-26e4eaaa390d")
 		)
 		(pin "ROW2" input
-			(at 197.485 104.14 180)
+			(at 189.865 115.57 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +4344,7 @@
 			(uuid "d8e1f1d1-282a-45fb-baf3-6816053286a8")
 		)
 		(pin "ROW3" input
-			(at 197.485 106.045 180)
+			(at 189.865 117.475 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,7 +4354,7 @@
 			(uuid "a2ae3805-ecbd-4b60-8fe7-2f4dd8e9f817")
 		)
 		(pin "ROW0" input
-			(at 197.485 100.33 180)
+			(at 189.865 111.76 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +4364,7 @@
 			(uuid "70ccdfca-8880-4155-969b-914b1ac5a89d")
 		)
 		(pin "ROW1" input
-			(at 197.485 102.235 180)
+			(at 189.865 113.665 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,8 +4382,8 @@
 		)
 	)
 	(sheet
-		(at 128.27 88.9)
-		(size 26.67 19.685)
+		(at 118.11 95.25)
+		(size 38.1 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5224,9 +4392,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "71112edd-09dd-4ea7-a638-0abe9125ce5c")
-		(property "Sheetname" "STM32F0"
-			(at 128.27 88.1884 0)
+		(uuid "a6a5be83-4db2-42b8-9a77-cc31e36ec93b")
+		(property "Sheetname" "RP2040"
+			(at 118.11 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,8 +4402,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mad_lib/schematics/STM32F0.kicad_sch"
-			(at 128.27 109.1696 0)
+		(property "Sheetfile" "mad_lib/schematics/MCU/RP2040.kicad_sch"
+			(at 118.11 119.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,50 +4412,30 @@
 				(hide yes)
 			)
 		)
-		(pin "3V3" input
-			(at 128.27 91.44 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "15a8a637-8981-4a2d-8cf4-ea9c6180816d")
-		)
 		(pin "GND" input
-			(at 128.27 106.68 180)
+			(at 118.11 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2beb8a4f-a365-49c6-b36e-dc500285d89d")
+			(uuid "39c14e78-8689-46bc-a88a-117aa8ee1640")
 		)
-		(pin "USB_D-" input
-			(at 128.27 97.79 180)
+		(pin "5V" input
+			(at 118.11 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c3f4558b-8254-4f6f-aa8d-1c3a1a015562")
-		)
-		(pin "USB_D+" input
-			(at 128.27 100.33 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b72b7b19-e775-4b70-b955-51a24ceb7a37")
+			(uuid "a9d4db14-ee2c-41b9-b143-d0d600c9fedd")
 		)
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72"
-					(page "2")
+					(page "3")
 				)
 			)
 		)

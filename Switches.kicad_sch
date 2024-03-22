@@ -2091,7 +2091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00f14c2c-e855-475a-800a-bb078d232ec7")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 97.79 57.15 0)
 			(effects
 				(font
@@ -2206,7 +2206,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2222,7 +2222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a3e3dcc-4a90-47c5-8055-8d4e86d874e8")
-		(property "Reference" "SW5"
+		(property "Reference" "SW6"
 			(at 134.62 57.15 0)
 			(effects
 				(font
@@ -2247,7 +2247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 134.62 63.5 0)
 			(effects
 				(font
@@ -2256,7 +2256,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 134.62 63.5 0)
 			(effects
 				(font
@@ -2274,7 +2328,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW5")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -2290,7 +2344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13ad3ca5-de10-4496-bc95-fb0786e15e5d")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 181.61 82.55 0)
 			(effects
 				(font
@@ -2405,7 +2459,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -2421,7 +2475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a99c519-1dc5-48d7-a03a-8d19737c9f37")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 153.67 133.35 0)
 			(effects
 				(font
@@ -2536,7 +2590,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D12")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -2552,7 +2606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bcc85e1-a837-4e11-bce6-5c8a399b1caf")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 97.79 82.55 0)
 			(effects
 				(font
@@ -2667,7 +2721,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2683,7 +2737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e2d527a-f9a1-4ed6-aa09-ab2ed916be63")
-		(property "Reference" "SW6"
+		(property "Reference" "SW7"
 			(at 134.62 107.95 0)
 			(effects
 				(font
@@ -2708,7 +2762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 134.62 114.3 0)
 			(effects
 				(font
@@ -2717,7 +2771,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 134.62 114.3 0)
 			(effects
 				(font
@@ -2735,7 +2843,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW6")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -2751,7 +2859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2480ea8d-5295-47b5-a281-3cb48cef168c")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 97.79 107.95 0)
 			(effects
 				(font
@@ -2866,7 +2974,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2882,7 +2990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26e4237e-6afa-40aa-88f3-2597d7b55634")
-		(property "Reference" "D17"
+		(property "Reference" "D18"
 			(at 209.55 57.15 0)
 			(effects
 				(font
@@ -2997,7 +3105,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D17")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -3013,7 +3121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3152cb7f-9609-4ff5-a71d-f2e15a671f2c")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 106.68 82.55 0)
 			(effects
 				(font
@@ -3038,7 +3146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 106.68 88.9 0)
 			(effects
 				(font
@@ -3047,7 +3155,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 106.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 106.68 88.9 0)
 			(effects
 				(font
@@ -3065,7 +3227,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -3081,7 +3243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38512480-8750-4b7e-be71-007815dc3ebf")
-		(property "Reference" "SW12"
+		(property "Reference" "SW13"
 			(at 162.56 133.35 0)
 			(effects
 				(font
@@ -3106,7 +3268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 162.56 139.7 0)
 			(effects
 				(font
@@ -3115,7 +3277,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 162.56 139.7 0)
 			(effects
 				(font
@@ -3133,7 +3349,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW12")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -3149,7 +3365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b29caae-8531-42d3-9d8f-5901fab0a2e4")
-		(property "Reference" "SW10"
+		(property "Reference" "SW11"
 			(at 162.56 82.55 0)
 			(effects
 				(font
@@ -3174,7 +3390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -3183,7 +3399,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 162.56 88.9 0)
 			(effects
 				(font
@@ -3201,7 +3471,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW10")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -3217,7 +3487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b7d9189-97f3-44a0-8362-c6e742eed111")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 153.67 107.95 0)
 			(effects
 				(font
@@ -3332,7 +3602,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3373,7 +3643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 190.5 63.5 0)
 			(effects
 				(font
@@ -3382,7 +3652,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 190.5 63.5 0)
 			(effects
 				(font
@@ -3416,7 +3740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f8a7531-5318-4571-bc72-f33f0484ff99")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 106.68 57.15 0)
 			(effects
 				(font
@@ -3441,7 +3765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 106.68 63.5 0)
 			(effects
 				(font
@@ -3450,7 +3774,70 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
 			(at 106.68 63.5 0)
 			(effects
 				(font
@@ -3468,7 +3855,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -3484,7 +3871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52067a92-2a19-4efa-ac14-04a3d9ec4e96")
-		(property "Reference" "SW7"
+		(property "Reference" "SW8"
 			(at 134.62 133.35 0)
 			(effects
 				(font
@@ -3509,7 +3896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 134.62 139.7 0)
 			(effects
 				(font
@@ -3518,7 +3905,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 134.62 139.7 0)
 			(effects
 				(font
@@ -3536,7 +3977,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW7")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -3552,7 +3993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59907968-96b3-4c4b-96e6-5103b32f628b")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 125.73 57.15 0)
 			(effects
 				(font
@@ -3667,7 +4108,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3683,7 +4124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7524ae28-a917-4759-b9ba-5363e374a066")
-		(property "Reference" "D16"
+		(property "Reference" "D17"
 			(at 181.61 133.35 0)
 			(effects
 				(font
@@ -3798,7 +4239,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D16")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -3814,7 +4255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b833a7b-e1a5-4100-84e1-15bbb2188b0c")
-		(property "Reference" "D15"
+		(property "Reference" "D16"
 			(at 181.61 107.95 0)
 			(effects
 				(font
@@ -3929,7 +4370,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D15")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -3945,7 +4386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c16c373-5816-4b91-9119-89acdbc2fa85")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 153.67 82.55 0)
 			(effects
 				(font
@@ -4060,7 +4501,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4076,7 +4517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db99bcc-5747-4393-a732-10a202cf0fd5")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 125.73 107.95 0)
 			(effects
 				(font
@@ -4191,7 +4632,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4207,7 +4648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f3a8c35-e361-4be6-8ad3-f0ef8de36f27")
-		(property "Reference" "SW3"
+		(property "Reference" "SW4"
 			(at 106.68 107.95 0)
 			(effects
 				(font
@@ -4232,7 +4673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 106.68 114.3 0)
 			(effects
 				(font
@@ -4241,7 +4682,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 106.68 114.3 0)
 			(effects
 				(font
@@ -4259,7 +4754,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW3")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -4300,7 +4795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 190.5 139.7 0)
 			(effects
 				(font
@@ -4309,7 +4804,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 190.5 139.7 0)
 			(effects
 				(font
@@ -4343,7 +4892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9c189d1-5283-4d51-8fd0-08b1a29c6222")
-		(property "Reference" "D18"
+		(property "Reference" "D19"
 			(at 209.55 107.95 0)
 			(effects
 				(font
@@ -4458,7 +5007,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D18")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -4498,7 +5047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 226.314 53.34 0)
 			(effects
 				(font
@@ -4613,7 +5162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf9f55c5-63eb-4fe2-b306-1d329d40a227")
-		(property "Reference" "SW11"
+		(property "Reference" "SW12"
 			(at 162.56 107.95 0)
 			(effects
 				(font
@@ -4638,7 +5187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 162.56 114.3 0)
 			(effects
 				(font
@@ -4647,7 +5196,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 162.56 114.3 0)
 			(effects
 				(font
@@ -4665,7 +5268,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW11")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -4681,7 +5284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c037e5d0-429d-45dd-a3c0-535209ec2a7d")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 125.73 133.35 0)
 			(effects
 				(font
@@ -4796,7 +5399,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -4837,7 +5440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 190.5 88.9 0)
 			(effects
 				(font
@@ -4846,7 +5449,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 190.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 190.5 88.9 0)
 			(effects
 				(font
@@ -4880,7 +5537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8c0f9d0-ade0-4ba6-86fb-91c2d9283df8")
-		(property "Reference" "SW9"
+		(property "Reference" "SW10"
 			(at 162.56 57.15 0)
 			(effects
 				(font
@@ -4905,7 +5562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 162.56 63.5 0)
 			(effects
 				(font
@@ -4914,7 +5571,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 162.56 63.5 0)
 			(effects
 				(font
@@ -4932,7 +5643,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW9")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -4948,7 +5659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2874833-fdee-46d1-80a6-1bc266801836")
-		(property "Reference" "SW8"
+		(property "Reference" "SW9"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -4973,7 +5684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -4982,7 +5693,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -5000,7 +5765,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW8")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -5040,7 +5805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 226.314 104.14 0)
 			(effects
 				(font
@@ -5092,7 +5857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f2309e-2844-4160-90a8-dc86aacd23cb")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 125.73 82.55 0)
 			(effects
 				(font
@@ -5207,7 +5972,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5248,7 +6013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 190.5 114.3 0)
 			(effects
 				(font
@@ -5257,7 +6022,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 190.5 114.3 0)
 			(effects
 				(font
@@ -5291,7 +6110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8bf5eab-5524-4077-a3c7-54c88d085f77")
-		(property "Reference" "D13"
+		(property "Reference" "D14"
 			(at 181.61 57.15 0)
 			(effects
 				(font
@@ -5406,7 +6225,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D13")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -5422,7 +6241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec7da9d7-a7fb-4837-99f7-b532172391c3")
-		(property "Reference" "SW4"
+		(property "Reference" "SW5"
 			(at 106.68 133.35 0)
 			(effects
 				(font
@@ -5447,7 +6266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
 			(at 106.68 139.7 0)
 			(effects
 				(font
@@ -5456,7 +6275,61 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch Socket"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4958"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Adafruit Industries LLC"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.394"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "1528-4958-ND"
 			(at 106.68 139.7 0)
 			(effects
 				(font
@@ -5474,7 +6347,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW4")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -5490,7 +6363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f05dd341-2a3b-493c-b6ba-54b1e5ddca84")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 153.67 57.15 0)
 			(effects
 				(font
@@ -5605,7 +6478,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -5621,7 +6494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc1878c0-8fef-4bd4-b9e2-6e3081bc5580")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 97.79 133.35 0)
 			(effects
 				(font
@@ -5736,7 +6609,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
