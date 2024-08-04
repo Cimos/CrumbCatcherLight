@@ -693,6 +693,141 @@
 				)
 			)
 		)
+		(symbol "Mad_Symbols:SK6812_Mini_E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -4.572 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -11.43 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
+				(at 0 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+				(at -11.43 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812_Mini_E_0_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812_Mini_E_1_1"
+				(pin power_in line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0) hide)
@@ -828,244 +963,214 @@
 		)
 	)
 	(junction
-		(at 167.005 43.18)
+		(at 85.725 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "07b1f87c-6c1c-43b2-9403-f5376ab77c22")
+		(uuid "0143c9e6-bb17-45c1-8559-f1987009d90f")
 	)
 	(junction
-		(at 66.04 58.42)
+		(at 55.245 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0be58e58-fc84-41f5-ab93-da0bb90f6ede")
+		(uuid "08b86dfa-a92b-44e4-a3a6-be9eb6431a60")
 	)
 	(junction
-		(at 167.005 68.58)
+		(at 106.045 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "14110ef9-397c-40fd-b54a-fe821d8d7392")
+		(uuid "1ecd85aa-ee75-4d6d-9c08-5037dc6c1dea")
 	)
 	(junction
-		(at 136.525 50.8)
+		(at 132.715 65.405)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f5af977-2f54-483d-8660-98c5e738f7e2")
+	)
+	(junction
+		(at 160.655 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21927fdb-e40b-4e9a-aa53-7fb5f1e14b9d")
 	)
 	(junction
-		(at 136.525 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32c8dee2-9dff-4c76-a21a-938895d0eb7b")
-	)
-	(junction
-		(at 116.84 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3421b7cd-d2ab-4b54-ac19-9a1217bbe653")
-	)
-	(junction
-		(at 116.84 71.12)
+		(at 191.135 78.105)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b50f8d2-c41c-4299-8d86-adcc660ba2fb")
 	)
 	(junction
-		(at 136.525 45.72)
+		(at 160.655 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43906fdd-89a8-473c-905b-ce1bb1217dda")
 	)
 	(junction
-		(at 136.525 66.04)
+		(at 106.045 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "456b8ee4-1d4a-4d6c-a36b-4cb156a8c63c")
+		(uuid "43e9ac88-7c9c-4122-b4ec-8927f9c2a56f")
 	)
 	(junction
-		(at 93.98 83.82)
+		(at 62.865 90.805)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4b9902e3-0802-40ad-8156-c038bfa352cd")
+		(uuid "54253125-1242-4451-a035-1bc904e67051")
 	)
 	(junction
-		(at 38.1 58.42)
+		(at 81.915 65.405)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c51d776-405e-4e1b-a890-8ce30029eaf2")
+		(uuid "5fd973ab-43ac-4f09-b370-9e35f3f82200")
 	)
 	(junction
-		(at 66.04 109.22)
+		(at 62.865 116.205)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c7dc54a-1a55-4ef3-9055-d5d069ec248e")
+	)
+	(junction
+		(at 191.135 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73c7a6a3-52ba-4845-a392-52193f8cdc8c")
+	)
+	(junction
+		(at 113.665 116.205)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78827617-6409-4544-82ad-f12cfb2b88f8")
 	)
 	(junction
-		(at 60.96 71.12)
+		(at 85.725 78.105)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c1126fb-df01-4018-a429-d4c20a79216e")
 	)
 	(junction
-		(at 136.525 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ad6105c-eb23-4869-ab9f-26caf88cb89a")
-	)
-	(junction
-		(at 66.04 83.82)
+		(at 113.665 90.805)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95c3f6c1-8125-4697-afc3-2cc740e52b10")
 	)
 	(junction
-		(at 136.525 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c9299e8-f078-4aea-8d06-3cf567301adc")
-	)
-	(junction
-		(at 88.9 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a28dce01-5b9e-4fde-a81d-b1e27bbb0007")
-	)
-	(junction
-		(at 93.98 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a32351da-fde3-423f-86a3-a871c2f45e2c")
-	)
-	(junction
-		(at 38.1 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4a5f547-382e-4356-97c0-b4dcb967242c")
-	)
-	(junction
-		(at 136.525 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b28af61e-d1dc-4f6f-b696-2c6ddd9ccbfe")
-	)
-	(junction
-		(at 93.98 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c45371a5-3805-4d82-9439-9b4007e37167")
-	)
-	(junction
-		(at 136.525 40.64)
+		(at 160.655 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c474da02-7923-4e41-8a65-3158ddb63f82")
 	)
 	(junction
-		(at 38.1 109.22)
+		(at 106.045 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cbd5d4a6-fdfb-43a3-898b-d8c798a73f36")
+		(uuid "d30e0d3f-d56e-44b8-a0e2-fd538754b683")
 	)
 	(junction
-		(at 60.96 45.72)
+		(at 136.525 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d1bfb624-ffa0-40c7-b52b-a5b4cd224026")
+		(uuid "d38eda01-9ba3-434a-a750-b68be43c824b")
 	)
 	(junction
-		(at 88.9 71.12)
+		(at 136.525 78.105)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e181eec4-edde-4eab-bc74-e307a884b561")
 	)
 	(junction
-		(at 136.525 71.12)
+		(at 55.245 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e913da02-f6d5-48b1-86e9-d5865e98bf24")
+		(uuid "f38b9dca-c1f5-4b91-a8e8-dc83c280f77e")
+	)
+	(junction
+		(at 55.245 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f526d4cd-ac2e-4c69-aabe-2fa9f5e99fe3")
 	)
 	(wire
 		(pts
-			(xy 116.84 45.72) (xy 113.03 45.72)
+			(xy 49.53 129.54) (xy 66.04 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04b6f0a7-a1b5-4ef6-9f0f-bb895e11b02e")
+		(uuid "019518f4-8c09-4216-ba96-d7288335e045")
 	)
 	(wire
 		(pts
-			(xy 116.84 22.86) (xy 116.84 45.72)
+			(xy 64.135 45.72) (xy 65.405 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ba10d1e-692b-4d4f-ba70-d592d7a0b4b8")
+		(uuid "079af9ce-5620-409b-81a8-e2f6c302fb16")
 	)
 	(wire
 		(pts
-			(xy 38.1 96.52) (xy 38.1 109.22)
+			(xy 99.06 146.05) (xy 99.06 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c6a6359-e785-4e79-90cb-6fc1f7db9ede")
+		(uuid "082229da-1112-4889-8c23-4a5d1a23e534")
 	)
 	(wire
 		(pts
-			(xy 93.98 71.12) (xy 93.98 83.82)
+			(xy 182.88 127) (xy 196.85 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f7d150c-d41f-4444-8fe1-083535c796a3")
+		(uuid "098e2467-267d-427f-91d0-d55797afe4ee")
 	)
 	(wire
 		(pts
-			(xy 136.525 76.2) (xy 145.415 76.2)
+			(xy 196.85 127) (xy 196.85 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14a946a7-40bb-40ec-a1f0-710181afac77")
+		(uuid "1176813c-e569-4856-814e-5b819d8f99a9")
 	)
 	(wire
 		(pts
-			(xy 38.1 71.12) (xy 38.1 83.82)
+			(xy 50.165 138.43) (xy 50.165 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1565e3da-6fce-4ef9-a2ec-f41f4190531f")
+		(uuid "175da830-f279-439c-b192-f0a90c161b21")
 	)
 	(wire
 		(pts
-			(xy 145.415 73.66) (xy 146.685 73.66)
+			(xy 55.245 53.34) (xy 64.135 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1682595a-c1ec-4a5f-bdbc-c719518cdd2f")
+		(uuid "1876478a-ac71-468c-9cbd-c4e7f4259b82")
 	)
 	(wire
 		(pts
-			(xy 88.9 45.72) (xy 85.09 45.72)
+			(xy 64.135 43.18) (xy 64.135 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19f33ee3-e2f9-4b89-8579-bfacc9e6d2be")
+		(uuid "19fb0027-c04a-45cc-8e4f-f5fc22363438")
 	)
 	(wire
 		(pts
-			(xy 33.02 58.42) (xy 38.1 58.42)
+			(xy 49.53 65.405) (xy 81.915 65.405)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1180,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 83.82) (xy 93.98 83.82)
+			(xy 132.715 65.405) (xy 187.325 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24648958-f68d-4555-8c42-f1a12577aede")
+	)
+	(wire
+		(pts
+			(xy 187.325 50.8) (xy 187.325 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a7f948-3935-4dd1-bd39-9ec9e16c4368")
+	)
+	(wire
+		(pts
+			(xy 113.665 90.805) (xy 168.275 90.805)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1210,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 45.72) (xy 116.84 71.12)
+			(xy 59.69 146.05) (xy 66.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27600538-8e3d-4dbc-affe-769017cae84f")
+	)
+	(wire
+		(pts
+			(xy 191.135 29.845) (xy 191.135 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1230,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 96.52) (xy 66.04 109.22)
+			(xy 85.725 45.72) (xy 85.725 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2956bdb5-7b17-484a-9fc5-969a27b83628")
+	)
+	(wire
+		(pts
+			(xy 55.245 43.18) (xy 64.135 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6a7472-eed3-41d6-aedd-17fc4fc909c2")
+	)
+	(wire
+		(pts
+			(xy 113.665 103.505) (xy 113.665 116.205)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 71.12) (xy 66.04 83.82)
+			(xy 113.665 78.105) (xy 113.665 90.805)
 		)
 		(stroke
 			(width 0)
@@ -1115,47 +1270,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 45.72) (xy 95.25 45.72)
+			(xy 187.325 62.23) (xy 187.325 65.405)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ec77b77-c080-491a-ad6f-687a004cd868")
+		(uuid "33247986-9c94-445b-b506-0259a19ca522")
 	)
 	(wire
 		(pts
-			(xy 145.415 66.04) (xy 145.415 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f5aa844-e7ce-4937-a5f6-84e2f7a25fe7")
-	)
-	(wire
-		(pts
-			(xy 93.98 109.22) (xy 150.495 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3050e03d-5e53-4d30-8dbf-99c056bb6c62")
-	)
-	(wire
-		(pts
-			(xy 93.98 58.42) (xy 150.495 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "315d694a-cffb-429b-ac4b-1f500496cfa2")
-	)
-	(wire
-		(pts
-			(xy 116.84 96.52) (xy 113.03 96.52)
+			(xy 191.135 103.505) (xy 187.325 103.505)
 		)
 		(stroke
 			(width 0)
@@ -1165,17 +1290,37 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 68.58) (xy 167.005 93.98)
+			(xy 114.935 43.18) (xy 114.935 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3576223d-e39b-4f76-966c-93004b52ab80")
+		(uuid "3655e76d-8d1b-49de-81b9-2c5fd02e1cda")
 	)
 	(wire
 		(pts
-			(xy 145.415 48.26) (xy 146.685 48.26)
+			(xy 132.715 50.8) (xy 132.715 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36dead55-b690-451a-a2f9-3fbda630de34")
+	)
+	(wire
+		(pts
+			(xy 149.86 148.59) (xy 167.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3939bb03-9a8c-4e19-b763-f02a30a24b01")
+	)
+	(wire
+		(pts
+			(xy 169.545 50.8) (xy 170.815 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1185,17 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 66.04) (xy 136.525 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fc9e75a-5972-4495-9c19-2be538636c27")
-	)
-	(wire
-		(pts
-			(xy 82.55 22.86) (xy 88.9 22.86)
+			(xy 130.175 29.845) (xy 136.525 29.845)
 		)
 		(stroke
 			(width 0)
@@ -1205,27 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 101.6) (xy 136.525 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41613ac3-bb3f-4ab7-a291-fa274b151b1f")
-	)
-	(wire
-		(pts
-			(xy 38.1 45.72) (xy 39.37 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "430493ab-a92c-4692-8a0c-8a50d84b2cf0")
-	)
-	(wire
-		(pts
-			(xy 60.96 71.12) (xy 60.96 96.52)
+			(xy 85.725 78.105) (xy 85.725 103.505)
 		)
 		(stroke
 			(width 0)
@@ -1235,7 +1350,37 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 71.12) (xy 67.31 71.12)
+			(xy 64.135 50.8) (xy 65.405 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441f258c-bc69-4b6c-81fb-3e4d521510f2")
+	)
+	(wire
+		(pts
+			(xy 80.645 45.72) (xy 85.725 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45044a58-5a1d-4cd0-a4a9-3a30aae9cb6d")
+	)
+	(wire
+		(pts
+			(xy 62.865 103.505) (xy 62.865 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45172ea1-76a4-46fa-b3d3-c457c2458a1c")
+	)
+	(wire
+		(pts
+			(xy 113.665 78.105) (xy 114.935 78.105)
 		)
 		(stroke
 			(width 0)
@@ -1245,67 +1390,47 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 43.18) (xy 167.005 68.58)
+			(xy 49.53 48.26) (xy 55.245 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47f39687-f748-43d3-b1b5-a86d52955bb8")
+		(uuid "46b191e5-6fd9-49e2-bbe8-dbd7cbe3c0f3")
 	)
 	(wire
 		(pts
-			(xy 161.925 43.18) (xy 167.005 43.18)
+			(xy 131.445 50.8) (xy 132.715 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a804170-989e-4970-92f9-da3d097c2683")
+		(uuid "4a2a37b6-6c50-49c9-944d-04b5b6e7ee63")
 	)
 	(wire
 		(pts
-			(xy 167.005 22.86) (xy 167.005 43.18)
+			(xy 100.33 48.26) (xy 106.045 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b4870b8-7cae-419d-9208-d1b31a9eb5c3")
+		(uuid "4a66c00d-8e3f-4765-bcb4-083740c9e9bc")
 	)
 	(wire
 		(pts
-			(xy 130.81 71.12) (xy 136.525 71.12)
+			(xy 106.045 48.26) (xy 116.205 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bb1e52c-7ff4-456f-ba22-4f8051be5788")
+		(uuid "50cef142-86e9-4778-817b-2d9095a180f2")
 	)
 	(wire
 		(pts
-			(xy 145.415 91.44) (xy 145.415 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c015ce9-5bfe-4a4e-93e4-d81fcd6f9174")
-	)
-	(wire
-		(pts
-			(xy 145.415 68.58) (xy 146.685 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7f6999-69ec-4747-b6e3-f4089e239d40")
-	)
-	(wire
-		(pts
-			(xy 60.96 22.86) (xy 60.96 45.72)
+			(xy 85.725 29.845) (xy 85.725 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1315,27 +1440,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.925 93.98) (xy 167.005 93.98)
+			(xy 55.245 48.26) (xy 65.405 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "520a4c87-bf3d-4fe5-a834-e808a0092da5")
+		(uuid "520b96eb-a147-4cd9-bcf6-1760dc40b960")
 	)
 	(wire
 		(pts
-			(xy 66.04 45.72) (xy 66.04 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52b106b4-285f-4a4c-a80b-1c8938ddbc3b")
-	)
-	(wire
-		(pts
-			(xy 145.415 40.64) (xy 145.415 43.18)
+			(xy 169.545 43.18) (xy 169.545 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1345,27 +1460,17 @@
 	)
 	(wire
 		(pts
-			(xy 164.465 99.06) (xy 164.465 109.22)
+			(xy 114.935 53.34) (xy 114.935 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "555e710b-a039-420a-8145-aa37c77430ee")
+		(uuid "5c3f36b6-28a3-4ea2-8eb9-56c226f716b2")
 	)
 	(wire
 		(pts
-			(xy 93.98 45.72) (xy 93.98 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58e4681d-4557-453c-a672-f3fdb4410360")
-	)
-	(wire
-		(pts
-			(xy 145.415 43.18) (xy 146.685 43.18)
+			(xy 169.545 45.72) (xy 170.815 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1375,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 71.12) (xy 88.9 96.52)
+			(xy 136.525 78.105) (xy 136.525 103.505)
 		)
 		(stroke
 			(width 0)
@@ -1385,17 +1490,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 136.525 96.52)
+			(xy 100.33 53.34) (xy 106.045 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61b7577c-5a98-43bb-b75f-af6cccb7f881")
+		(uuid "600543cb-ad74-4e80-99f1-3ee19cce4fcc")
 	)
 	(wire
 		(pts
-			(xy 38.1 83.82) (xy 66.04 83.82)
+			(xy 62.865 90.805) (xy 113.665 90.805)
 		)
 		(stroke
 			(width 0)
@@ -1405,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 40.64) (xy 136.525 40.64)
+			(xy 154.94 43.18) (xy 160.655 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1415,7 +1520,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 113.03 71.12)
+			(xy 149.86 127) (xy 149.86 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65140c1e-da6f-489b-92af-a5d5b45dce07")
+	)
+	(wire
+		(pts
+			(xy 191.135 78.105) (xy 187.325 78.105)
 		)
 		(stroke
 			(width 0)
@@ -1425,47 +1540,47 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 45.72) (xy 67.31 45.72)
+			(xy 132.08 146.05) (xy 149.86 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a860168-ae6d-4c6b-b57f-74f91f3acf29")
+		(uuid "6747358d-003c-49c6-96c8-6d6071e9a728")
 	)
 	(wire
 		(pts
-			(xy 130.81 76.2) (xy 136.525 76.2)
+			(xy 131.445 45.72) (xy 136.525 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fa45fae-ee83-4ed8-a93c-275e6604b050")
+		(uuid "68737c03-7f5d-45f5-a446-75c9167273a2")
 	)
 	(wire
 		(pts
-			(xy 130.81 91.44) (xy 136.525 91.44)
+			(xy 81.915 50.8) (xy 81.915 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71c7f8ce-fe7c-4548-bf30-0bf0260643f4")
+		(uuid "68e7100a-c403-47d6-966a-74b5741ac392")
 	)
 	(wire
 		(pts
-			(xy 158.115 109.22) (xy 164.465 109.22)
+			(xy 106.045 43.18) (xy 114.935 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "736f14a1-f7ab-4cf8-b6e2-b7d0fe0cba48")
+		(uuid "725d2f52-f285-4a55-9402-2ba648aa7d90")
 	)
 	(wire
 		(pts
-			(xy 130.81 50.8) (xy 136.525 50.8)
+			(xy 154.94 53.34) (xy 160.655 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1475,37 +1590,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.925 48.26) (xy 164.465 48.26)
+			(xy 161.29 127) (xy 167.64 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73f40703-6eb8-4cd6-ac66-5d3b3f887070")
+		(uuid "7d2a4ec1-0b87-44a6-85ed-eaa25f3775c5")
 	)
 	(wire
 		(pts
-			(xy 60.96 45.72) (xy 60.96 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78cf7e31-7ff8-43c2-aa3a-0f5744b916f0")
-	)
-	(wire
-		(pts
-			(xy 164.465 73.66) (xy 164.465 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b367b84-2c35-49fb-9d1a-ae1003373f75")
-	)
-	(wire
-		(pts
-			(xy 145.415 50.8) (xy 145.415 48.26)
+			(xy 169.545 53.34) (xy 169.545 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1515,7 +1610,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 109.22) (xy 66.04 109.22)
+			(xy 62.865 116.205) (xy 113.665 116.205)
 		)
 		(stroke
 			(width 0)
@@ -1525,7 +1620,27 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 116.84 96.52)
+			(xy 132.08 129.54) (xy 138.43 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8229a355-dda7-4ec3-87e2-9b735817e26d")
+	)
+	(wire
+		(pts
+			(xy 100.33 43.18) (xy 106.045 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82dfcf73-0ac4-479a-9024-73014c402244")
+	)
+	(wire
+		(pts
+			(xy 191.135 78.105) (xy 191.135 103.505)
 		)
 		(stroke
 			(width 0)
@@ -1535,7 +1650,37 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 22.86) (xy 55.88 22.86)
+			(xy 132.08 127) (xy 149.86 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86df7d17-0a91-48c0-ad7c-99002db7c2bd")
+	)
+	(wire
+		(pts
+			(xy 62.865 78.105) (xy 62.865 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87693391-f7a4-46b0-a4ce-836823168f68")
+	)
+	(wire
+		(pts
+			(xy 50.165 148.59) (xy 66.04 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2ff80d-a731-48a3-896c-8e04eb0c65da")
+	)
+	(wire
+		(pts
+			(xy 85.725 29.845) (xy 80.645 29.845)
 		)
 		(stroke
 			(width 0)
@@ -1545,27 +1690,27 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 45.72) (xy 88.9 71.12)
+			(xy 168.275 78.105) (xy 168.275 90.805)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92db56cd-35e7-49fd-837e-12ee72b49005")
+		(uuid "9188781d-a937-4d7f-8e4d-390e0cba8c1a")
 	)
 	(wire
 		(pts
-			(xy 38.1 58.42) (xy 66.04 58.42)
+			(xy 110.49 146.05) (xy 116.84 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95cd84dc-ac05-4b49-a1ad-d7347b172a7f")
+		(uuid "97c54da6-005a-4ee0-ac04-9b99261cbecd")
 	)
 	(wire
 		(pts
-			(xy 38.1 109.22) (xy 33.02 109.22)
+			(xy 62.865 116.205) (xy 49.53 116.205)
 		)
 		(stroke
 			(width 0)
@@ -1575,27 +1720,17 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 101.6) (xy 145.415 101.6)
+			(xy 81.915 62.23) (xy 81.915 65.405)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9aa8567f-3840-44f6-b894-7aa1cb17c1fd")
+		(uuid "9b5e5999-7eb5-4402-9c20-6a0188a38988")
 	)
 	(wire
 		(pts
-			(xy 60.96 45.72) (xy 57.15 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a206c918-977d-4b26-b79f-e198f93355e1")
-	)
-	(wire
-		(pts
-			(xy 136.525 40.64) (xy 145.415 40.64)
+			(xy 160.655 43.18) (xy 169.545 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1605,17 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 96.52) (xy 146.685 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a25487fb-0eb3-4280-ac2f-4e3cad1ac174")
-	)
-	(wire
-		(pts
-			(xy 93.98 71.12) (xy 95.25 71.12)
+			(xy 168.275 78.105) (xy 169.545 78.105)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +1750,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 71.12) (xy 39.37 71.12)
+			(xy 62.865 78.105) (xy 64.135 78.105)
 		)
 		(stroke
 			(width 0)
@@ -1635,17 +1760,27 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 45.72) (xy 38.1 58.42)
+			(xy 161.29 146.05) (xy 167.64 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a881ba79-c71b-47c0-b930-1db3f098ee88")
+		(uuid "a9f42116-41a4-4157-ac98-5bf66be5e390")
 	)
 	(wire
 		(pts
-			(xy 60.96 71.12) (xy 57.15 71.12)
+			(xy 106.045 53.34) (xy 114.935 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa044c9f-f0d0-41d5-a009-7c7baec87034")
+	)
+	(wire
+		(pts
+			(xy 85.725 78.105) (xy 81.915 78.105)
 		)
 		(stroke
 			(width 0)
@@ -1655,27 +1790,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.925 73.66) (xy 164.465 73.66)
+			(xy 49.53 53.34) (xy 55.245 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af761ad9-7eb7-4a3c-b279-f52f015b0b7c")
+		(uuid "b0c7e38d-f032-4e6a-bb63-bad8ef105af2")
 	)
 	(wire
 		(pts
-			(xy 93.98 96.52) (xy 93.98 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3b9ed36-9ec6-4eb2-8450-f9b05c889c6b")
-	)
-	(wire
-		(pts
-			(xy 136.525 45.72) (xy 146.685 45.72)
+			(xy 160.655 48.26) (xy 170.815 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1685,17 +1810,27 @@
 	)
 	(wire
 		(pts
-			(xy 161.925 99.06) (xy 164.465 99.06)
+			(xy 49.53 127) (xy 66.04 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b59f41fd-46fa-4802-bcfa-19d8eaebee34")
+		(uuid "b4693e38-dedc-4258-9b07-69f44f5448b4")
 	)
 	(wire
 		(pts
-			(xy 93.98 109.22) (xy 66.04 109.22)
+			(xy 81.28 146.05) (xy 99.06 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8fd36f9-4d2b-4906-8460-1377cd9cd3af")
+	)
+	(wire
+		(pts
+			(xy 168.275 116.205) (xy 113.665 116.205)
 		)
 		(stroke
 			(width 0)
@@ -1705,7 +1840,27 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 96.52) (xy 95.25 96.52)
+			(xy 81.28 148.59) (xy 87.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3eeff0-173f-4de9-bec0-2a4ea9bbc269")
+	)
+	(wire
+		(pts
+			(xy 81.28 129.54) (xy 87.63 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0f1f5f-40d7-4124-a967-a8b53b2919e4")
+	)
+	(wire
+		(pts
+			(xy 168.275 103.505) (xy 169.545 103.505)
 		)
 		(stroke
 			(width 0)
@@ -1715,7 +1870,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 83.82) (xy 33.02 83.82)
+			(xy 62.865 90.805) (xy 49.53 90.805)
 		)
 		(stroke
 			(width 0)
@@ -1725,7 +1880,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 50.8) (xy 145.415 50.8)
+			(xy 160.655 53.34) (xy 169.545 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1735,17 +1890,47 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 66.04) (xy 145.415 66.04)
+			(xy 132.08 148.59) (xy 138.43 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9bd334c-f3d7-4283-abce-d1410624e67d")
+		(uuid "c255c542-53f7-4807-b95d-95412d4e16d4")
 	)
 	(wire
 		(pts
-			(xy 130.81 45.72) (xy 136.525 45.72)
+			(xy 99.06 127) (xy 99.06 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a17bf1-c311-4bc7-8f74-ed8c9f1e4b60")
+	)
+	(wire
+		(pts
+			(xy 136.525 45.72) (xy 136.525 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c533b779-3703-44b7-a7e9-54ca608f72eb")
+	)
+	(wire
+		(pts
+			(xy 64.135 53.34) (xy 64.135 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1004c6-0ab9-4bb0-b8a9-6ca948706073")
+	)
+	(wire
+		(pts
+			(xy 154.94 48.26) (xy 160.655 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1755,57 +1940,87 @@
 	)
 	(wire
 		(pts
-			(xy 145.415 76.2) (xy 145.415 73.66)
+			(xy 114.935 45.72) (xy 116.205 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb2b7e08-4aa9-4572-97c2-cd9a2739d493")
+		(uuid "cc85ee48-26ec-48d8-b435-c6de184459d2")
 	)
 	(wire
 		(pts
-			(xy 158.115 83.82) (xy 164.465 83.82)
+			(xy 186.055 45.72) (xy 191.135 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccdd9190-04fe-416f-91cf-23d85b093ee1")
+		(uuid "cc997466-d9d3-4476-99b3-5759f32259a6")
 	)
 	(wire
 		(pts
-			(xy 161.925 68.58) (xy 167.005 68.58)
+			(xy 114.935 50.8) (xy 116.205 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d266d815-e875-442e-b8e0-d70d08819196")
+		(uuid "cdb38bb2-d936-48f6-8a8b-d7c579603610")
 	)
 	(wire
 		(pts
-			(xy 93.98 83.82) (xy 150.495 83.82)
+			(xy 80.645 50.8) (xy 81.915 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5ee140a-a61d-45fa-8f97-b4faed16698a")
+		(uuid "d0dc3a9b-4340-42d8-a094-8066bc543566")
 	)
 	(wire
 		(pts
-			(xy 66.04 58.42) (xy 93.98 58.42)
+			(xy 132.715 62.23) (xy 132.715 65.405)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d80a104c-4416-4929-86dd-d75c9d698f08")
+		(uuid "d1916cb3-baaf-4182-94c1-26fd8ff56140")
 	)
 	(wire
 		(pts
-			(xy 88.9 22.86) (xy 88.9 45.72)
+			(xy 81.915 65.405) (xy 132.715 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d5ca20-caf2-4da0-9d94-1faf596eea1d")
+	)
+	(wire
+		(pts
+			(xy 149.86 129.54) (xy 167.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8794d16-739d-423c-860e-b0a8c2b61257")
+	)
+	(wire
+		(pts
+			(xy 191.135 45.72) (xy 191.135 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da315c27-daa3-4e76-a2fd-b93969db548c")
+	)
+	(wire
+		(pts
+			(xy 136.525 29.845) (xy 136.525 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1815,7 +2030,27 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 71.12) (xy 74.93 71.12)
+			(xy 168.275 103.505) (xy 168.275 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd676c5-2fe1-40ad-b584-7a7f54153036")
+	)
+	(wire
+		(pts
+			(xy 186.055 50.8) (xy 187.325 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1fa527-4861-4405-981a-7611d7e3bd19")
+	)
+	(wire
+		(pts
+			(xy 126.365 78.105) (xy 122.555 78.105)
 		)
 		(stroke
 			(width 0)
@@ -1825,7 +2060,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 22.86) (xy 116.84 22.86)
+			(xy 184.785 29.845) (xy 191.135 29.845)
 		)
 		(stroke
 			(width 0)
@@ -1835,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 96.52) (xy 39.37 96.52)
+			(xy 62.865 103.505) (xy 64.135 103.505)
 		)
 		(stroke
 			(width 0)
@@ -1845,7 +2080,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 96.52) (xy 57.15 96.52)
+			(xy 85.725 103.505) (xy 81.915 103.505)
 		)
 		(stroke
 			(width 0)
@@ -1855,17 +2090,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 71.12) (xy 146.685 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4de4eb1-36bb-450a-a429-f50e18b11a08")
-	)
-	(wire
-		(pts
-			(xy 66.04 96.52) (xy 67.31 96.52)
+			(xy 113.665 103.505) (xy 114.935 103.505)
 		)
 		(stroke
 			(width 0)
@@ -1875,83 +2100,113 @@
 	)
 	(wire
 		(pts
-			(xy 158.115 58.42) (xy 164.465 58.42)
+			(xy 182.88 146.05) (xy 198.12 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5338798-cf11-4462-aaa9-521a5baea949")
+		(uuid "e8204cc5-e9d2-4be8-a1fc-99b9c9fbf3f5")
 	)
 	(wire
 		(pts
-			(xy 164.465 48.26) (xy 164.465 58.42)
+			(xy 110.49 127) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4f89697-2d33-4797-98e6-e422ad0c51ed")
+		(uuid "e856ae27-477e-4cd6-9bd7-3018cb108096")
 	)
 	(wire
 		(pts
-			(xy 145.415 101.6) (xy 145.415 99.06)
+			(xy 99.06 129.54) (xy 116.84 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6038197-c56b-4860-b6ec-24ac8188a0d0")
+		(uuid "e8e25a85-0d1c-4c68-bddf-656c40efff90")
 	)
 	(wire
 		(pts
-			(xy 136.525 91.44) (xy 145.415 91.44)
+			(xy 196.85 138.43) (xy 50.165 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f795f6ac-3690-4228-9925-f3f62f66c95e")
+		(uuid "e90bc3ce-45ce-4b04-81f0-fcad0b865b6b")
 	)
 	(wire
 		(pts
-			(xy 145.415 99.06) (xy 146.685 99.06)
+			(xy 49.53 43.18) (xy 55.245 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc1ceb10-cb74-4495-8254-21d7c1921311")
+		(uuid "e9e23085-a799-46f6-96e0-56e7d11742c1")
 	)
 	(wire
 		(pts
-			(xy 88.9 96.52) (xy 85.09 96.52)
+			(xy 149.86 146.05) (xy 149.86 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4efc090-8274-4de0-9c00-c76b51ec694a")
+	)
+	(wire
+		(pts
+			(xy 81.28 127) (xy 99.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5961f33-2ec1-4228-9acd-28aec1f1cad6")
+	)
+	(wire
+		(pts
+			(xy 99.06 148.59) (xy 116.84 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c79891-9f4d-41f7-ab51-91c77b308158")
+	)
+	(wire
+		(pts
+			(xy 182.88 148.59) (xy 198.12 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa60048e-ff1b-40b6-a8ca-ae4f9bcd14c1")
+	)
+	(wire
+		(pts
+			(xy 182.88 129.54) (xy 189.865 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf3f9f6-2a6f-445f-8c6f-766fab6ed634")
+	)
+	(wire
+		(pts
+			(xy 136.525 103.505) (xy 132.715 103.505)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe69130e-4880-4a0b-b86c-8ac3388df01c")
-	)
-	(wire
-		(pts
-			(xy 145.415 93.98) (xy 146.685 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fecbb980-507c-496f-a1ee-10b72400467e")
-	)
-	(wire
-		(pts
-			(xy 158.115 22.86) (xy 167.005 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff50b530-69ed-4388-9a89-f371a45d421a")
 	)
 	(text_box "Diodes:\nCan use either 1N4148W or LL4148."
 		(exclude_from_sim no)
@@ -1972,9 +2227,53 @@
 		)
 		(uuid "79ad9816-ab20-4ac7-9db9-27dea4e6a997")
 	)
-	(hierarchical_label "ENC1B"
+	(label "5V"
+		(at 161.29 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ae7e191-754b-49a1-82eb-a0deedf70bf3")
+	)
+	(label "5V"
+		(at 161.29 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75cfd435-a41b-4088-b0ed-04b754df2fc9")
+	)
+	(label "5V"
+		(at 110.49 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "767b14b4-f2dc-46fc-9500-2dcf0343c7d5")
+	)
+	(label "5V"
+		(at 110.49 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd9e363a-b525-4a5b-ad93-fcb6b0982b21")
+	)
+	(hierarchical_label "ENC3B"
 		(shape bidirectional)
-		(at 130.81 50.8 180)
+		(at 154.94 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1984,21 +2283,9 @@
 		)
 		(uuid "06b11fd9-a02d-49e6-ad39-2a2fa44d04ee")
 	)
-	(hierarchical_label "Col3"
-		(shape bidirectional)
-		(at 158.115 22.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1db4365a-59ed-4471-9023-343439ffd763")
-	)
 	(hierarchical_label "Row2"
 		(shape bidirectional)
-		(at 33.02 109.22 180)
+		(at 49.53 116.205 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2008,9 +2295,45 @@
 		)
 		(uuid "225a80c3-7410-4854-9d87-6845ac941670")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 189.865 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d82a10a-a7e7-4c63-b825-e42c8ef96448")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 198.12 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40e198b8-6119-4e0a-bf75-590c085290ca")
+	)
+	(hierarchical_label "ENC2B"
+		(shape bidirectional)
+		(at 100.33 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40efac72-3bbb-4672-9297-b46bf4e97889")
+	)
 	(hierarchical_label "Col1"
 		(shape bidirectional)
-		(at 82.55 22.86 180)
+		(at 130.175 29.845 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2020,9 +2343,9 @@
 		)
 		(uuid "4395e755-295f-4992-b92a-7742cb4d85f0")
 	)
-	(hierarchical_label "ENC3A"
-		(shape bidirectional)
-		(at 130.81 91.44 180)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 49.53 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2030,11 +2353,23 @@
 			)
 			(justify right)
 		)
-		(uuid "58e70232-0886-4259-8f69-81a84ad816ad")
+		(uuid "531932c2-e5a9-4b8b-8160-649629453472")
+	)
+	(hierarchical_label "ENC1B"
+		(shape bidirectional)
+		(at 49.53 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bdf6db8-d499-42c6-add4-efa845e06ef8")
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 130.81 45.72 180)
+		(at 154.94 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2044,9 +2379,9 @@
 		)
 		(uuid "7064aeb6-5151-4b5a-bb0b-63a2cb13b8cc")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 130.81 96.52 180)
+	(hierarchical_label "ENC2A"
+		(shape bidirectional)
+		(at 100.33 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2054,11 +2389,35 @@
 			)
 			(justify right)
 		)
-		(uuid "7c63a3a0-d2df-4cc3-96da-2fe87afe7067")
+		(uuid "817a0f82-143f-455e-b4e0-99f48a8ecd7c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 138.43 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81fa04fc-9536-4fda-be5d-6fd76ce2eb12")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 87.63 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8678a645-d5b7-4b22-917c-db4aa31172e2")
 	)
 	(hierarchical_label "Row1"
 		(shape bidirectional)
-		(at 33.02 83.82 180)
+		(at 49.53 90.805 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2068,21 +2427,9 @@
 		)
 		(uuid "89757bb6-42c0-4c33-ad2a-25b2da176661")
 	)
-	(hierarchical_label "ENC3B"
-		(shape bidirectional)
-		(at 130.81 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e24d714-91a1-420f-a9ba-a1511976ba00")
-	)
 	(hierarchical_label "Col0"
 		(shape bidirectional)
-		(at 55.88 22.86 180)
+		(at 80.645 29.845 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2092,21 +2439,9 @@
 		)
 		(uuid "a01aa904-dfae-466d-9def-a79c431883bc")
 	)
-	(hierarchical_label "ENC2B"
+	(hierarchical_label "ENC3A"
 		(shape bidirectional)
-		(at 130.81 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a01caba8-df75-44f3-98f0-0ba067c7404e")
-	)
-	(hierarchical_label "ENC1A"
-		(shape bidirectional)
-		(at 130.81 40.64 180)
+		(at 154.94 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2116,9 +2451,21 @@
 		)
 		(uuid "a65f09ac-58a9-4057-b481-24e971a98e3c")
 	)
-	(hierarchical_label "ENC2A"
-		(shape bidirectional)
-		(at 130.81 66.04 180)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 138.43 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a720a817-29b1-475d-ba6b-43eea2204342")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 59.69 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2126,11 +2473,35 @@
 			)
 			(justify right)
 		)
-		(uuid "df8f351d-dd37-4a72-ab45-2331e0b0ff4f")
+		(uuid "ac42bdc2-5f63-44b6-beac-8828b1871c85")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 49.53 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5f3a658-b5f9-423c-9e0d-720ed8123c59")
+	)
+	(hierarchical_label "DOUT"
+		(shape output)
+		(at 198.12 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6e4e736-5ffe-4911-b867-25034f6c6f41")
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 130.81 71.12 180)
+		(at 100.33 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2138,11 +2509,35 @@
 			)
 			(justify right)
 		)
-		(uuid "e10629f3-a3e3-47f2-ac16-826096e2e200")
+		(uuid "c450a533-5138-4fe0-a04e-146119623f05")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 49.53 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5c2d5be-f620-495c-8b86-f2e711337310")
+	)
+	(hierarchical_label "ENC1A"
+		(shape bidirectional)
+		(at 49.53 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4000c0a-ec7a-4983-b23c-d25a90db2855")
 	)
 	(hierarchical_label "Row0"
 		(shape bidirectional)
-		(at 33.02 58.42 180)
+		(at 49.53 65.405 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2154,7 +2549,7 @@
 	)
 	(hierarchical_label "Col2"
 		(shape bidirectional)
-		(at 110.49 22.86 180)
+		(at 184.785 29.845 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2164,174 +2559,45 @@
 		)
 		(uuid "f628939e-7f2b-43ad-ada2-f2af126f3071")
 	)
-	(symbol
-		(lib_id "Diode:LL4148")
-		(at 43.18 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 87.63 129.54 0)
 		(fields_autoplaced yes)
-		(uuid "00f14c2c-e855-475a-800a-bb078d232ec7")
-		(property "Reference" "D2"
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "LL4148"
-			(at 43.18 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 43.18 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.18 "
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LL4148"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 43.18 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c54a4769-edaa-4e5e-aac1-803004ff58fd")
-		)
-		(pin "2"
-			(uuid "939a5e3a-d46a-4f9a-a25a-a9c8267e9de9")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f8ad663e-b60f-4cc4-8978-7aa5364ea49c")
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
-		(at 154.305 83.82 0)
-		(mirror x)
+		(lib_id "Mad_Symbols:SK6812_Mini_E")
+		(at 73.66 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "016c4e62-2085-414c-af14-ae196a470966")
-		(property "Reference" "D12"
-			(at 154.305 78.232 0)
+		(uuid "147e2193-555d-4b71-a675-ae4fccf0aced")
+		(property "Reference" "D11"
+			(at 70.485 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 154.305 80.264 0)
+		(property "Value" "WS2812C-2020"
+			(at 73.66 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 154.305 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 154.305 83.82 0)
+		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+			(at 73.66 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,8 +2605,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 154.305 83.82 0)
+		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
+			(at 73.66 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,8 +2614,62 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18 "
-			(at 154.305 83.82 0)
+		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 62.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965556"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " "WS2812C-2020"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi "
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" "N"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" "N"
+			(at 73.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 73.66 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +2678,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 154.305 83.82 0)
+			(at 73.66 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,8 +2686,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 154.305 83.82 0)
+		(property "Rating" ""
+			(at 73.66 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,8 +2695,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 154.305 83.82 0)
+		(property "Supplier" ""
+			(at 73.66 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,8 +2704,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 154.305 83.82 0)
+		(property "Supplier PN" ""
+			(at 73.66 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,17 +2713,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
-			(at 154.305 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LL4148"
-			(at 154.305 83.82 0)
+		(property "MPN" ""
+			(at 73.66 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,15 +2723,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "18b22476-c1aa-4cf7-b275-36384bbff912")
+			(uuid "4aaf0743-f387-427f-ac3d-1aef1fda083f")
 		)
 		(pin "2"
-			(uuid "59bb42c7-6f9f-4c0f-8109-e02b30e9bcf9")
+			(uuid "43184e46-ba77-46ae-bf4f-5e2efb1c29f0")
+		)
+		(pin "3"
+			(uuid "0bb0bf15-5194-4b4a-bbdb-21d2059043ce")
+		)
+		(pin "4"
+			(uuid "69627b3a-817d-4a6e-9e58-0fb3e2db2cd2")
 		)
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D12")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -2428,16 +2745,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 136.525 93.98 0)
+		(at 55.245 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "09f5340c-feb1-436a-87f8-9b214b7e072b")
-		(property "Reference" "C24"
-			(at 139.065 92.7162 0)
+		(uuid "14a38035-f279-40d7-b54e-7f8d5f8424e6")
+		(property "Reference" "C28"
+			(at 57.785 44.4562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,7 +2763,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 139.065 95.2562 0)
+			(at 57.785 46.9962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +2772,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 136.525 93.98 0)
+			(at 55.245 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +2781,7 @@
 			)
 		)
 		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 136.525 93.98 0)
+			(at 55.245 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +2790,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 136.525 93.98 0)
+			(at 55.245 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2482,7 +2799,7 @@
 			)
 		)
 		(property "Price" "$0.33 "
-			(at 136.525 93.98 0)
+			(at 55.245 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2808,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 136.525 93.98 0)
+			(at 55.245 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,7 +2817,7 @@
 			)
 		)
 		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 136.525 93.98 0)
+			(at 55.245 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2826,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 136.525 93.98 0)
+			(at 55.245 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2835,7 @@
 			)
 		)
 		(property "Supplier PN" "399-14148-1-ND"
-			(at 136.525 93.98 0)
+			(at 55.245 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2844,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 136.525 93.98 0)
+			(at 55.245 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2853,7 @@
 			)
 		)
 		(property "MPN" "C0402C104K3RAC7867"
-			(at 136.525 93.98 0)
+			(at 55.245 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2862,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 136.525 93.98 0)
+			(at 55.245 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2554,137 +2871,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "129bf9ff-d058-4a4b-8009-3979d698d203")
+			(uuid "02b33d82-4e79-4907-9d9d-19dbfb0acdcb")
 		)
 		(pin "1"
-			(uuid "dab85836-040f-4157-9c91-2b679f86c0ed")
+			(uuid "506a7c14-b623-4bac-8e1e-f9a7c36f2f89")
 		)
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 80.01 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a3e3dcc-4a90-47c5-8055-8d4e86d874e8")
-		(property "Reference" "SW5"
-			(at 80.01 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 80.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 80.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 80.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch Socket"
-			(at 80.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "4958"
-			(at 80.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 80.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.394"
-			(at 80.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 80.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 80.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 80.01 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bb69404-649e-4e3a-85b8-0d29308f559f")
-		)
-		(pin "2"
-			(uuid "88da65bf-1137-466c-8f19-d0421a0987f4")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW5")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -2692,7 +2887,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 43.18 71.12 0)
+		(at 67.945 78.105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2701,7 +2896,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bcc85e1-a837-4e11-bce6-5c8a399b1caf")
 		(property "Reference" "D3"
-			(at 43.18 64.77 0)
+			(at 67.945 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2904,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 43.18 67.31 0)
+			(at 67.945 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2912,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 43.18 75.565 0)
+			(at 67.945 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2921,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 43.18 71.12 0)
+			(at 67.945 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2930,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 43.18 71.12 0)
+			(at 67.945 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2939,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 43.18 71.12 0)
+			(at 67.945 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2948,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 43.18 71.12 0)
+			(at 67.945 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2957,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 43.18 71.12 0)
+			(at 67.945 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2966,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 43.18 71.12 0)
+			(at 67.945 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +2975,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 43.18 71.12 0)
+			(at 67.945 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2984,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 43.18 71.12 0)
+			(at 67.945 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +2993,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 43.18 71.12 0)
+			(at 67.945 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +3018,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 80.01 96.52 0)
+		(at 127.635 103.505 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2832,7 +3027,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e2d527a-f9a1-4ed6-aa09-ab2ed916be63")
 		(property "Reference" "SW6"
-			(at 80.01 90.17 0)
+			(at 127.635 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +3035,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 80.01 92.71 0)
+			(at 127.635 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,7 +3043,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 80.01 96.52 0)
+			(at 127.635 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +3052,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 80.01 96.52 0)
+			(at 127.635 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +3061,7 @@
 			)
 		)
 		(property "Description" "Switch Socket"
-			(at 80.01 96.52 0)
+			(at 127.635 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +3070,7 @@
 			)
 		)
 		(property "MPN" "4958"
-			(at 80.01 96.52 0)
+			(at 127.635 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +3079,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 80.01 96.52 0)
+			(at 127.635 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +3088,7 @@
 			)
 		)
 		(property "Price" "$0.394"
-			(at 80.01 96.52 0)
+			(at 127.635 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2902,7 +3097,7 @@
 			)
 		)
 		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 80.01 96.52 0)
+			(at 127.635 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,7 +3106,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 80.01 96.52 0)
+			(at 127.635 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,7 +3115,7 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
-			(at 80.01 96.52 0)
+			(at 127.635 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,7 +3140,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 43.18 96.52 0)
+		(at 67.945 103.505 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2954,7 +3149,7 @@
 		(fields_autoplaced yes)
 		(uuid "2480ea8d-5295-47b5-a281-3cb48cef168c")
 		(property "Reference" "D4"
-			(at 43.18 90.17 0)
+			(at 67.945 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +3157,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 43.18 92.71 0)
+			(at 67.945 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +3165,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 43.18 100.965 0)
+			(at 67.945 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,7 +3174,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 43.18 96.52 0)
+			(at 67.945 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +3183,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 43.18 96.52 0)
+			(at 67.945 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2997,7 +3192,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 43.18 96.52 0)
+			(at 67.945 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3201,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 43.18 96.52 0)
+			(at 67.945 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3210,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 43.18 96.52 0)
+			(at 67.945 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3219,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 43.18 96.52 0)
+			(at 67.945 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3228,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 43.18 96.52 0)
+			(at 67.945 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +3237,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 43.18 96.52 0)
+			(at 67.945 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3246,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 43.18 96.52 0)
+			(at 67.945 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,42 +3270,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:LL4148")
-		(at 154.305 58.42 0)
-		(mirror x)
+		(lib_id "Device:C_Small")
+		(at 106.045 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "26e4237e-6afa-40aa-88f3-2597d7b55634")
-		(property "Reference" "D11"
-			(at 154.305 52.832 0)
+		(fields_autoplaced yes)
+		(uuid "2aaf9593-dd9a-4c6b-94f0-6441dfa70204")
+		(property "Reference" "C27"
+			(at 108.585 49.5362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LL4148"
-			(at 154.305 54.864 0)
+		(property "Value" "100nF"
+			(at 108.585 52.0762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 154.305 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 154.305 58.42 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 106.045 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,8 +3306,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 154.305 58.42 0)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 106.045 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,8 +3315,17 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.18 "
-			(at 154.305 58.42 0)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 106.045 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.33 "
+			(at 106.045 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,7 +3334,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 154.305 58.42 0)
+			(at 106.045 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,8 +3342,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 154.305 58.42 0)
+		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+			(at 106.045 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,7 +3352,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 154.305 58.42 0)
+			(at 106.045 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,8 +3360,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 154.305 58.42 0)
+		(property "Supplier PN" "399-14148-1-ND"
+			(at 106.045 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,8 +3369,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "onsemi"
-			(at 154.305 58.42 0)
+		(property "Manufacturer" "KEMET"
+			(at 106.045 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,8 +3378,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LL4148"
-			(at 154.305 58.42 0)
+		(property "MPN" "C0402C104K3RAC7867"
+			(at 106.045 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,16 +3387,164 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "dd57be75-aa13-45ea-bc0c-0904c7fd7103")
+		(property "Notes" ""
+			(at 106.045 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "d1c76647-5baa-435d-a6fe-bbff8c6be3eb")
+			(uuid "1692a7c3-2762-45cc-90c1-ddb3557a40eb")
+		)
+		(pin "1"
+			(uuid "f30aa07e-f1c9-4514-879e-b9306158de7d")
 		)
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D11")
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 73.025 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2abbd368-1ea6-4932-b39e-4ef93f093437")
+		(property "Reference" "SW2"
+			(at 72.771 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PEC11R"
+			(at 72.771 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
+			(at 69.215 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
+			(at 73.025 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical"
+			(at 73.025 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$3.37 "
+			(at 73.025 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 73.025 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "ROTARY ENCODER MECHANICAL 24PPR"
+			(at 73.025 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 73.025 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "PEC11R-4215F-S0024-ND"
+			(at 73.025 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 73.025 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PEC11R-4215F-S0024"
+			(at 73.025 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "99a85e54-8cdd-4011-867d-027a282237fc")
+		)
+		(pin "B"
+			(uuid "eb97ba01-6bd1-4cf7-9c3e-f628079deafe")
+		)
+		(pin "C"
+			(uuid "ca6532f5-5746-44d7-9412-5eaccea6754f")
+		)
+		(pin "S1"
+			(uuid "8650acf0-fce3-402b-889d-40ca627a5c72")
+		)
+		(pin "S2"
+			(uuid "f03a10a0-3f21-4fd7-b3f9-a88967048779")
+		)
+		(instances
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -3207,7 +3552,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 52.07 71.12 0)
+		(at 76.835 78.105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3216,7 +3561,7 @@
 		(fields_autoplaced yes)
 		(uuid "3152cb7f-9609-4ff5-a71d-f2e15a671f2c")
 		(property "Reference" "SW3"
-			(at 52.07 64.77 0)
+			(at 76.835 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +3569,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 52.07 67.31 0)
+			(at 76.835 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3577,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 52.07 71.12 0)
+			(at 76.835 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +3586,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 52.07 71.12 0)
+			(at 76.835 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,7 +3595,7 @@
 			)
 		)
 		(property "Description" "Switch Socket"
-			(at 52.07 71.12 0)
+			(at 76.835 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3604,7 @@
 			)
 		)
 		(property "MPN" "4958"
-			(at 52.07 71.12 0)
+			(at 76.835 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3613,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 52.07 71.12 0)
+			(at 76.835 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +3622,7 @@
 			)
 		)
 		(property "Price" "$0.394"
-			(at 52.07 71.12 0)
+			(at 76.835 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3631,7 @@
 			)
 		)
 		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 52.07 71.12 0)
+			(at 76.835 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3640,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 52.07 71.12 0)
+			(at 76.835 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3649,7 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
-			(at 52.07 71.12 0)
+			(at 76.835 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3674,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 107.95 71.12 0)
+		(at 182.245 78.105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3338,7 +3683,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b29caae-8531-42d3-9d8f-5901fab0a2e4")
 		(property "Reference" "SW9"
-			(at 107.95 64.77 0)
+			(at 182.245 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3691,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 107.95 67.31 0)
+			(at 182.245 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +3699,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 107.95 71.12 0)
+			(at 182.245 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3708,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 107.95 71.12 0)
+			(at 182.245 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3717,7 @@
 			)
 		)
 		(property "Description" "Switch Socket"
-			(at 107.95 71.12 0)
+			(at 182.245 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3726,7 @@
 			)
 		)
 		(property "MPN" "4958"
-			(at 107.95 71.12 0)
+			(at 182.245 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3735,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 107.95 71.12 0)
+			(at 182.245 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +3744,7 @@
 			)
 		)
 		(property "Price" "$0.394"
-			(at 107.95 71.12 0)
+			(at 182.245 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3753,7 @@
 			)
 		)
 		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 107.95 71.12 0)
+			(at 182.245 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3762,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 107.95 71.12 0)
+			(at 182.245 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3771,7 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
-			(at 107.95 71.12 0)
+			(at 182.245 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +3796,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 99.06 96.52 0)
+		(at 173.355 103.505 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3460,7 +3805,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b7d9189-97f3-44a0-8362-c6e742eed111")
 		(property "Reference" "D10"
-			(at 99.06 90.17 0)
+			(at 173.355 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +3813,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 99.06 92.71 0)
+			(at 173.355 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3821,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 99.06 100.965 0)
+			(at 173.355 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,7 +3830,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 99.06 96.52 0)
+			(at 173.355 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,7 +3839,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 99.06 96.52 0)
+			(at 173.355 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +3848,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 99.06 96.52 0)
+			(at 173.355 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3857,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 99.06 96.52 0)
+			(at 173.355 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3521,7 +3866,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 99.06 96.52 0)
+			(at 173.355 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +3875,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 99.06 96.52 0)
+			(at 173.355 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3539,7 +3884,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 99.06 96.52 0)
+			(at 173.355 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3893,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 99.06 96.52 0)
+			(at 173.355 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3902,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 99.06 96.52 0)
+			(at 173.355 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,16 +3926,532 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 154.305 71.12 0)
+		(lib_id "Mad_Symbols:SK6812_Mini_E")
+		(at 175.26 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "46d46ac6-f971-45da-af30-92cd67e22b5a")
-		(property "Reference" "SW12"
-			(at 154.305 64.516 0)
+		(uuid "59c50727-aeee-4588-9943-28309f8593ed")
+		(property "Reference" "D16"
+			(at 172.085 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812C-2020"
+			(at 175.26 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+			(at 175.26 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
+			(at 175.26 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 163.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965556"
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " "WS2812C-2020"
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi "
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" "N"
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" "N"
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b737f774-5a7d-4192-836a-4d3da11aacaf")
+		)
+		(pin "2"
+			(uuid "994bb3eb-25c4-4b1b-a52d-31ac8b619d7d")
+		)
+		(pin "3"
+			(uuid "51b8f6c4-314d-4420-85eb-79de5dd295f3")
+		)
+		(pin "4"
+			(uuid "3cfa4f20-1567-4842-bfbc-e2da306cd85e")
+		)
+		(instances
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mad_Symbols:SK6812_Mini_E")
+		(at 124.46 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6464b7f9-4725-49b6-8bf9-fafe085a9f85")
+		(property "Reference" "D12"
+			(at 121.285 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812C-2020"
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+			(at 124.46 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
+			(at 124.46 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 113.03 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965556"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " "WS2812C-2020"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi "
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" "N"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" "N"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5776285d-d716-48a3-a29b-c821dc7e9177")
+		)
+		(pin "2"
+			(uuid "c1a5aafc-5849-432a-a16f-bd9efb19ef12")
+		)
+		(pin "3"
+			(uuid "87fb3dff-a0e1-4333-9310-ae0344bf7011")
+		)
+		(pin "4"
+			(uuid "5f243b9c-978e-4a09-a65d-dcce31cd58ae")
+		)
+		(instances
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mad_Symbols:SK6812_Mini_E")
+		(at 124.46 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6827b743-3973-481c-a424-fe910dc993be")
+		(property "Reference" "D15"
+			(at 121.285 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812C-2020"
+			(at 124.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+			(at 124.46 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
+			(at 124.46 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 113.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965556"
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " "WS2812C-2020"
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi "
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" "N"
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" "N"
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fdd9651-2af9-430f-85fb-fded694ce0a3")
+		)
+		(pin "2"
+			(uuid "fe5ff8bf-0e3e-42fc-8091-405292c8a4c5")
+		)
+		(pin "3"
+			(uuid "a62ce174-c43a-4afd-9f83-caa5424e8445")
+		)
+		(pin "4"
+			(uuid "43bb6990-a01c-4553-bc38-edb23da47f6d")
+		)
+		(instances
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 123.825 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83b6ad80-0a5e-4ca9-a906-de3db822bbf4")
+		(property "Reference" "SW5"
+			(at 123.571 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +4459,7 @@
 			)
 		)
 		(property "Value" "PEC11R"
-			(at 154.305 62.23 0)
+			(at 123.571 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +4467,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
-			(at 150.495 67.056 0)
+			(at 120.015 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +4476,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
-			(at 154.305 64.516 0)
+			(at 123.825 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +4485,7 @@
 			)
 		)
 		(property "Description" "Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical"
-			(at 154.305 71.12 0)
+			(at 123.825 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +4494,7 @@
 			)
 		)
 		(property "Price" "$3.37 "
-			(at 154.305 71.12 0)
+			(at 123.825 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +4503,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 154.305 71.12 0)
+			(at 123.825 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +4512,7 @@
 			)
 		)
 		(property "Rating" "ROTARY ENCODER MECHANICAL 24PPR"
-			(at 154.305 71.12 0)
+			(at 123.825 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +4521,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 154.305 71.12 0)
+			(at 123.825 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +4530,7 @@
 			)
 		)
 		(property "Supplier PN" "PEC11R-4215F-S0024-ND"
-			(at 154.305 71.12 0)
+			(at 123.825 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +4539,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns Inc."
-			(at 154.305 71.12 0)
+			(at 123.825 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +4548,7 @@
 			)
 		)
 		(property "MPN" "PEC11R-4215F-S0024"
-			(at 154.305 71.12 0)
+			(at 123.825 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,155 +4557,24 @@
 			)
 		)
 		(pin "A"
-			(uuid "27f085c9-30c9-40c4-a1db-61632d3f23ad")
+			(uuid "2dd4268d-17c9-4900-81b0-0b9228f6b9a6")
 		)
 		(pin "B"
-			(uuid "3febdfd5-39be-436e-90b1-e52d468034b8")
+			(uuid "3f75f9ba-5a13-476b-926c-fb50592e0fa7")
 		)
 		(pin "C"
-			(uuid "bdc9a86f-44ba-46e7-ab50-e80062d59f7a")
+			(uuid "b5e275c3-c6a2-4b68-a6f4-b83a648bf1fb")
 		)
 		(pin "S1"
-			(uuid "37938c1b-d080-4236-b794-e1b86361890f")
+			(uuid "7aecddfa-4655-4333-8719-a24a09602755")
 		)
 		(pin "S2"
-			(uuid "e934576d-36f0-459f-8ffa-0c7169a09f6b")
+			(uuid "dfcc329c-7819-4ac4-aa42-b604a21c626d")
 		)
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 52.07 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f8a7531-5318-4571-bc72-f33f0484ff99")
-		(property "Reference" "SW2"
-			(at 52.07 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 52.07 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 52.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 52.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch Socket"
-			(at 52.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.394"
-			(at 52.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 52.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 52.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 52.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 52.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 52.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "4958"
-			(at 52.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60cc3c6c-ce71-42a0-9cb5-aadb5d072317")
-		)
-		(pin "2"
-			(uuid "9800736f-11c6-4e75-9223-2b951e0d030c")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW2")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -3852,163 +4582,35 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 71.12 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59907968-96b3-4c4b-96e6-5103b32f628b")
-		(property "Reference" "D5"
-			(at 71.12 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LL4148"
-			(at 71.12 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 71.12 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 71.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 71.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 71.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 71.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.18 "
-			(at 71.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LL4148"
-			(at 71.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 71.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 71.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 71.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c87918d1-8eee-40da-9acc-3ed2192e7357")
-		)
-		(pin "2"
-			(uuid "1a3e1726-4d32-49d3-8a5d-9184e1ffdbb0")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:LL4148")
-		(at 154.305 109.22 0)
+		(at 81.915 58.42 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "97c83148-4be4-4341-b0d8-549e3aeb6dfc")
-		(property "Reference" "D13"
-			(at 154.305 103.632 0)
+		(fields_autoplaced yes)
+		(uuid "851f5812-0bfc-4c97-911d-83a21d69de0f")
+		(property "Reference" "D2"
+			(at 79.375 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LL4148"
-			(at 154.305 105.664 0)
+			(at 79.375 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 154.305 104.775 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,7 +4619,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 154.305 109.22 0)
+			(at 81.915 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,25 +4628,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 154.305 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.18 "
-			(at 154.305 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 154.305 109.22 0)
+			(at 81.915 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +4637,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 154.305 109.22 0)
+			(at 81.915 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,8 +4645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 154.305 109.22 0)
+		(property "Interface" ""
+			(at 81.915 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,17 +4654,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 154.305 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "onsemi"
-			(at 154.305 109.22 0)
+		(property "Price" "$0.18 "
+			(at 81.915 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4664,34 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 154.305 109.22 0)
+			(at 81.915 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 81.915 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 81.915 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 81.915 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,15 +4700,329 @@
 			)
 		)
 		(pin "1"
-			(uuid "6188ee81-f888-4637-95de-4816cc83b3e5")
+			(uuid "accf650a-2806-4a0a-a197-ab1b1f62f3dc")
 		)
 		(pin "2"
-			(uuid "b358e935-fd2f-45a1-a518-8506bdb8af7a")
+			(uuid "273f817f-13b0-4b9f-bbba-8fa339873817")
 		)
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D13")
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mad_Symbols:SK6812_Mini_E")
+		(at 73.66 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85a99b81-04e3-4422-af06-61ec9f5f3306")
+		(property "Reference" "D14"
+			(at 70.485 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812C-2020"
+			(at 73.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+			(at 73.66 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
+			(at 73.66 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 62.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965556"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN " "WS2812C-2020"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi "
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic" "N"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Substitute" "N"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afbf7951-95fb-481e-a70a-05f97e7540b1")
+		)
+		(pin "2"
+			(uuid "bd6af991-6ef5-4c3a-b01c-fa0caaf56653")
+		)
+		(pin "3"
+			(uuid "57179a2a-335a-404d-879e-62c373cafa6c")
+		)
+		(pin "4"
+			(uuid "ed6b31cc-9202-4296-acb8-e3699f63337d")
+		)
+		(instances
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.245 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87d18eda-5cfc-48c6-8314-177e8b7202df")
+		(property "Reference" "C29"
+			(at 57.785 49.5362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 57.785 52.0762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 55.245 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+			(at 55.245 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 55.245 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.33 "
+			(at 55.245 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 55.245 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
+			(at 55.245 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 55.245 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" "399-14148-1-ND"
+			(at 55.245 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 55.245 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C104K3RAC7867"
+			(at 55.245 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 55.245 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ba8905c-aadc-400d-88ec-f05519819a6f")
+		)
+		(pin "1"
+			(uuid "8237170d-1812-4996-ab55-9372758dc882")
+		)
+		(instances
+			(project "CrumbCatcherLight"
+				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -4114,7 +5030,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 99.06 71.12 0)
+		(at 173.355 78.105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4123,7 +5039,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c16c373-5816-4b91-9119-89acdbc2fa85")
 		(property "Reference" "D9"
-			(at 99.06 64.77 0)
+			(at 173.355 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +5047,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 99.06 67.31 0)
+			(at 173.355 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +5055,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 99.06 75.565 0)
+			(at 173.355 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +5064,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 99.06 71.12 0)
+			(at 173.355 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +5073,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 99.06 71.12 0)
+			(at 173.355 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +5082,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 99.06 71.12 0)
+			(at 173.355 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +5091,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 99.06 71.12 0)
+			(at 173.355 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +5100,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 99.06 71.12 0)
+			(at 173.355 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +5109,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 99.06 71.12 0)
+			(at 173.355 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +5118,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 99.06 71.12 0)
+			(at 173.355 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +5127,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 99.06 71.12 0)
+			(at 173.355 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +5136,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 99.06 71.12 0)
+			(at 173.355 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +5161,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 71.12 96.52 0)
+		(at 118.745 103.505 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4254,7 +5170,7 @@
 		(fields_autoplaced yes)
 		(uuid "9db99bcc-5747-4393-a732-10a202cf0fd5")
 		(property "Reference" "D7"
-			(at 71.12 90.17 0)
+			(at 118.745 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +5178,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 71.12 92.71 0)
+			(at 118.745 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +5186,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 71.12 100.965 0)
+			(at 118.745 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +5195,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 71.12 96.52 0)
+			(at 118.745 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +5204,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 71.12 96.52 0)
+			(at 118.745 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +5213,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 71.12 96.52 0)
+			(at 118.745 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +5222,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 71.12 96.52 0)
+			(at 118.745 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +5231,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 71.12 96.52 0)
+			(at 118.745 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +5240,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 71.12 96.52 0)
+			(at 118.745 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +5249,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 71.12 96.52 0)
+			(at 118.745 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +5258,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 71.12 96.52 0)
+			(at 118.745 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +5267,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 71.12 96.52 0)
+			(at 118.745 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +5292,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 52.07 96.52 0)
+		(at 76.835 103.505 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4385,7 +5301,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f3a8c35-e361-4be6-8ad3-f0ef8de36f27")
 		(property "Reference" "SW4"
-			(at 52.07 90.17 0)
+			(at 76.835 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +5309,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 52.07 92.71 0)
+			(at 76.835 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +5317,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 52.07 96.52 0)
+			(at 76.835 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4410,7 +5326,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 52.07 96.52 0)
+			(at 76.835 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +5335,7 @@
 			)
 		)
 		(property "Description" "Switch Socket"
-			(at 52.07 96.52 0)
+			(at 76.835 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,7 +5344,7 @@
 			)
 		)
 		(property "MPN" "4958"
-			(at 52.07 96.52 0)
+			(at 76.835 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +5353,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 52.07 96.52 0)
+			(at 76.835 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +5362,7 @@
 			)
 		)
 		(property "Price" "$0.394"
-			(at 52.07 96.52 0)
+			(at 76.835 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +5371,7 @@
 			)
 		)
 		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 52.07 96.52 0)
+			(at 76.835 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +5380,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 52.07 96.52 0)
+			(at 76.835 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +5389,7 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
-			(at 52.07 96.52 0)
+			(at 76.835 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,44 +5413,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 136.525 73.66 0)
+		(lib_id "Diode:LL4148")
+		(at 132.715 58.42 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b1c133fe-cc7d-4345-8dba-6443248c5420")
-		(property "Reference" "C23"
-			(at 139.065 72.3962 0)
+		(uuid "a73505af-abc8-4b42-ab3b-3525d4b35c54")
+		(property "Reference" "D5"
+			(at 130.175 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 139.065 74.9362 0)
+		(property "Value" "LL4148"
+			(at 130.175 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 136.525 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 136.525 73.66 0)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 128.27 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,8 +5450,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 136.525 73.66 0)
+		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
+			(at 132.715 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,8 +5459,17 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
-			(at 136.525 73.66 0)
+		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
+			(at 132.715 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
+			(at 132.715 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +5478,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 136.525 73.66 0)
+			(at 132.715 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4569,8 +5486,26 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 136.525 73.66 0)
+		(property "Price" "$0.18 "
+			(at 132.715 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LL4148"
+			(at 132.715 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 132.715 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +5514,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 136.525 73.66 0)
+			(at 132.715 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,52 +5522,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
-			(at 136.525 73.66 0)
+		(property "Supplier PN" "LL4148FSCT-ND"
+			(at 132.715 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 136.525 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C104K3RAC7867"
-			(at 136.525 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 136.525 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3104c12-e7d8-473f-8196-e669c8852958")
 		)
 		(pin "1"
-			(uuid "6ff1d323-061f-4427-acf1-faa805b3be85")
+			(uuid "fd494d61-25ab-4f7d-b01b-1c68042dbba3")
+		)
+		(pin "2"
+			(uuid "871e863d-6eb6-4a51-91fd-cd1a395d78f4")
 		)
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C23")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4640,7 +5548,7 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 154.305 45.72 0)
+		(at 178.435 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4648,7 +5556,7 @@
 		(dnp no)
 		(uuid "b6e01379-18e8-4243-a9ef-e72a0ea24cc4")
 		(property "Reference" "SW11"
-			(at 154.051 39.37 0)
+			(at 178.181 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4656,7 +5564,7 @@
 			)
 		)
 		(property "Value" "PEC11R"
-			(at 154.051 36.83 0)
+			(at 178.181 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +5572,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
-			(at 150.495 41.656 0)
+			(at 174.625 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +5581,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
-			(at 154.305 39.116 0)
+			(at 178.435 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +5590,7 @@
 			)
 		)
 		(property "Description" "Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical"
-			(at 154.305 45.72 0)
+			(at 178.435 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +5599,7 @@
 			)
 		)
 		(property "Price" "$3.37 "
-			(at 154.305 45.72 0)
+			(at 178.435 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +5608,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 154.305 45.72 0)
+			(at 178.435 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +5617,7 @@
 			)
 		)
 		(property "Rating" "ROTARY ENCODER MECHANICAL 24PPR"
-			(at 154.305 45.72 0)
+			(at 178.435 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +5626,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 154.305 45.72 0)
+			(at 178.435 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +5635,7 @@
 			)
 		)
 		(property "Supplier PN" "PEC11R-4215F-S0024-ND"
-			(at 154.305 45.72 0)
+			(at 178.435 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +5644,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns Inc."
-			(at 154.305 45.72 0)
+			(at 178.435 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +5653,7 @@
 			)
 		)
 		(property "MPN" "PEC11R-4215F-S0024"
-			(at 154.305 45.72 0)
+			(at 178.435 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +5687,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 107.95 96.52 0)
+		(at 182.245 103.505 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4788,7 +5696,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf9f55c5-63eb-4fe2-b306-1d329d40a227")
 		(property "Reference" "SW10"
-			(at 107.95 90.17 0)
+			(at 182.245 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +5704,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 107.95 92.71 0)
+			(at 182.245 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +5712,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 107.95 96.52 0)
+			(at 182.245 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +5721,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 107.95 96.52 0)
+			(at 182.245 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +5730,7 @@
 			)
 		)
 		(property "Description" "Switch Socket"
-			(at 107.95 96.52 0)
+			(at 182.245 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +5739,7 @@
 			)
 		)
 		(property "MPN" "4958"
-			(at 107.95 96.52 0)
+			(at 182.245 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +5748,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 107.95 96.52 0)
+			(at 182.245 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4849,7 +5757,7 @@
 			)
 		)
 		(property "Price" "$0.394"
-			(at 107.95 96.52 0)
+			(at 182.245 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +5766,7 @@
 			)
 		)
 		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 107.95 96.52 0)
+			(at 182.245 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +5775,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 107.95 96.52 0)
+			(at 182.245 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,7 +5784,7 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
-			(at 107.95 96.52 0)
+			(at 182.245 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,16 +5809,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 136.525 68.58 0)
+		(at 106.045 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c1d386e0-91e0-418c-9e3f-52044dda4f20")
-		(property "Reference" "C22"
-			(at 139.065 67.3162 0)
+		(uuid "c3c5f4f1-991a-4330-a6ea-6499ea466dc9")
+		(property "Reference" "C26"
+			(at 108.585 44.4562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4919,7 +5827,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 139.065 69.8562 0)
+			(at 108.585 46.9962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4928,7 +5836,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 136.525 68.58 0)
+			(at 106.045 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +5845,7 @@
 			)
 		)
 		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 136.525 68.58 0)
+			(at 106.045 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,7 +5854,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 136.525 68.58 0)
+			(at 106.045 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +5863,7 @@
 			)
 		)
 		(property "Price" "$0.33 "
-			(at 136.525 68.58 0)
+			(at 106.045 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4964,7 +5872,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 136.525 68.58 0)
+			(at 106.045 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +5881,7 @@
 			)
 		)
 		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 136.525 68.58 0)
+			(at 106.045 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +5890,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 136.525 68.58 0)
+			(at 106.045 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +5899,7 @@
 			)
 		)
 		(property "Supplier PN" "399-14148-1-ND"
-			(at 136.525 68.58 0)
+			(at 106.045 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5908,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 136.525 68.58 0)
+			(at 106.045 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +5917,7 @@
 			)
 		)
 		(property "MPN" "C0402C104K3RAC7867"
-			(at 136.525 68.58 0)
+			(at 106.045 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +5926,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 136.525 68.58 0)
+			(at 106.045 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,15 +5935,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "91ec2e2a-0c75-4648-80ff-36b62fb353bf")
+			(uuid "52253580-27ab-44bd-b0c7-a4bb8a1d03ec")
 		)
 		(pin "1"
-			(uuid "9c5d974b-07cb-401d-b3cc-f1f7537a10e1")
+			(uuid "25f1ee74-f5df-43f8-9380-e2a6e47007c2")
 		)
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C22")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5043,149 +5951,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 136.525 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cebf9e88-92a5-47d5-b5e2-2e8f3260d64d")
-		(property "Reference" "C25"
-			(at 139.065 97.7962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 139.065 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 136.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 136.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 136.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.33 "
-			(at 136.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 136.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 136.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 136.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "399-14148-1-ND"
-			(at 136.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 136.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C104K3RAC7867"
-			(at 136.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 136.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a2cd156d-eaa6-489a-8315-97ec88ca7599")
-		)
-		(pin "1"
-			(uuid "b1a0217c-4ba0-43ac-9ef0-eab62385ce3f")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 136.525 48.26 0)
+		(at 160.655 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5194,7 +5960,7 @@
 		(fields_autoplaced yes)
 		(uuid "d862dd82-ec44-44cf-ba5d-8192227f297b")
 		(property "Reference" "C21"
-			(at 139.065 46.9962 0)
+			(at 163.195 49.5362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5969,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 139.065 49.5362 0)
+			(at 163.195 52.0762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5978,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 136.525 48.26 0)
+			(at 160.655 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +5987,7 @@
 			)
 		)
 		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 136.525 48.26 0)
+			(at 160.655 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5996,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 136.525 48.26 0)
+			(at 160.655 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +6005,7 @@
 			)
 		)
 		(property "Price" "$0.33 "
-			(at 136.525 48.26 0)
+			(at 160.655 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +6014,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 136.525 48.26 0)
+			(at 160.655 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +6023,7 @@
 			)
 		)
 		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 136.525 48.26 0)
+			(at 160.655 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +6032,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 136.525 48.26 0)
+			(at 160.655 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +6041,7 @@
 			)
 		)
 		(property "Supplier PN" "399-14148-1-ND"
-			(at 136.525 48.26 0)
+			(at 160.655 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +6050,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 136.525 48.26 0)
+			(at 160.655 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +6059,7 @@
 			)
 		)
 		(property "MPN" "C0402C104K3RAC7867"
-			(at 136.525 48.26 0)
+			(at 160.655 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +6068,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 136.525 48.26 0)
+			(at 160.655 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,42 +6092,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 107.95 45.72 0)
+		(lib_id "Mad_Symbols:SK6812_Mini_E")
+		(at 175.26 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8c0f9d0-ade0-4ba6-86fb-91c2d9283df8")
-		(property "Reference" "SW8"
-			(at 107.95 39.37 0)
+		(uuid "de486511-056b-40e8-b6b8-b36756d64ac6")
+		(property "Reference" "D13"
+			(at 172.085 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
-			(at 107.95 41.91 0)
+		(property "Value" "WS2812C-2020"
+			(at 175.26 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 107.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 107.95 45.72 0)
+		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
+			(at 175.26 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,8 +6125,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch Socket"
-			(at 107.95 45.72 0)
+		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
+			(at 175.26 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,8 +6134,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "4958"
-			(at 107.95 45.72 0)
+		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 163.83 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,8 +6143,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 107.95 45.72 0)
+		(property "LCSC" "C965556"
+			(at 175.26 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,8 +6152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.394"
-			(at 107.95 45.72 0)
+		(property "MPN " "WS2812C-2020"
+			(at 175.26 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,8 +6161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 107.95 45.72 0)
+		(property "Manufacturer" "Worldsemi "
+			(at 175.26 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,8 +6170,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
-			(at 107.95 45.72 0)
+		(property "JLC Basic" "N"
+			(at 175.26 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,8 +6179,62 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1528-4958-ND"
-			(at 107.95 45.72 0)
+		(property "Substitute" "N"
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Interface" ""
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier PN" ""
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 175.26 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,15 +6243,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9825a0b-17b6-45de-b3a1-63ef1f945a7c")
+			(uuid "5e4cada3-7e05-496d-80fc-3ea3bbd1c126")
 		)
 		(pin "2"
-			(uuid "453a3465-435d-43a1-a616-922ff479bc8b")
+			(uuid "16324914-b568-478f-b118-448141ea877e")
+		)
+		(pin "3"
+			(uuid "475f8041-62aa-4fdf-a6ce-8166da2fce69")
+		)
+		(pin "4"
+			(uuid "a711fc3b-3992-46b8-bbfa-153951ed3524")
 		)
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW8")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5449,7 +6265,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 83.82 71.12 0)
+		(at 131.445 78.105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5458,7 +6274,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2874833-fdee-46d1-80a6-1bc266801836")
 		(property "Reference" "SW7"
-			(at 83.82 64.77 0)
+			(at 131.445 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +6282,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 83.82 67.31 0)
+			(at 131.445 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +6290,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 83.82 71.12 0)
+			(at 131.445 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +6299,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 83.82 71.12 0)
+			(at 131.445 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +6308,7 @@
 			)
 		)
 		(property "Description" "Switch Socket"
-			(at 83.82 71.12 0)
+			(at 131.445 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +6317,7 @@
 			)
 		)
 		(property "MPN" "4958"
-			(at 83.82 71.12 0)
+			(at 131.445 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +6326,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 83.82 71.12 0)
+			(at 131.445 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5519,7 +6335,7 @@
 			)
 		)
 		(property "Price" "$0.394"
-			(at 83.82 71.12 0)
+			(at 131.445 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +6344,7 @@
 			)
 		)
 		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 83.82 71.12 0)
+			(at 131.445 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +6353,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 83.82 71.12 0)
+			(at 131.445 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +6362,7 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
-			(at 83.82 71.12 0)
+			(at 131.445 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,147 +6386,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 154.305 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e402c9e7-fa13-4d3a-9fd1-184c87d82e44")
-		(property "Reference" "SW13"
-			(at 154.305 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PEC11R"
-			(at 154.305 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mad_Footprints:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
-			(at 150.495 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
-			(at 154.305 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical"
-			(at 154.305 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$3.37 "
-			(at 154.305 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 154.305 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "ROTARY ENCODER MECHANICAL 24PPR"
-			(at 154.305 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 154.305 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "PEC11R-4215F-S0024-ND"
-			(at 154.305 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns Inc."
-			(at 154.305 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PEC11R-4215F-S0024"
-			(at 154.305 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "5659e5b5-b37b-4cd3-90c3-c6445ebc2176")
-		)
-		(pin "B"
-			(uuid "c6d645fe-b257-40b4-a0ea-2a48dea9fd00")
-		)
-		(pin "C"
-			(uuid "3eb00e31-e7c5-4378-98e4-901f2bebfd80")
-		)
-		(pin "S1"
-			(uuid "fdc7d17b-7ee1-4de0-ba9f-3dd1e013f61c")
-		)
-		(pin "S2"
-			(uuid "090758d7-9521-4ca0-8a71-65e0c00a6b23")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:LL4148")
-		(at 71.12 71.12 0)
+		(at 118.745 78.105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5719,7 +6396,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6f2309e-2844-4160-90a8-dc86aacd23cb")
 		(property "Reference" "D6"
-			(at 71.12 64.77 0)
+			(at 118.745 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +6404,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 71.12 67.31 0)
+			(at 118.745 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +6412,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 71.12 75.565 0)
+			(at 118.745 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +6421,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 71.12 71.12 0)
+			(at 118.745 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +6430,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 71.12 71.12 0)
+			(at 118.745 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +6439,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 71.12 71.12 0)
+			(at 118.745 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +6448,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 71.12 71.12 0)
+			(at 118.745 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +6457,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 71.12 71.12 0)
+			(at 118.745 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +6466,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 71.12 71.12 0)
+			(at 118.745 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +6475,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 71.12 71.12 0)
+			(at 118.745 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +6484,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 71.12 71.12 0)
+			(at 118.745 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +6493,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 71.12 71.12 0)
+			(at 118.745 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +6518,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 136.525 43.18 0)
+		(at 160.655 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5850,7 +6527,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb4d3421-2430-4998-b0cd-a624cb903ea1")
 		(property "Reference" "C20"
-			(at 139.065 41.9162 0)
+			(at 163.195 44.4562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +6536,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 139.065 44.4562 0)
+			(at 163.195 46.9962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +6545,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 136.525 43.18 0)
+			(at 160.655 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +6554,7 @@
 			)
 		)
 		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 136.525 43.18 0)
+			(at 160.655 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5886,7 +6563,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 136.525 43.18 0)
+			(at 160.655 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,7 +6572,7 @@
 			)
 		)
 		(property "Price" "$0.33 "
-			(at 136.525 43.18 0)
+			(at 160.655 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +6581,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 136.525 43.18 0)
+			(at 160.655 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +6590,7 @@
 			)
 		)
 		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 136.525 43.18 0)
+			(at 160.655 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +6599,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 136.525 43.18 0)
+			(at 160.655 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +6608,7 @@
 			)
 		)
 		(property "Supplier PN" "399-14148-1-ND"
-			(at 136.525 43.18 0)
+			(at 160.655 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +6617,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 136.525 43.18 0)
+			(at 160.655 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +6626,7 @@
 			)
 		)
 		(property "MPN" "C0402C104K3RAC7867"
-			(at 136.525 43.18 0)
+			(at 160.655 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,7 +6635,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 136.525 43.18 0)
+			(at 160.655 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +6660,8 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 99.06 45.72 0)
+		(at 187.325 58.42 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5992,23 +6670,25 @@
 		(fields_autoplaced yes)
 		(uuid "f05dd341-2a3b-493c-b6ba-54b1e5ddca84")
 		(property "Reference" "D8"
-			(at 99.06 39.37 0)
+			(at 184.785 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LL4148"
-			(at 99.06 41.91 0)
+			(at 184.785 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 99.06 50.165 0)
+			(at 182.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,7 +6697,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 99.06 45.72 0)
+			(at 187.325 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6706,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 99.06 45.72 0)
+			(at 187.325 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +6715,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 99.06 45.72 0)
+			(at 187.325 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6724,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 99.06 45.72 0)
+			(at 187.325 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +6733,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 99.06 45.72 0)
+			(at 187.325 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +6742,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 99.06 45.72 0)
+			(at 187.325 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +6751,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 99.06 45.72 0)
+			(at 187.325 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6760,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 99.06 45.72 0)
+			(at 187.325 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6769,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 99.06 45.72 0)
+			(at 187.325 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
