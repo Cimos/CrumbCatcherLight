@@ -496,18 +496,14 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/RP2040/RP2040/USB_D+": "USB",
-      "/RP2040/RP2040/USB_D-": "USB",
       "/RP2040/USB_D+": "USB",
       "/RP2040/USB_D-": "USB",
+      "/RP2040a/USB_D+": "USB",
+      "/RP2040a/USB_D-": "USB",
       "Net-(U1-D+_in)": "USB",
       "Net-(U1-D-_in)": "USB",
       "Net-(U5-D+)": "USB",
-      "Net-(U5-D-)": "USB",
-      "Net-(U8-D+)": "USB",
-      "Net-(U8-D-)": "USB",
-      "Net-(U9-D+_in)": "USB",
-      "Net-(U9-D-_in)": "USB"
+      "Net-(U5-D-)": "USB"
     },
     "netclass_patterns": []
   },
@@ -560,7 +556,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": false
@@ -635,14 +631,38 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Substitute",
+          "name": "Substitute",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN ",
+          "name": "MPN ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC Basic",
+          "name": "JLC Basic",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -690,11 +710,7 @@
     ],
     [
       "4e3cb99d-3a42-46ca-abb7-444fcb451820",
-      "RP2040"
-    ],
-    [
-      "a6a5be83-4db2-42b8-9a77-cc31e36ec93b",
-      "RP2040"
+      "RP2040a"
     ],
     [
       "1682b9f6-7d62-400a-a0b2-d2d916d42f36",

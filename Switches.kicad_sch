@@ -772,7 +772,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 7.62 1.27 180)
 					(length 2.54)
 					(name "DOUT"
@@ -808,7 +808,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -7.62 -1.27 0)
 					(length 2.54)
 					(name "DIN"
@@ -963,144 +963,134 @@
 		)
 	)
 	(junction
-		(at 85.725 45.72)
+		(at 107.95 31.115)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0143c9e6-bb17-45c1-8559-f1987009d90f")
 	)
 	(junction
-		(at 55.245 53.34)
+		(at 77.47 38.735)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08b86dfa-a92b-44e4-a3a6-be9eb6431a60")
 	)
 	(junction
-		(at 106.045 43.18)
+		(at 128.27 28.575)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ecd85aa-ee75-4d6d-9c08-5037dc6c1dea")
 	)
 	(junction
-		(at 132.715 65.405)
+		(at 154.94 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f5af977-2f54-483d-8660-98c5e738f7e2")
 	)
 	(junction
-		(at 160.655 53.34)
+		(at 182.88 38.735)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21927fdb-e40b-4e9a-aa53-7fb5f1e14b9d")
 	)
 	(junction
-		(at 191.135 78.105)
+		(at 213.36 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b50f8d2-c41c-4299-8d86-adcc660ba2fb")
 	)
 	(junction
-		(at 160.655 48.26)
+		(at 182.88 33.655)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43906fdd-89a8-473c-905b-ce1bb1217dda")
 	)
 	(junction
-		(at 106.045 53.34)
+		(at 128.27 38.735)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43e9ac88-7c9c-4122-b4ec-8927f9c2a56f")
 	)
 	(junction
-		(at 62.865 90.805)
+		(at 85.09 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54253125-1242-4451-a035-1bc904e67051")
 	)
 	(junction
-		(at 81.915 65.405)
+		(at 104.14 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fd973ab-43ac-4f09-b370-9e35f3f82200")
 	)
 	(junction
-		(at 62.865 116.205)
+		(at 85.09 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c7dc54a-1a55-4ef3-9055-d5d069ec248e")
 	)
 	(junction
-		(at 191.135 45.72)
+		(at 213.36 31.115)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73c7a6a3-52ba-4845-a392-52193f8cdc8c")
 	)
 	(junction
-		(at 113.665 116.205)
+		(at 135.89 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78827617-6409-4544-82ad-f12cfb2b88f8")
 	)
 	(junction
-		(at 85.725 78.105)
+		(at 107.95 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c1126fb-df01-4018-a429-d4c20a79216e")
 	)
 	(junction
-		(at 113.665 90.805)
+		(at 135.89 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95c3f6c1-8125-4697-afc3-2cc740e52b10")
 	)
 	(junction
-		(at 160.655 43.18)
+		(at 182.88 28.575)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c474da02-7923-4e41-8a65-3158ddb63f82")
 	)
 	(junction
-		(at 106.045 48.26)
+		(at 128.27 33.655)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d30e0d3f-d56e-44b8-a0e2-fd538754b683")
 	)
 	(junction
-		(at 136.525 45.72)
+		(at 158.75 31.115)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d38eda01-9ba3-434a-a750-b68be43c824b")
 	)
 	(junction
-		(at 136.525 78.105)
+		(at 158.75 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e181eec4-edde-4eab-bc74-e307a884b561")
 	)
 	(junction
-		(at 55.245 48.26)
+		(at 77.47 33.655)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f38b9dca-c1f5-4b91-a8e8-dc83c280f77e")
 	)
 	(junction
-		(at 55.245 43.18)
+		(at 77.47 28.575)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f526d4cd-ac2e-4c69-aabe-2fa9f5e99fe3")
 	)
 	(wire
 		(pts
-			(xy 49.53 129.54) (xy 66.04 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "019518f4-8c09-4216-ba96-d7288335e045")
-	)
-	(wire
-		(pts
-			(xy 64.135 45.72) (xy 65.405 45.72)
+			(xy 86.36 31.115) (xy 87.63 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1110,7 +1100,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 146.05) (xy 99.06 148.59)
+			(xy 121.285 131.445) (xy 121.285 133.985)
 		)
 		(stroke
 			(width 0)
@@ -1120,7 +1110,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 127) (xy 196.85 127)
+			(xy 205.105 112.395) (xy 219.075 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1130,7 +1120,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 127) (xy 196.85 138.43)
+			(xy 219.075 112.395) (xy 219.075 123.825)
 		)
 		(stroke
 			(width 0)
@@ -1140,7 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.165 138.43) (xy 50.165 148.59)
+			(xy 72.39 123.825) (xy 72.39 133.985)
 		)
 		(stroke
 			(width 0)
@@ -1150,7 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.245 53.34) (xy 64.135 53.34)
+			(xy 77.47 38.735) (xy 86.36 38.735)
 		)
 		(stroke
 			(width 0)
@@ -1160,7 +1150,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.135 43.18) (xy 64.135 45.72)
+			(xy 86.36 28.575) (xy 86.36 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 65.405) (xy 81.915 65.405)
+			(xy 71.755 50.8) (xy 104.14 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.715 65.405) (xy 187.325 65.405)
+			(xy 154.94 50.8) (xy 209.55 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1190,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 50.8) (xy 187.325 54.61)
+			(xy 209.55 36.195) (xy 209.55 40.005)
 		)
 		(stroke
 			(width 0)
@@ -1200,7 +1190,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.665 90.805) (xy 168.275 90.805)
+			(xy 135.89 76.2) (xy 190.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1210,7 +1200,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 146.05) (xy 66.04 146.05)
+			(xy 81.915 131.445) (xy 88.265 131.445)
 		)
 		(stroke
 			(width 0)
@@ -1220,7 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 29.845) (xy 191.135 45.72)
+			(xy 213.36 15.24) (xy 213.36 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 45.72) (xy 85.725 78.105)
+			(xy 107.95 31.115) (xy 107.95 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1240,7 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.245 43.18) (xy 64.135 43.18)
+			(xy 77.47 28.575) (xy 86.36 28.575)
 		)
 		(stroke
 			(width 0)
@@ -1250,7 +1240,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.665 103.505) (xy 113.665 116.205)
+			(xy 135.89 88.9) (xy 135.89 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1260,7 +1250,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.665 78.105) (xy 113.665 90.805)
+			(xy 135.89 63.5) (xy 135.89 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1270,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.325 62.23) (xy 187.325 65.405)
+			(xy 209.55 47.625) (xy 209.55 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1280,7 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 103.505) (xy 187.325 103.505)
+			(xy 213.36 88.9) (xy 209.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1290,7 +1280,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.935 43.18) (xy 114.935 45.72)
+			(xy 137.16 28.575) (xy 137.16 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1300,7 +1290,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.715 50.8) (xy 132.715 54.61)
+			(xy 154.94 36.195) (xy 154.94 40.005)
 		)
 		(stroke
 			(width 0)
@@ -1310,7 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 148.59) (xy 167.64 148.59)
+			(xy 172.085 133.985) (xy 189.865 133.985)
 		)
 		(stroke
 			(width 0)
@@ -1320,7 +1310,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 50.8) (xy 170.815 50.8)
+			(xy 191.77 36.195) (xy 193.04 36.195)
 		)
 		(stroke
 			(width 0)
@@ -1330,7 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.175 29.845) (xy 136.525 29.845)
+			(xy 152.4 15.24) (xy 158.75 15.24)
 		)
 		(stroke
 			(width 0)
@@ -1340,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 78.105) (xy 85.725 103.505)
+			(xy 107.95 63.5) (xy 107.95 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.135 50.8) (xy 65.405 50.8)
+			(xy 86.36 36.195) (xy 87.63 36.195)
 		)
 		(stroke
 			(width 0)
@@ -1360,7 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 45.72) (xy 85.725 45.72)
+			(xy 102.87 31.115) (xy 107.95 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1360,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.865 103.505) (xy 62.865 116.205)
+			(xy 85.09 88.9) (xy 85.09 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1380,7 +1370,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.665 78.105) (xy 114.935 78.105)
+			(xy 135.89 63.5) (xy 137.16 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1390,7 +1380,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 48.26) (xy 55.245 48.26)
+			(xy 71.755 33.655) (xy 77.47 33.655)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.445 50.8) (xy 132.715 50.8)
+			(xy 153.67 36.195) (xy 154.94 36.195)
 		)
 		(stroke
 			(width 0)
@@ -1410,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 48.26) (xy 106.045 48.26)
+			(xy 122.555 33.655) (xy 128.27 33.655)
 		)
 		(stroke
 			(width 0)
@@ -1420,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 48.26) (xy 116.205 48.26)
+			(xy 128.27 33.655) (xy 138.43 33.655)
 		)
 		(stroke
 			(width 0)
@@ -1430,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 29.845) (xy 85.725 45.72)
+			(xy 107.95 15.24) (xy 107.95 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1440,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.245 48.26) (xy 65.405 48.26)
+			(xy 77.47 33.655) (xy 87.63 33.655)
 		)
 		(stroke
 			(width 0)
@@ -1450,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 43.18) (xy 169.545 45.72)
+			(xy 191.77 28.575) (xy 191.77 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.935 53.34) (xy 114.935 50.8)
+			(xy 137.16 38.735) (xy 137.16 36.195)
 		)
 		(stroke
 			(width 0)
@@ -1470,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 45.72) (xy 170.815 45.72)
+			(xy 191.77 31.115) (xy 193.04 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 78.105) (xy 136.525 103.505)
+			(xy 158.75 63.5) (xy 158.75 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1490,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 53.34) (xy 106.045 53.34)
+			(xy 122.555 38.735) (xy 128.27 38.735)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1490,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.865 90.805) (xy 113.665 90.805)
+			(xy 85.09 76.2) (xy 135.89 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 43.18) (xy 160.655 43.18)
+			(xy 177.165 28.575) (xy 182.88 28.575)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 127) (xy 149.86 129.54)
+			(xy 172.085 112.395) (xy 172.085 114.935)
 		)
 		(stroke
 			(width 0)
@@ -1530,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 78.105) (xy 187.325 78.105)
+			(xy 213.36 63.5) (xy 209.55 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1540,7 +1530,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 146.05) (xy 149.86 146.05)
+			(xy 154.305 131.445) (xy 172.085 131.445)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 131.445 45.72) (xy 136.525 45.72)
+			(xy 153.67 31.115) (xy 158.75 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 50.8) (xy 81.915 54.61)
+			(xy 104.14 36.195) (xy 104.14 40.005)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 43.18) (xy 114.935 43.18)
+			(xy 128.27 28.575) (xy 137.16 28.575)
 		)
 		(stroke
 			(width 0)
@@ -1580,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 53.34) (xy 160.655 53.34)
+			(xy 177.165 38.735) (xy 182.88 38.735)
 		)
 		(stroke
 			(width 0)
@@ -1590,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 127) (xy 167.64 127)
+			(xy 183.515 112.395) (xy 189.865 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 169.545 53.34) (xy 169.545 50.8)
+			(xy 191.77 38.735) (xy 191.77 36.195)
 		)
 		(stroke
 			(width 0)
@@ -1610,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.865 116.205) (xy 113.665 116.205)
+			(xy 85.09 101.6) (xy 135.89 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1620,7 +1610,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 129.54) (xy 138.43 129.54)
+			(xy 154.305 114.935) (xy 160.655 114.935)
 		)
 		(stroke
 			(width 0)
@@ -1630,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 43.18) (xy 106.045 43.18)
+			(xy 122.555 28.575) (xy 128.27 28.575)
 		)
 		(stroke
 			(width 0)
@@ -1640,7 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 78.105) (xy 191.135 103.505)
+			(xy 213.36 63.5) (xy 213.36 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1650,7 +1640,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 127) (xy 149.86 127)
+			(xy 154.305 112.395) (xy 172.085 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1660,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.865 78.105) (xy 62.865 90.805)
+			(xy 85.09 63.5) (xy 85.09 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1670,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.165 148.59) (xy 66.04 148.59)
+			(xy 72.39 133.985) (xy 88.265 133.985)
 		)
 		(stroke
 			(width 0)
@@ -1680,7 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 29.845) (xy 80.645 29.845)
+			(xy 107.95 15.24) (xy 102.87 15.24)
 		)
 		(stroke
 			(width 0)
@@ -1690,7 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.275 78.105) (xy 168.275 90.805)
+			(xy 190.5 63.5) (xy 190.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1700,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 146.05) (xy 116.84 146.05)
+			(xy 132.715 131.445) (xy 139.065 131.445)
 		)
 		(stroke
 			(width 0)
@@ -1710,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.865 116.205) (xy 49.53 116.205)
+			(xy 85.09 101.6) (xy 71.755 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1720,7 +1710,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 62.23) (xy 81.915 65.405)
+			(xy 71.755 114.935) (xy 88.265 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e042ee-a01d-49e1-9694-619e1461c984")
+	)
+	(wire
+		(pts
+			(xy 104.14 47.625) (xy 104.14 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1730,7 +1730,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.655 43.18) (xy 169.545 43.18)
+			(xy 182.88 28.575) (xy 191.77 28.575)
 		)
 		(stroke
 			(width 0)
@@ -1740,7 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.275 78.105) (xy 169.545 78.105)
+			(xy 190.5 63.5) (xy 191.77 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1750,7 +1750,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.865 78.105) (xy 64.135 78.105)
+			(xy 85.09 63.5) (xy 86.36 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1760,7 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 146.05) (xy 167.64 146.05)
+			(xy 183.515 131.445) (xy 189.865 131.445)
 		)
 		(stroke
 			(width 0)
@@ -1770,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 53.34) (xy 114.935 53.34)
+			(xy 128.27 38.735) (xy 137.16 38.735)
 		)
 		(stroke
 			(width 0)
@@ -1780,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 78.105) (xy 81.915 78.105)
+			(xy 107.95 63.5) (xy 104.14 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1790,7 +1790,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 53.34) (xy 55.245 53.34)
+			(xy 71.755 38.735) (xy 77.47 38.735)
 		)
 		(stroke
 			(width 0)
@@ -1800,7 +1800,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.655 48.26) (xy 170.815 48.26)
+			(xy 182.88 33.655) (xy 193.04 33.655)
 		)
 		(stroke
 			(width 0)
@@ -1810,7 +1810,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 127) (xy 66.04 127)
+			(xy 71.755 112.395) (xy 88.265 112.395)
 		)
 		(stroke
 			(width 0)
@@ -1820,7 +1820,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 146.05) (xy 99.06 146.05)
+			(xy 103.505 131.445) (xy 121.285 131.445)
 		)
 		(stroke
 			(width 0)
@@ -1830,7 +1830,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.275 116.205) (xy 113.665 116.205)
+			(xy 190.5 101.6) (xy 135.89 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1840,7 +1840,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 148.59) (xy 87.63 148.59)
+			(xy 103.505 133.985) (xy 109.855 133.985)
 		)
 		(stroke
 			(width 0)
@@ -1850,7 +1850,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 129.54) (xy 87.63 129.54)
+			(xy 103.505 114.935) (xy 109.855 114.935)
 		)
 		(stroke
 			(width 0)
@@ -1860,7 +1860,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.275 103.505) (xy 169.545 103.505)
+			(xy 190.5 88.9) (xy 191.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1870,7 +1870,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.865 90.805) (xy 49.53 90.805)
+			(xy 85.09 76.2) (xy 71.755 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1880,7 +1880,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.655 53.34) (xy 169.545 53.34)
+			(xy 182.88 38.735) (xy 191.77 38.735)
 		)
 		(stroke
 			(width 0)
@@ -1890,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 148.59) (xy 138.43 148.59)
+			(xy 154.305 133.985) (xy 160.655 133.985)
 		)
 		(stroke
 			(width 0)
@@ -1900,7 +1900,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 127) (xy 99.06 129.54)
+			(xy 121.285 112.395) (xy 121.285 114.935)
 		)
 		(stroke
 			(width 0)
@@ -1910,7 +1910,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 45.72) (xy 136.525 78.105)
+			(xy 158.75 31.115) (xy 158.75 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1920,7 +1920,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.135 53.34) (xy 64.135 50.8)
+			(xy 86.36 38.735) (xy 86.36 36.195)
 		)
 		(stroke
 			(width 0)
@@ -1930,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 48.26) (xy 160.655 48.26)
+			(xy 177.165 33.655) (xy 182.88 33.655)
 		)
 		(stroke
 			(width 0)
@@ -1940,7 +1940,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.935 45.72) (xy 116.205 45.72)
+			(xy 137.16 31.115) (xy 138.43 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1950,7 +1950,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 45.72) (xy 191.135 45.72)
+			(xy 208.28 31.115) (xy 213.36 31.115)
 		)
 		(stroke
 			(width 0)
@@ -1960,7 +1960,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.935 50.8) (xy 116.205 50.8)
+			(xy 137.16 36.195) (xy 138.43 36.195)
 		)
 		(stroke
 			(width 0)
@@ -1970,7 +1970,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 50.8) (xy 81.915 50.8)
+			(xy 102.87 36.195) (xy 104.14 36.195)
 		)
 		(stroke
 			(width 0)
@@ -1980,7 +1980,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.715 62.23) (xy 132.715 65.405)
+			(xy 154.94 47.625) (xy 154.94 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1990,7 +1990,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 65.405) (xy 132.715 65.405)
+			(xy 104.14 50.8) (xy 154.94 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +2000,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 129.54) (xy 167.64 129.54)
+			(xy 172.085 114.935) (xy 189.865 114.935)
 		)
 		(stroke
 			(width 0)
@@ -2010,7 +2010,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 45.72) (xy 191.135 78.105)
+			(xy 213.36 31.115) (xy 213.36 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2020,7 +2020,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 29.845) (xy 136.525 45.72)
+			(xy 158.75 15.24) (xy 158.75 31.115)
 		)
 		(stroke
 			(width 0)
@@ -2030,7 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.275 103.505) (xy 168.275 116.205)
+			(xy 190.5 88.9) (xy 190.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2040,7 +2040,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.055 50.8) (xy 187.325 50.8)
+			(xy 208.28 36.195) (xy 209.55 36.195)
 		)
 		(stroke
 			(width 0)
@@ -2050,7 +2050,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 78.105) (xy 122.555 78.105)
+			(xy 148.59 63.5) (xy 144.78 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2060,7 +2060,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.785 29.845) (xy 191.135 29.845)
+			(xy 207.01 15.24) (xy 213.36 15.24)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.865 103.505) (xy 64.135 103.505)
+			(xy 85.09 88.9) (xy 86.36 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +2080,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 103.505) (xy 81.915 103.505)
+			(xy 107.95 88.9) (xy 104.14 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2090,7 +2090,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.665 103.505) (xy 114.935 103.505)
+			(xy 135.89 88.9) (xy 137.16 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2100,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 146.05) (xy 198.12 146.05)
+			(xy 205.105 131.445) (xy 220.345 131.445)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +2110,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 127) (xy 116.84 127)
+			(xy 132.715 112.395) (xy 139.065 112.395)
 		)
 		(stroke
 			(width 0)
@@ -2120,7 +2120,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 129.54) (xy 116.84 129.54)
+			(xy 121.285 114.935) (xy 139.065 114.935)
 		)
 		(stroke
 			(width 0)
@@ -2130,7 +2130,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 138.43) (xy 50.165 138.43)
+			(xy 219.075 123.825) (xy 72.39 123.825)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 43.18) (xy 55.245 43.18)
+			(xy 71.755 28.575) (xy 77.47 28.575)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2150,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 146.05) (xy 149.86 148.59)
+			(xy 172.085 131.445) (xy 172.085 133.985)
 		)
 		(stroke
 			(width 0)
@@ -2160,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 127) (xy 99.06 127)
+			(xy 103.505 112.395) (xy 121.285 112.395)
 		)
 		(stroke
 			(width 0)
@@ -2170,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 148.59) (xy 116.84 148.59)
+			(xy 121.285 133.985) (xy 139.065 133.985)
 		)
 		(stroke
 			(width 0)
@@ -2180,7 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 148.59) (xy 198.12 148.59)
+			(xy 205.105 133.985) (xy 220.345 133.985)
 		)
 		(stroke
 			(width 0)
@@ -2190,7 +2190,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 129.54) (xy 189.865 129.54)
+			(xy 205.105 114.935) (xy 212.09 114.935)
 		)
 		(stroke
 			(width 0)
@@ -2200,7 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.525 103.505) (xy 132.715 103.505)
+			(xy 158.75 88.9) (xy 154.94 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +2228,7 @@
 		(uuid "79ad9816-ab20-4ac7-9db9-27dea4e6a997")
 	)
 	(label "5V"
-		(at 161.29 146.05 0)
+		(at 183.515 131.445 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2239,7 +2239,7 @@
 		(uuid "5ae7e191-754b-49a1-82eb-a0deedf70bf3")
 	)
 	(label "5V"
-		(at 161.29 127 0)
+		(at 183.515 112.395 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2250,7 +2250,7 @@
 		(uuid "75cfd435-a41b-4088-b0ed-04b754df2fc9")
 	)
 	(label "5V"
-		(at 110.49 127 0)
+		(at 132.715 112.395 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2261,7 +2261,7 @@
 		(uuid "767b14b4-f2dc-46fc-9500-2dcf0343c7d5")
 	)
 	(label "5V"
-		(at 110.49 146.05 0)
+		(at 132.715 131.445 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2273,7 +2273,7 @@
 	)
 	(hierarchical_label "ENC3B"
 		(shape bidirectional)
-		(at 154.94 53.34 180)
+		(at 177.165 38.735 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2285,7 +2285,7 @@
 	)
 	(hierarchical_label "Row2"
 		(shape bidirectional)
-		(at 49.53 116.205 180)
+		(at 71.755 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2297,7 +2297,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 189.865 129.54 0)
+		(at 212.09 114.935 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2307,9 +2307,21 @@
 		)
 		(uuid "3d82a10a-a7e7-4c63-b825-e42c8ef96448")
 	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 71.755 114.935 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f8f0fbf-113c-460e-86df-b94d289c3382")
+	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 198.12 148.59 0)
+		(at 220.345 133.985 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2321,7 +2333,7 @@
 	)
 	(hierarchical_label "ENC2B"
 		(shape bidirectional)
-		(at 100.33 53.34 180)
+		(at 122.555 38.735 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2333,7 +2345,7 @@
 	)
 	(hierarchical_label "Col1"
 		(shape bidirectional)
-		(at 130.175 29.845 180)
+		(at 152.4 15.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2345,7 +2357,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 49.53 48.26 180)
+		(at 71.755 33.655 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2357,7 +2369,7 @@
 	)
 	(hierarchical_label "ENC1B"
 		(shape bidirectional)
-		(at 49.53 53.34 180)
+		(at 71.755 38.735 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2369,7 +2381,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 154.94 48.26 180)
+		(at 177.165 33.655 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2381,7 +2393,7 @@
 	)
 	(hierarchical_label "ENC2A"
 		(shape bidirectional)
-		(at 100.33 43.18 180)
+		(at 122.555 28.575 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2393,7 +2405,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 138.43 148.59 0)
+		(at 160.655 133.985 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2405,7 +2417,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 87.63 148.59 0)
+		(at 109.855 133.985 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2417,7 +2429,7 @@
 	)
 	(hierarchical_label "Row1"
 		(shape bidirectional)
-		(at 49.53 90.805 180)
+		(at 71.755 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2429,7 +2441,7 @@
 	)
 	(hierarchical_label "Col0"
 		(shape bidirectional)
-		(at 80.645 29.845 180)
+		(at 102.87 15.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2441,7 +2453,7 @@
 	)
 	(hierarchical_label "ENC3A"
 		(shape bidirectional)
-		(at 154.94 43.18 180)
+		(at 177.165 28.575 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2453,7 +2465,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 138.43 129.54 0)
+		(at 160.655 114.935 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2465,7 +2477,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 59.69 146.05 180)
+		(at 81.915 131.445 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2475,21 +2487,9 @@
 		)
 		(uuid "ac42bdc2-5f63-44b6-beac-8828b1871c85")
 	)
-	(hierarchical_label "DIN"
-		(shape input)
-		(at 49.53 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b5f3a658-b5f9-423c-9e0d-720ed8123c59")
-	)
 	(hierarchical_label "DOUT"
 		(shape output)
-		(at 198.12 146.05 0)
+		(at 220.345 131.445 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2501,7 +2501,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 100.33 48.26 180)
+		(at 122.555 33.655 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2513,7 +2513,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 49.53 127 180)
+		(at 71.755 112.395 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2525,7 +2525,7 @@
 	)
 	(hierarchical_label "ENC1A"
 		(shape bidirectional)
-		(at 49.53 43.18 180)
+		(at 71.755 28.575 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2537,7 +2537,7 @@
 	)
 	(hierarchical_label "Row0"
 		(shape bidirectional)
-		(at 49.53 65.405 180)
+		(at 71.755 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2549,7 +2549,7 @@
 	)
 	(hierarchical_label "Col2"
 		(shape bidirectional)
-		(at 184.785 29.845 180)
+		(at 207.01 15.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2561,7 +2561,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 87.63 129.54 0)
+		(at 109.855 114.935 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2573,23 +2573,23 @@
 	)
 	(symbol
 		(lib_id "Mad_Symbols:SK6812_Mini_E")
-		(at 73.66 128.27 0)
+		(at 95.885 113.665 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "147e2193-555d-4b71-a675-ae4fccf0aced")
-		(property "Reference" "D11"
-			(at 70.485 124.46 0)
+		(property "Reference" "D5"
+			(at 92.71 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 73.66 132.08 0)
+		(property "Value" "SK6812_MINI_E"
+			(at 95.885 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2597,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
-			(at 73.66 133.858 0)
+			(at 95.885 119.253 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,8 +2605,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
-			(at 73.66 135.636 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 95.885 121.031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,8 +2614,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 62.23 132.08 0)
+		(property "Description" "SMD RGB LEDs(Built-in IC) ROHS"
+			(at 84.455 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +2624,7 @@
 			)
 		)
 		(property "LCSC" "C965556"
-			(at 73.66 128.27 0)
+			(at 95.885 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,8 +2632,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN " "WS2812C-2020"
-			(at 73.66 128.27 0)
+		(property "MPN " "SK6812_MINI_E"
+			(at 95.885 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +2642,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi "
-			(at 73.66 128.27 0)
+			(at 95.885 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +2651,7 @@
 			)
 		)
 		(property "JLC Basic" "N"
-			(at 73.66 128.27 0)
+			(at 95.885 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,7 +2660,7 @@
 			)
 		)
 		(property "Substitute" "N"
-			(at 73.66 128.27 0)
+			(at 95.885 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,8 +2668,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 73.66 128.27 0)
+		(property "Price" "$0.44"
+			(at 95.885 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2678,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 73.66 128.27 0)
+			(at 95.885 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,8 +2686,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" ""
-			(at 73.66 128.27 0)
+		(property "Rating" " 3.7...5.3V"
+			(at 95.885 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,8 +2695,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 73.66 128.27 0)
+		(property "Supplier" "LCSC"
+			(at 95.885 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,8 +2704,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 73.66 128.27 0)
+		(property "Supplier PN" "C5149201 "
+			(at 95.885 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,8 +2713,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 73.66 128.27 0)
+		(property "MPN" "SK6812MINI-E"
+			(at 95.885 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,7 +2737,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D11")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2745,7 +2745,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 55.245 45.72 0)
+		(at 77.47 31.115 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2753,8 +2753,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14a38035-f279-40d7-b54e-7f8d5f8424e6")
-		(property "Reference" "C28"
-			(at 57.785 44.4562 0)
+		(property "Reference" "C6"
+			(at 80.01 29.8512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2763,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 57.785 46.9962 0)
+			(at 80.01 32.3912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2772,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 55.245 45.72 0)
+			(at 77.47 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,8 +2780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 55.245 45.72 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 77.47 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2790,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 55.245 45.72 0)
+			(at 77.47 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,8 +2798,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
-			(at 55.245 45.72 0)
+		(property "Price" "$0.17"
+			(at 77.47 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +2808,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 55.245 45.72 0)
+			(at 77.47 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,8 +2816,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 55.245 45.72 0)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 77.47 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +2826,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 55.245 45.72 0)
+			(at 77.47 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,8 +2834,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
-			(at 55.245 45.72 0)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 77.47 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,8 +2843,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 55.245 45.72 0)
+		(property "Manufacturer" "YAGEO"
+			(at 77.47 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,8 +2852,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
-			(at 55.245 45.72 0)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 77.47 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2862,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 55.245 45.72 0)
+			(at 77.47 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +2879,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C28")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2887,7 +2887,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 67.945 78.105 0)
+		(at 90.17 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2896,7 +2896,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bcc85e1-a837-4e11-bce6-5c8a399b1caf")
 		(property "Reference" "D3"
-			(at 67.945 71.755 0)
+			(at 90.17 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2904,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 67.945 74.295 0)
+			(at 90.17 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +2912,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 67.945 82.55 0)
+			(at 90.17 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +2921,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 67.945 78.105 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +2930,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 67.945 78.105 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +2939,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 67.945 78.105 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +2948,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 67.945 78.105 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +2957,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 67.945 78.105 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +2966,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 67.945 78.105 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +2975,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 67.945 78.105 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +2984,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 67.945 78.105 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +2993,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 67.945 78.105 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +3018,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 127.635 103.505 0)
+		(at 149.86 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3026,8 +3026,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e2d527a-f9a1-4ed6-aa09-ab2ed916be63")
-		(property "Reference" "SW6"
-			(at 127.635 97.155 0)
+		(property "Reference" "SW5"
+			(at 149.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3035,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 127.635 99.695 0)
+			(at 149.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3043,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 127.635 103.505 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3052,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 127.635 103.505 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3061,7 @@
 			)
 		)
 		(property "Description" "Switch Socket"
-			(at 127.635 103.505 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3070,7 @@
 			)
 		)
 		(property "MPN" "4958"
-			(at 127.635 103.505 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3079,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 127.635 103.505 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3088,7 @@
 			)
 		)
 		(property "Price" "$0.394"
-			(at 127.635 103.505 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3097,7 @@
 			)
 		)
 		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 127.635 103.505 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3106,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 127.635 103.505 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,7 +3115,7 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
-			(at 127.635 103.505 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3132,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW6")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -3140,7 +3140,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 67.945 103.505 0)
+		(at 90.17 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3149,7 +3149,7 @@
 		(fields_autoplaced yes)
 		(uuid "2480ea8d-5295-47b5-a281-3cb48cef168c")
 		(property "Reference" "D4"
-			(at 67.945 97.155 0)
+			(at 90.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +3157,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 67.945 99.695 0)
+			(at 90.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3165,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 67.945 107.95 0)
+			(at 90.17 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3174,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 67.945 103.505 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +3183,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 67.945 103.505 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +3192,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 67.945 103.505 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3201,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 67.945 103.505 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3210,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 67.945 103.505 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3219,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 67.945 103.505 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3228,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 67.945 103.505 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3237,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 67.945 103.505 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3246,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 67.945 103.505 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3271,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 106.045 50.8 0)
+		(at 128.27 36.195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3279,8 +3279,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aaf9593-dd9a-4c6b-94f0-6441dfa70204")
-		(property "Reference" "C27"
-			(at 108.585 49.5362 0)
+		(property "Reference" "C9"
+			(at 130.81 34.9312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3289,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 108.585 52.0762 0)
+			(at 130.81 37.4712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3298,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 106.045 50.8 0)
+			(at 128.27 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,8 +3306,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 106.045 50.8 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 128.27 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3316,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 106.045 50.8 0)
+			(at 128.27 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,8 +3324,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
-			(at 106.045 50.8 0)
+		(property "Price" "$0.17"
+			(at 128.27 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3334,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 106.045 50.8 0)
+			(at 128.27 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,8 +3342,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 106.045 50.8 0)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 128.27 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3352,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 106.045 50.8 0)
+			(at 128.27 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,8 +3360,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
-			(at 106.045 50.8 0)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 128.27 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,8 +3369,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 106.045 50.8 0)
+		(property "Manufacturer" "YAGEO"
+			(at 128.27 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,8 +3378,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
-			(at 106.045 50.8 0)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 128.27 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3388,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 106.045 50.8 0)
+			(at 128.27 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +3405,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C27")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3413,15 +3413,15 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 73.025 48.26 0)
+		(at 95.25 33.655 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2abbd368-1ea6-4932-b39e-4ef93f093437")
-		(property "Reference" "SW2"
-			(at 72.771 41.91 0)
+		(property "Reference" "SW1"
+			(at 94.996 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3429,7 @@
 			)
 		)
 		(property "Value" "PEC11R"
-			(at 72.771 39.37 0)
+			(at 94.996 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3437,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
-			(at 69.215 44.196 0)
+			(at 91.44 29.591 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +3446,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
-			(at 73.025 41.656 0)
+			(at 95.25 27.051 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,7 +3455,7 @@
 			)
 		)
 		(property "Description" "Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical"
-			(at 73.025 48.26 0)
+			(at 95.25 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3464,7 @@
 			)
 		)
 		(property "Price" "$3.37 "
-			(at 73.025 48.26 0)
+			(at 95.25 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,7 +3473,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 73.025 48.26 0)
+			(at 95.25 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3482,7 @@
 			)
 		)
 		(property "Rating" "ROTARY ENCODER MECHANICAL 24PPR"
-			(at 73.025 48.26 0)
+			(at 95.25 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3491,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 73.025 48.26 0)
+			(at 95.25 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3500,7 @@
 			)
 		)
 		(property "Supplier PN" "PEC11R-4215F-S0024-ND"
-			(at 73.025 48.26 0)
+			(at 95.25 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3509,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns Inc."
-			(at 73.025 48.26 0)
+			(at 95.25 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3518,7 @@
 			)
 		)
 		(property "MPN" "PEC11R-4215F-S0024"
-			(at 73.025 48.26 0)
+			(at 95.25 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,7 +3544,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3552,7 +3552,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 76.835 78.105 0)
+		(at 99.06 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3560,8 +3560,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3152cb7f-9609-4ff5-a71d-f2e15a671f2c")
-		(property "Reference" "SW3"
-			(at 76.835 71.755 0)
+		(property "Reference" "SW2"
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3569,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 76.835 74.295 0)
+			(at 99.06 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,7 +3577,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 76.835 78.105 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3586,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 76.835 78.105 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3595,7 @@
 			)
 		)
 		(property "Description" "Switch Socket"
-			(at 76.835 78.105 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +3604,7 @@
 			)
 		)
 		(property "MPN" "4958"
-			(at 76.835 78.105 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +3613,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 76.835 78.105 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +3622,7 @@
 			)
 		)
 		(property "Price" "$0.394"
-			(at 76.835 78.105 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3631,7 @@
 			)
 		)
 		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 76.835 78.105 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3640,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 76.835 78.105 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3649,7 +3649,7 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
-			(at 76.835 78.105 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3666,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -3674,7 +3674,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 182.245 78.105 0)
+		(at 204.47 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3682,8 +3682,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b29caae-8531-42d3-9d8f-5901fab0a2e4")
-		(property "Reference" "SW9"
-			(at 182.245 71.755 0)
+		(property "Reference" "SW8"
+			(at 204.47 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +3691,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 182.245 74.295 0)
+			(at 204.47 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +3699,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 182.245 78.105 0)
+			(at 204.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +3708,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 182.245 78.105 0)
+			(at 204.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +3717,7 @@
 			)
 		)
 		(property "Description" "Switch Socket"
-			(at 182.245 78.105 0)
+			(at 204.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3726,7 @@
 			)
 		)
 		(property "MPN" "4958"
-			(at 182.245 78.105 0)
+			(at 204.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3735,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 182.245 78.105 0)
+			(at 204.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,7 +3744,7 @@
 			)
 		)
 		(property "Price" "$0.394"
-			(at 182.245 78.105 0)
+			(at 204.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +3753,7 @@
 			)
 		)
 		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 182.245 78.105 0)
+			(at 204.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +3762,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 182.245 78.105 0)
+			(at 204.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3771,7 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
-			(at 182.245 78.105 0)
+			(at 204.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +3788,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW9")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -3796,7 +3796,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 173.355 103.505 0)
+		(at 195.58 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3804,8 +3804,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b7d9189-97f3-44a0-8362-c6e742eed111")
-		(property "Reference" "D10"
-			(at 173.355 97.155 0)
+		(property "Reference" "D14"
+			(at 195.58 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +3813,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 173.355 99.695 0)
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +3821,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 173.355 107.95 0)
+			(at 195.58 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,7 +3830,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 173.355 103.505 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,7 +3839,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 173.355 103.505 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3848,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 173.355 103.505 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3857,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 173.355 103.505 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3866,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 173.355 103.505 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3875,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 173.355 103.505 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3884,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 173.355 103.505 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3893,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 173.355 103.505 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3902,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 173.355 103.505 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +3919,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D10")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -3927,7 +3927,7 @@
 	)
 	(symbol
 		(lib_id "Mad_Symbols:SK6812_Mini_E")
-		(at 175.26 147.32 0)
+		(at 197.485 132.715 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3935,15 +3935,15 @@
 		(dnp no)
 		(uuid "59c50727-aeee-4588-9943-28309f8593ed")
 		(property "Reference" "D16"
-			(at 172.085 143.51 0)
+			(at 194.31 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 175.26 151.13 0)
+		(property "Value" "SK6812_MINI_E"
+			(at 197.485 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3951,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
-			(at 175.26 152.908 0)
+			(at 197.485 138.303 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,8 +3959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
-			(at 175.26 154.686 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 197.485 140.081 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,8 +3968,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 163.83 151.13 0)
+		(property "Description" "SMD RGB LEDs(Built-in IC) ROHS"
+			(at 186.055 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +3978,7 @@
 			)
 		)
 		(property "LCSC" "C965556"
-			(at 175.26 147.32 0)
+			(at 197.485 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +3987,7 @@
 			)
 		)
 		(property "MPN " "WS2812C-2020"
-			(at 175.26 147.32 0)
+			(at 197.485 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +3996,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi "
-			(at 175.26 147.32 0)
+			(at 197.485 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +4005,7 @@
 			)
 		)
 		(property "JLC Basic" "N"
-			(at 175.26 147.32 0)
+			(at 197.485 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4014,7 @@
 			)
 		)
 		(property "Substitute" "N"
-			(at 175.26 147.32 0)
+			(at 197.485 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,8 +4022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 175.26 147.32 0)
+		(property "Price" "$0.44"
+			(at 197.485 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4032,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 175.26 147.32 0)
+			(at 197.485 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4040,8 +4040,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" ""
-			(at 175.26 147.32 0)
+		(property "Rating" " 3.7...5.3V"
+			(at 197.485 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,8 +4049,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 175.26 147.32 0)
+		(property "Supplier" "LCSC"
+			(at 197.485 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,8 +4058,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 175.26 147.32 0)
+		(property "Supplier PN" "C5149201 "
+			(at 197.485 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,8 +4067,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 175.26 147.32 0)
+		(property "MPN" "SK6812MINI-E"
+			(at 197.485 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,23 +4099,23 @@
 	)
 	(symbol
 		(lib_id "Mad_Symbols:SK6812_Mini_E")
-		(at 124.46 128.27 0)
+		(at 146.685 113.665 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6464b7f9-4725-49b6-8bf9-fafe085a9f85")
-		(property "Reference" "D12"
-			(at 121.285 124.46 0)
+		(property "Reference" "D10"
+			(at 143.51 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 124.46 132.08 0)
+		(property "Value" "SK6812_MINI_E"
+			(at 146.685 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +4123,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
-			(at 124.46 133.858 0)
+			(at 146.685 119.253 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,8 +4131,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
-			(at 124.46 135.636 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 146.685 121.031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,8 +4140,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 113.03 132.08 0)
+		(property "Description" "SMD RGB LEDs(Built-in IC) ROHS"
+			(at 135.255 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4150,7 @@
 			)
 		)
 		(property "LCSC" "C965556"
-			(at 124.46 128.27 0)
+			(at 146.685 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +4159,7 @@
 			)
 		)
 		(property "MPN " "WS2812C-2020"
-			(at 124.46 128.27 0)
+			(at 146.685 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4168,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi "
-			(at 124.46 128.27 0)
+			(at 146.685 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +4177,7 @@
 			)
 		)
 		(property "JLC Basic" "N"
-			(at 124.46 128.27 0)
+			(at 146.685 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4186,7 @@
 			)
 		)
 		(property "Substitute" "N"
-			(at 124.46 128.27 0)
+			(at 146.685 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,8 +4194,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 124.46 128.27 0)
+		(property "Price" "$0.44"
+			(at 146.685 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4204,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 124.46 128.27 0)
+			(at 146.685 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,8 +4212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" ""
-			(at 124.46 128.27 0)
+		(property "Rating" " 3.7...5.3V"
+			(at 146.685 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,8 +4221,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 124.46 128.27 0)
+		(property "Supplier" "LCSC"
+			(at 146.685 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,8 +4230,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 124.46 128.27 0)
+		(property "Supplier PN" "C5149201 "
+			(at 146.685 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,8 +4239,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 124.46 128.27 0)
+		(property "MPN" "SK6812MINI-E"
+			(at 146.685 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4263,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D12")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4271,23 +4271,23 @@
 	)
 	(symbol
 		(lib_id "Mad_Symbols:SK6812_Mini_E")
-		(at 124.46 147.32 0)
+		(at 146.685 132.715 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6827b743-3973-481c-a424-fe910dc993be")
-		(property "Reference" "D15"
-			(at 121.285 143.51 0)
+		(property "Reference" "D11"
+			(at 143.51 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 124.46 151.13 0)
+		(property "Value" "SK6812_MINI_E"
+			(at 146.685 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4295,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
-			(at 124.46 152.908 0)
+			(at 146.685 138.303 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,8 +4303,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
-			(at 124.46 154.686 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 146.685 140.081 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,8 +4312,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 113.03 151.13 0)
+		(property "Description" "SMD RGB LEDs(Built-in IC) ROHS"
+			(at 135.255 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +4322,7 @@
 			)
 		)
 		(property "LCSC" "C965556"
-			(at 124.46 147.32 0)
+			(at 146.685 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4331,7 @@
 			)
 		)
 		(property "MPN " "WS2812C-2020"
-			(at 124.46 147.32 0)
+			(at 146.685 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4340,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi "
-			(at 124.46 147.32 0)
+			(at 146.685 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4349,7 @@
 			)
 		)
 		(property "JLC Basic" "N"
-			(at 124.46 147.32 0)
+			(at 146.685 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4358,7 @@
 			)
 		)
 		(property "Substitute" "N"
-			(at 124.46 147.32 0)
+			(at 146.685 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,8 +4366,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 124.46 147.32 0)
+		(property "Price" "$0.44"
+			(at 146.685 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4376,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 124.46 147.32 0)
+			(at 146.685 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,8 +4384,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" ""
-			(at 124.46 147.32 0)
+		(property "Rating" " 3.7...5.3V"
+			(at 146.685 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,8 +4393,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 124.46 147.32 0)
+		(property "Supplier" "LCSC"
+			(at 146.685 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,8 +4402,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 124.46 147.32 0)
+		(property "Supplier PN" "C5149201 "
+			(at 146.685 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,8 +4411,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 124.46 147.32 0)
+		(property "MPN" "SK6812MINI-E"
+			(at 146.685 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4435,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D15")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4443,15 +4443,15 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 123.825 48.26 0)
+		(at 146.05 33.655 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "83b6ad80-0a5e-4ca9-a906-de3db822bbf4")
-		(property "Reference" "SW5"
-			(at 123.571 41.91 0)
+		(property "Reference" "SW4"
+			(at 145.796 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4459,7 @@
 			)
 		)
 		(property "Value" "PEC11R"
-			(at 123.571 39.37 0)
+			(at 145.796 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,7 +4467,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
-			(at 120.015 44.196 0)
+			(at 142.24 29.591 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,7 +4476,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
-			(at 123.825 41.656 0)
+			(at 146.05 27.051 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4485,7 @@
 			)
 		)
 		(property "Description" "Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical"
-			(at 123.825 48.26 0)
+			(at 146.05 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4494,7 @@
 			)
 		)
 		(property "Price" "$3.37 "
-			(at 123.825 48.26 0)
+			(at 146.05 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +4503,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 123.825 48.26 0)
+			(at 146.05 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +4512,7 @@
 			)
 		)
 		(property "Rating" "ROTARY ENCODER MECHANICAL 24PPR"
-			(at 123.825 48.26 0)
+			(at 146.05 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,7 +4521,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 123.825 48.26 0)
+			(at 146.05 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4530,7 @@
 			)
 		)
 		(property "Supplier PN" "PEC11R-4215F-S0024-ND"
-			(at 123.825 48.26 0)
+			(at 146.05 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,7 +4539,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns Inc."
-			(at 123.825 48.26 0)
+			(at 146.05 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4548,7 @@
 			)
 		)
 		(property "MPN" "PEC11R-4215F-S0024"
-			(at 123.825 48.26 0)
+			(at 146.05 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4574,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW5")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -4582,7 +4582,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 81.915 58.42 270)
+		(at 104.14 43.815 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4591,8 +4591,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "851f5812-0bfc-4c97-911d-83a21d69de0f")
-		(property "Reference" "D2"
-			(at 79.375 57.1499 90)
+		(property "Reference" "D7"
+			(at 101.6 42.5449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4601,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 79.375 59.6899 90)
+			(at 101.6 45.0849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +4610,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 77.47 58.42 0)
+			(at 99.695 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +4619,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 81.915 58.42 0)
+			(at 104.14 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +4628,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 81.915 58.42 0)
+			(at 104.14 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4637,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 81.915 58.42 0)
+			(at 104.14 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4646,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 81.915 58.42 0)
+			(at 104.14 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4655,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 81.915 58.42 0)
+			(at 104.14 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +4664,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 81.915 58.42 0)
+			(at 104.14 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4673,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 81.915 58.42 0)
+			(at 104.14 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4682,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 81.915 58.42 0)
+			(at 104.14 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4691,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 81.915 58.42 0)
+			(at 104.14 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +4708,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4716,23 +4716,23 @@
 	)
 	(symbol
 		(lib_id "Mad_Symbols:SK6812_Mini_E")
-		(at 73.66 147.32 0)
+		(at 95.885 132.715 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "85a99b81-04e3-4422-af06-61ec9f5f3306")
-		(property "Reference" "D14"
-			(at 70.485 143.51 0)
+		(property "Reference" "D6"
+			(at 92.71 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 73.66 151.13 0)
+		(property "Value" "SK6812_MINI_E"
+			(at 95.885 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4740,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
-			(at 73.66 152.908 0)
+			(at 95.885 138.303 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,8 +4748,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
-			(at 73.66 154.686 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 95.885 140.081 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,8 +4757,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 62.23 151.13 0)
+		(property "Description" "SMD RGB LEDs(Built-in IC) ROHS"
+			(at 84.455 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +4767,7 @@
 			)
 		)
 		(property "LCSC" "C965556"
-			(at 73.66 147.32 0)
+			(at 95.885 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4776,7 @@
 			)
 		)
 		(property "MPN " "WS2812C-2020"
-			(at 73.66 147.32 0)
+			(at 95.885 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4785,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi "
-			(at 73.66 147.32 0)
+			(at 95.885 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4794,7 @@
 			)
 		)
 		(property "JLC Basic" "N"
-			(at 73.66 147.32 0)
+			(at 95.885 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +4803,7 @@
 			)
 		)
 		(property "Substitute" "N"
-			(at 73.66 147.32 0)
+			(at 95.885 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,8 +4811,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 73.66 147.32 0)
+		(property "Price" "$0.44"
+			(at 95.885 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4821,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 73.66 147.32 0)
+			(at 95.885 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,8 +4829,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" ""
-			(at 73.66 147.32 0)
+		(property "Rating" " 3.7...5.3V"
+			(at 95.885 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,8 +4838,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 73.66 147.32 0)
+		(property "Supplier" "LCSC"
+			(at 95.885 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,8 +4847,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 73.66 147.32 0)
+		(property "Supplier PN" "C5149201 "
+			(at 95.885 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,8 +4856,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 73.66 147.32 0)
+		(property "MPN" "SK6812MINI-E"
+			(at 95.885 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +4880,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D14")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4888,7 +4888,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 55.245 50.8 0)
+		(at 77.47 36.195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4896,8 +4896,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87d18eda-5cfc-48c6-8314-177e8b7202df")
-		(property "Reference" "C29"
-			(at 57.785 49.5362 0)
+		(property "Reference" "C7"
+			(at 80.01 34.9312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +4906,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 57.785 52.0762 0)
+			(at 80.01 37.4712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +4915,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 55.245 50.8 0)
+			(at 77.47 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,8 +4923,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 55.245 50.8 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 77.47 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,7 +4933,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 55.245 50.8 0)
+			(at 77.47 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,8 +4941,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
-			(at 55.245 50.8 0)
+		(property "Price" "$0.17"
+			(at 77.47 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +4951,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 55.245 50.8 0)
+			(at 77.47 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,8 +4959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 55.245 50.8 0)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 77.47 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,7 +4969,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 55.245 50.8 0)
+			(at 77.47 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,8 +4977,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
-			(at 55.245 50.8 0)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 77.47 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,8 +4986,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 55.245 50.8 0)
+		(property "Manufacturer" "YAGEO"
+			(at 77.47 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,8 +4995,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
-			(at 55.245 50.8 0)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 77.47 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +5005,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 55.245 50.8 0)
+			(at 77.47 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +5022,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C29")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5030,7 +5030,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 173.355 78.105 0)
+		(at 195.58 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5038,8 +5038,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c16c373-5816-4b91-9119-89acdbc2fa85")
-		(property "Reference" "D9"
-			(at 173.355 71.755 0)
+		(property "Reference" "D13"
+			(at 195.58 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5047,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 173.355 74.295 0)
+			(at 195.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5055,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 173.355 82.55 0)
+			(at 195.58 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5064,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 173.355 78.105 0)
+			(at 195.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5073,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 173.355 78.105 0)
+			(at 195.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5082,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 173.355 78.105 0)
+			(at 195.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5091,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 173.355 78.105 0)
+			(at 195.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5100,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 173.355 78.105 0)
+			(at 195.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5109,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 173.355 78.105 0)
+			(at 195.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5118,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 173.355 78.105 0)
+			(at 195.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5127,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 173.355 78.105 0)
+			(at 195.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +5136,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 173.355 78.105 0)
+			(at 195.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5153,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D9")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5161,7 +5161,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 118.745 103.505 0)
+		(at 140.97 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5169,8 +5169,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db99bcc-5747-4393-a732-10a202cf0fd5")
-		(property "Reference" "D7"
-			(at 118.745 97.155 0)
+		(property "Reference" "D9"
+			(at 140.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,7 +5178,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 118.745 99.695 0)
+			(at 140.97 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5186,7 +5186,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 118.745 107.95 0)
+			(at 140.97 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,7 +5195,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 118.745 103.505 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5204,7 +5204,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 118.745 103.505 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5213,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 118.745 103.505 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,7 +5222,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 118.745 103.505 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,7 +5231,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 118.745 103.505 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5240,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 118.745 103.505 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,7 +5249,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 118.745 103.505 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +5258,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 118.745 103.505 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5267,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 118.745 103.505 0)
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +5284,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D7")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -5292,7 +5292,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 76.835 103.505 0)
+		(at 99.06 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5300,8 +5300,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f3a8c35-e361-4be6-8ad3-f0ef8de36f27")
-		(property "Reference" "SW4"
-			(at 76.835 97.155 0)
+		(property "Reference" "SW3"
+			(at 99.06 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,7 +5309,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 76.835 99.695 0)
+			(at 99.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5317,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 76.835 103.505 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5326,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 76.835 103.505 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5335,7 @@
 			)
 		)
 		(property "Description" "Switch Socket"
-			(at 76.835 103.505 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +5344,7 @@
 			)
 		)
 		(property "MPN" "4958"
-			(at 76.835 103.505 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,7 +5353,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 76.835 103.505 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +5362,7 @@
 			)
 		)
 		(property "Price" "$0.394"
-			(at 76.835 103.505 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +5371,7 @@
 			)
 		)
 		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 76.835 103.505 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5380,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 76.835 103.505 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,7 +5389,7 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
-			(at 76.835 103.505 0)
+			(at 99.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,7 +5406,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW4")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5414,7 +5414,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 132.715 58.42 270)
+		(at 154.94 43.815 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5423,8 +5423,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a73505af-abc8-4b42-ab3b-3525d4b35c54")
-		(property "Reference" "D5"
-			(at 130.175 57.1499 90)
+		(property "Reference" "D12"
+			(at 152.4 42.5449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5433,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 130.175 59.6899 90)
+			(at 152.4 45.0849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5442,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 128.27 58.42 0)
+			(at 150.495 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5451,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 132.715 58.42 0)
+			(at 154.94 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5460,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 132.715 58.42 0)
+			(at 154.94 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5469,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 132.715 58.42 0)
+			(at 154.94 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +5478,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 132.715 58.42 0)
+			(at 154.94 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5487,7 +5487,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 132.715 58.42 0)
+			(at 154.94 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5496,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 132.715 58.42 0)
+			(at 154.94 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +5505,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 132.715 58.42 0)
+			(at 154.94 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5514,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 132.715 58.42 0)
+			(at 154.94 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +5523,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 132.715 58.42 0)
+			(at 154.94 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5540,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D5")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5548,15 +5548,15 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 178.435 48.26 0)
+		(at 200.66 33.655 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b6e01379-18e8-4243-a9ef-e72a0ea24cc4")
-		(property "Reference" "SW11"
-			(at 178.181 41.91 0)
+		(property "Reference" "SW7"
+			(at 200.406 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5564,7 +5564,7 @@
 			)
 		)
 		(property "Value" "PEC11R"
-			(at 178.181 39.37 0)
+			(at 200.406 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5572,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
-			(at 174.625 44.196 0)
+			(at 196.85 29.591 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +5581,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf"
-			(at 178.435 41.656 0)
+			(at 200.66 27.051 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +5590,7 @@
 			)
 		)
 		(property "Description" "Rotary Encoder Mechanical 24 Quadrature (Incremental) Vertical"
-			(at 178.435 48.26 0)
+			(at 200.66 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +5599,7 @@
 			)
 		)
 		(property "Price" "$3.37 "
-			(at 178.435 48.26 0)
+			(at 200.66 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,7 +5608,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 178.435 48.26 0)
+			(at 200.66 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5617,7 @@
 			)
 		)
 		(property "Rating" "ROTARY ENCODER MECHANICAL 24PPR"
-			(at 178.435 48.26 0)
+			(at 200.66 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,7 +5626,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 178.435 48.26 0)
+			(at 200.66 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +5635,7 @@
 			)
 		)
 		(property "Supplier PN" "PEC11R-4215F-S0024-ND"
-			(at 178.435 48.26 0)
+			(at 200.66 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +5644,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns Inc."
-			(at 178.435 48.26 0)
+			(at 200.66 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +5653,7 @@
 			)
 		)
 		(property "MPN" "PEC11R-4215F-S0024"
-			(at 178.435 48.26 0)
+			(at 200.66 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +5679,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW11")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -5687,7 +5687,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 182.245 103.505 0)
+		(at 204.47 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5695,8 +5695,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf9f55c5-63eb-4fe2-b306-1d329d40a227")
-		(property "Reference" "SW10"
-			(at 182.245 97.155 0)
+		(property "Reference" "SW9"
+			(at 204.47 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,7 +5704,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 182.245 99.695 0)
+			(at 204.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5712,7 +5712,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 182.245 103.505 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +5721,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 182.245 103.505 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,7 +5730,7 @@
 			)
 		)
 		(property "Description" "Switch Socket"
-			(at 182.245 103.505 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +5739,7 @@
 			)
 		)
 		(property "MPN" "4958"
-			(at 182.245 103.505 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5748,7 +5748,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 182.245 103.505 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +5757,7 @@
 			)
 		)
 		(property "Price" "$0.394"
-			(at 182.245 103.505 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5766,7 @@
 			)
 		)
 		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 182.245 103.505 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5775,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 182.245 103.505 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5784,7 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
-			(at 182.245 103.505 0)
+			(at 204.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +5801,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW10")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -5809,7 +5809,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 106.045 45.72 0)
+		(at 128.27 31.115 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5817,8 +5817,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3c5f4f1-991a-4330-a6ea-6499ea466dc9")
-		(property "Reference" "C26"
-			(at 108.585 44.4562 0)
+		(property "Reference" "C8"
+			(at 130.81 29.8512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +5827,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 108.585 46.9962 0)
+			(at 130.81 32.3912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +5836,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 106.045 45.72 0)
+			(at 128.27 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5844,8 +5844,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 106.045 45.72 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 128.27 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +5854,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 106.045 45.72 0)
+			(at 128.27 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,8 +5862,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
-			(at 106.045 45.72 0)
+		(property "Price" "$0.17"
+			(at 128.27 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,7 +5872,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 106.045 45.72 0)
+			(at 128.27 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5880,8 +5880,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 106.045 45.72 0)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 128.27 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +5890,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 106.045 45.72 0)
+			(at 128.27 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,8 +5898,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
-			(at 106.045 45.72 0)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 128.27 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,8 +5907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 106.045 45.72 0)
+		(property "Manufacturer" "YAGEO"
+			(at 128.27 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,8 +5916,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
-			(at 106.045 45.72 0)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 128.27 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,7 +5926,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 106.045 45.72 0)
+			(at 128.27 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +5943,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C26")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5951,7 +5951,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 160.655 50.8 0)
+		(at 182.88 36.195 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5959,8 +5959,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d862dd82-ec44-44cf-ba5d-8192227f297b")
-		(property "Reference" "C21"
-			(at 163.195 49.5362 0)
+		(property "Reference" "C11"
+			(at 185.42 34.9312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,7 +5969,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 163.195 52.0762 0)
+			(at 185.42 37.4712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +5978,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 160.655 50.8 0)
+			(at 182.88 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,8 +5986,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 160.655 50.8 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 182.88 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5996,7 +5996,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 160.655 50.8 0)
+			(at 182.88 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,8 +6004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
-			(at 160.655 50.8 0)
+		(property "Price" "$0.17"
+			(at 182.88 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6014,7 +6014,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 160.655 50.8 0)
+			(at 182.88 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,8 +6022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 160.655 50.8 0)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 182.88 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +6032,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 160.655 50.8 0)
+			(at 182.88 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,8 +6040,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
-			(at 160.655 50.8 0)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 182.88 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,8 +6049,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 160.655 50.8 0)
+		(property "Manufacturer" "YAGEO"
+			(at 182.88 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,8 +6058,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
-			(at 160.655 50.8 0)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 182.88 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6068,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 160.655 50.8 0)
+			(at 182.88 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6085,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C21")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6093,23 +6093,23 @@
 	)
 	(symbol
 		(lib_id "Mad_Symbols:SK6812_Mini_E")
-		(at 175.26 128.27 0)
+		(at 197.485 113.665 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "de486511-056b-40e8-b6b8-b36756d64ac6")
-		(property "Reference" "D13"
-			(at 172.085 124.46 0)
+		(property "Reference" "D15"
+			(at 194.31 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812C-2020"
-			(at 175.26 132.08 0)
+		(property "Value" "SK6812_MINI_E"
+			(at 197.485 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6117,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SK6812_mini_e"
-			(at 175.26 133.858 0)
+			(at 197.485 119.253 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,8 +6125,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED"
-			(at 175.26 135.636 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 197.485 121.031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,8 +6134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
-			(at 163.83 132.08 0)
+		(property "Description" "SMD RGB LEDs(Built-in IC) ROHS"
+			(at 186.055 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6144,7 @@
 			)
 		)
 		(property "LCSC" "C965556"
-			(at 175.26 128.27 0)
+			(at 197.485 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6153,7 @@
 			)
 		)
 		(property "MPN " "WS2812C-2020"
-			(at 175.26 128.27 0)
+			(at 197.485 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6162,7 @@
 			)
 		)
 		(property "Manufacturer" "Worldsemi "
-			(at 175.26 128.27 0)
+			(at 197.485 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +6171,7 @@
 			)
 		)
 		(property "JLC Basic" "N"
-			(at 175.26 128.27 0)
+			(at 197.485 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +6180,7 @@
 			)
 		)
 		(property "Substitute" "N"
-			(at 175.26 128.27 0)
+			(at 197.485 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,8 +6188,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 175.26 128.27 0)
+		(property "Price" "$0.44"
+			(at 197.485 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +6198,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 175.26 128.27 0)
+			(at 197.485 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6206,8 +6206,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" ""
-			(at 175.26 128.27 0)
+		(property "Rating" " 3.7...5.3V"
+			(at 197.485 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,8 +6215,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
-			(at 175.26 128.27 0)
+		(property "Supplier" "LCSC"
+			(at 197.485 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6224,8 +6224,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
-			(at 175.26 128.27 0)
+		(property "Supplier PN" "C5149201 "
+			(at 197.485 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6233,8 +6233,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 175.26 128.27 0)
+		(property "MPN" "SK6812MINI-E"
+			(at 197.485 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +6257,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D13")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6265,7 +6265,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 131.445 78.105 0)
+		(at 153.67 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6273,8 +6273,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2874833-fdee-46d1-80a6-1bc266801836")
-		(property "Reference" "SW7"
-			(at 131.445 71.755 0)
+		(property "Reference" "SW6"
+			(at 153.67 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +6282,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 131.445 74.295 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6290,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:SW_Hotswap_Kailh_MX_1.00u"
-			(at 131.445 78.105 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6299,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5062/4958_Web.pdf"
-			(at 131.445 78.105 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +6308,7 @@
 			)
 		)
 		(property "Description" "Switch Socket"
-			(at 131.445 78.105 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6317,7 @@
 			)
 		)
 		(property "MPN" "4958"
-			(at 131.445 78.105 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6326,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries LLC"
-			(at 131.445 78.105 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6335,7 @@
 			)
 		)
 		(property "Price" "$0.394"
-			(at 131.445 78.105 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6344,7 @@
 			)
 		)
 		(property "Rating" "KAILH SW SKTS FOR MX-COMP 1=20PC"
-			(at 131.445 78.105 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6353,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 131.445 78.105 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6362,7 @@
 			)
 		)
 		(property "Supplier PN" "1528-4958-ND"
-			(at 131.445 78.105 0)
+			(at 153.67 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6379,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW7")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -6387,7 +6387,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 118.745 78.105 0)
+		(at 140.97 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6395,8 +6395,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f2309e-2844-4160-90a8-dc86aacd23cb")
-		(property "Reference" "D6"
-			(at 118.745 71.755 0)
+		(property "Reference" "D8"
+			(at 140.97 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +6404,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 118.745 74.295 0)
+			(at 140.97 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,7 +6412,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 118.745 82.55 0)
+			(at 140.97 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6421,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 118.745 78.105 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6430,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 118.745 78.105 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6439,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 118.745 78.105 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6448,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 118.745 78.105 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,7 +6457,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 118.745 78.105 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,7 +6466,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 118.745 78.105 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6475,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 118.745 78.105 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +6484,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 118.745 78.105 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,7 +6493,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 118.745 78.105 0)
+			(at 140.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6510,7 +6510,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D6")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6518,7 +6518,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 160.655 45.72 0)
+		(at 182.88 31.115 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6526,8 +6526,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb4d3421-2430-4998-b0cd-a624cb903ea1")
-		(property "Reference" "C20"
-			(at 163.195 44.4562 0)
+		(property "Reference" "C10"
+			(at 185.42 29.8512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,7 +6536,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 163.195 46.9962 0)
+			(at 185.42 32.3912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6545,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 160.655 45.72 0)
+			(at 182.88 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,8 +6553,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://au.mouser.com/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 160.655 45.72 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 182.88 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,7 +6563,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 160.655 45.72 0)
+			(at 182.88 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,8 +6571,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$0.33 "
-			(at 160.655 45.72 0)
+		(property "Price" "$0.17"
+			(at 182.88 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6581,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 160.655 45.72 0)
+			(at 182.88 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6589,8 +6589,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "CAP CER 0.1UF 25V X7R 0402"
-			(at 160.655 45.72 0)
+		(property "Rating" "CAP 0402 50V 100 NF X7R"
+			(at 182.88 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,7 +6599,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 160.655 45.72 0)
+			(at 182.88 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,8 +6607,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "399-14148-1-ND"
-			(at 160.655 45.72 0)
+		(property "Supplier PN" "13-CC0402KPX7R9BB104CT-ND"
+			(at 182.88 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,8 +6616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
-			(at 160.655 45.72 0)
+		(property "Manufacturer" "YAGEO"
+			(at 182.88 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,8 +6625,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104K3RAC7867"
-			(at 160.655 45.72 0)
+		(property "MPN" "CC0402KPX7R9BB104"
+			(at 182.88 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6635,7 +6635,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 160.655 45.72 0)
+			(at 182.88 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6652,7 +6652,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C20")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6660,7 +6660,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 187.325 58.42 270)
+		(at 209.55 43.815 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6669,8 +6669,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f05dd341-2a3b-493c-b6ba-54b1e5ddca84")
-		(property "Reference" "D8"
-			(at 184.785 57.1499 90)
+		(property "Reference" "D17"
+			(at 207.01 42.5449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6679,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 184.785 59.6899 90)
+			(at 207.01 45.0849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,7 +6688,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 182.88 58.42 0)
+			(at 205.105 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,7 +6697,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 187.325 58.42 0)
+			(at 209.55 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,7 +6706,7 @@
 			)
 		)
 		(property "Description" "Diode 100 V 200mA Surface Mount SOD-80"
-			(at 187.325 58.42 0)
+			(at 209.55 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +6715,7 @@
 			)
 		)
 		(property "Rating" "DIODE GEN PURP 100V 200MA SOD80"
-			(at 187.325 58.42 0)
+			(at 209.55 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,7 +6724,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 187.325 58.42 0)
+			(at 209.55 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,7 +6733,7 @@
 			)
 		)
 		(property "Price" "$0.18 "
-			(at 187.325 58.42 0)
+			(at 209.55 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,7 +6742,7 @@
 			)
 		)
 		(property "MPN" "LL4148"
-			(at 187.325 58.42 0)
+			(at 209.55 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +6751,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 187.325 58.42 0)
+			(at 209.55 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +6760,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 187.325 58.42 0)
+			(at 209.55 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6769,7 +6769,7 @@
 			)
 		)
 		(property "Supplier PN" "LL4148FSCT-ND"
-			(at 187.325 58.42 0)
+			(at 209.55 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6786,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D8")
+					(reference "D17")
 					(unit 1)
 				)
 			)
