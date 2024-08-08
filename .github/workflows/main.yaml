@@ -14,6 +14,8 @@ jobs:
     steps:
     # Use current kicad repo commit that triggered this build.
     - uses: actions/checkout@v3
+      with:
+        submodules: recursive
     
     # Run bash command to get kicad file name. 
     - name: Get Kicad Project Name
