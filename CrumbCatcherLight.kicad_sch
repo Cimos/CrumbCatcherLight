@@ -5937,7 +5937,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mad_lib/schematics/Keyboard Controllers/RP2040.kicad_sch"
+		(property "Sheetfile" "mad_lib/schematics/MCU/MCU_RP2040.kicad_sch"
 			(at 153.67 107.8996 0)
 			(effects
 				(font
