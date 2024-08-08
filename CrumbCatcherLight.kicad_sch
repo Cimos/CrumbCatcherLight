@@ -2470,7 +2470,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 76.835) (xy 188.595 76.835)
+			(xy 172.72 76.835) (xy 189.23 76.835)
 		)
 		(stroke
 			(width 0)
@@ -2500,7 +2500,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 99.695) (xy 188.595 99.695)
+			(xy 172.72 99.695) (xy 189.23 99.695)
 		)
 		(stroke
 			(width 0)
@@ -2580,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 101.6) (xy 188.595 101.6)
+			(xy 172.72 101.6) (xy 189.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2600,7 +2600,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.105 64.135) (xy 208.915 64.135)
+			(xy 205.74 64.135) (xy 208.915 64.135)
 		)
 		(stroke
 			(width 0)
@@ -2630,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 80.01) (xy 188.595 80.01)
+			(xy 172.72 80.01) (xy 189.23 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2670,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 81.915) (xy 188.595 81.915)
+			(xy 172.72 81.915) (xy 189.23 81.915)
 		)
 		(stroke
 			(width 0)
@@ -2700,7 +2700,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 89.535) (xy 188.595 89.535)
+			(xy 172.72 89.535) (xy 189.23 89.535)
 		)
 		(stroke
 			(width 0)
@@ -2710,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 96.52) (xy 188.595 96.52)
+			(xy 172.72 96.52) (xy 189.23 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2820,7 +2820,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 74.93) (xy 188.595 74.93)
+			(xy 172.72 74.93) (xy 189.23 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2850,7 +2850,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 64.135) (xy 188.595 64.135)
+			(xy 172.72 64.135) (xy 189.23 64.135)
 		)
 		(stroke
 			(width 0)
@@ -2900,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.785 60.325) (xy 188.595 60.325)
+			(xy 184.785 60.325) (xy 189.23 60.325)
 		)
 		(stroke
 			(width 0)
@@ -2920,7 +2920,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 104.775) (xy 188.595 104.775)
+			(xy 185.42 104.775) (xy 189.23 104.775)
 		)
 		(stroke
 			(width 0)
@@ -2980,7 +2980,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 73.025) (xy 188.595 73.025)
+			(xy 172.72 73.025) (xy 189.23 73.025)
 		)
 		(stroke
 			(width 0)
@@ -3020,7 +3020,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 83.82) (xy 188.595 83.82)
+			(xy 172.72 83.82) (xy 189.23 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3120,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 94.615) (xy 188.595 94.615)
+			(xy 172.72 94.615) (xy 189.23 94.615)
 		)
 		(stroke
 			(width 0)
@@ -3180,7 +3180,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 91.44) (xy 188.595 91.44)
+			(xy 172.72 91.44) (xy 189.23 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5718,7 +5718,7 @@
 		)
 	)
 	(sheet
-		(at 188.595 58.42)
+		(at 189.23 58.42)
 		(size 16.51 48.895)
 		(fields_autoplaced yes)
 		(stroke
@@ -5730,7 +5730,7 @@
 		)
 		(uuid "1682b9f6-7d62-400a-a0b2-d2d916d42f36")
 		(property "Sheetname" "Switches"
-			(at 188.595 57.7084 0)
+			(at 189.23 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +5739,7 @@
 			)
 		)
 		(property "Sheetfile" "Switches.kicad_sch"
-			(at 188.595 107.8996 0)
+			(at 189.23 107.8996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +5749,7 @@
 			)
 		)
 		(pin "Col0" bidirectional
-			(at 188.595 80.01 180)
+			(at 189.23 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +5759,7 @@
 			(uuid "5758de51-0b94-45c4-84b6-a6951e796424")
 		)
 		(pin "Col2" bidirectional
-			(at 188.595 83.82 180)
+			(at 189.23 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,7 +5769,7 @@
 			(uuid "32485c05-5e98-43b9-b80a-0ef9387d8392")
 		)
 		(pin "Col1" bidirectional
-			(at 188.595 81.915 180)
+			(at 189.23 81.915 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,7 +5779,7 @@
 			(uuid "e232768a-aa97-4f2e-9f0d-6f07e0227408")
 		)
 		(pin "ENC2B" bidirectional
-			(at 188.595 96.52 180)
+			(at 189.23 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +5789,7 @@
 			(uuid "2ac3bef6-6537-484a-800b-a334e7ab9aa0")
 		)
 		(pin "GND" input
-			(at 188.595 104.775 180)
+			(at 189.23 104.775 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5799,7 @@
 			(uuid "9f1cb745-1d57-49b7-8d4e-19204aacfeec")
 		)
 		(pin "ENC3B" bidirectional
-			(at 188.595 101.6 180)
+			(at 189.23 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +5809,7 @@
 			(uuid "10c5cfe7-7672-4236-9e17-19bac3a8fcd6")
 		)
 		(pin "ENC3A" bidirectional
-			(at 188.595 99.695 180)
+			(at 189.23 99.695 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,7 +5819,7 @@
 			(uuid "28cb474c-74e1-47e0-85ba-978a3b9fefc1")
 		)
 		(pin "Row2" bidirectional
-			(at 188.595 76.835 180)
+			(at 189.23 76.835 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,7 +5829,7 @@
 			(uuid "4405fe7e-1838-498c-9ef5-031ae94cc075")
 		)
 		(pin "Row0" bidirectional
-			(at 188.595 73.025 180)
+			(at 189.23 73.025 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5839,7 +5839,7 @@
 			(uuid "189141a4-4702-4e2b-9b73-46a9caaf9c77")
 		)
 		(pin "Row1" bidirectional
-			(at 188.595 74.93 180)
+			(at 189.23 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +5849,7 @@
 			(uuid "25f74d2c-ec53-462d-9241-6a8c8c81a842")
 		)
 		(pin "ENC1A" bidirectional
-			(at 188.595 89.535 180)
+			(at 189.23 89.535 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +5859,7 @@
 			(uuid "c7cb2fa5-5889-469f-ac09-bc6730947007")
 		)
 		(pin "ENC2A" bidirectional
-			(at 188.595 94.615 180)
+			(at 189.23 94.615 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +5869,7 @@
 			(uuid "ecbb285b-c725-4c0c-8555-b32e45f646c5")
 		)
 		(pin "ENC1B" bidirectional
-			(at 188.595 91.44 180)
+			(at 189.23 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +5879,7 @@
 			(uuid "3053489e-3d6f-48a3-8e6e-31c6aefb7416")
 		)
 		(pin "DIN" input
-			(at 188.595 64.135 180)
+			(at 189.23 64.135 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +5889,7 @@
 			(uuid "775219f7-5a86-4655-9f88-32510a1688ff")
 		)
 		(pin "5V" input
-			(at 188.595 60.325 180)
+			(at 189.23 60.325 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,7 +5899,7 @@
 			(uuid "9eb3b7eb-8413-40ea-8351-cf56be39a53d")
 		)
 		(pin "DOUT" output
-			(at 205.105 64.135 0)
+			(at 205.74 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)

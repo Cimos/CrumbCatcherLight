@@ -500,6 +500,8 @@
       "/RP2040/USB_D-": "USB",
       "/RP2040a/USB_D+": "USB",
       "/RP2040a/USB_D-": "USB",
+      "/USB_D+": "USB",
+      "/USB_D-": "USB",
       "Net-(U1-D+_in)": "USB",
       "Net-(U1-D-_in)": "USB",
       "Net-(U5-D+)": "USB",
@@ -715,10 +717,6 @@
     [
       "1682b9f6-7d62-400a-a0b2-d2d916d42f36",
       "Switches"
-    ],
-    [
-      "f42afd4d-da97-4905-9d8b-11c28a037c21",
-      "RP2040"
     ]
   ],
   "text_variables": {}
