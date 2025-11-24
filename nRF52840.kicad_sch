@@ -9,400 +9,6 @@
 		(company "MadMan")
 	)
 	(lib_symbols
-		(symbol "Battery_Management:BQ24075RGT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "BQ24075RGT"
-				(at 16.51 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
-				(at 7.62 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq24075.pdf"
-				(at 7.62 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "USB Charger"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "VQFN*1EP*3x3mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BQ24075RGT_0_1"
-				(rectangle
-					(start -10.16 12.7)
-					(end 10.16 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "BQ24075RGT_1_1"
-				(pin input line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "SYSOFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "~{CE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "TMR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "EN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "EN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "ILIM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -10.16 0)
-					(length 2.54)
-					(name "ISET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(hide yes)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(hide yes)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "BAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "BAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "TS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "~{PGOOD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "~{CHG}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -1020,156 +626,6 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2571,641 +2027,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "R_Small_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_1_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R_Small_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_2_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_2_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R_Small_3"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_3_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_3_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R_Small_4"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_4_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_4_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "R_Small_5"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_5_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_5_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -3381,6 +2202,18 @@
 		)
 		(uuid "06e830be-0ef5-468d-bf6b-9ca7f33a3df7")
 	)
+	(text "Confirm 3V3 is ok power in for this module"
+		(exclude_from_sim no)
+		(at 212.09 5.08 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "244b6021-c327-4f19-9501-0bd858ccfffb")
+	)
 	(text "Work out what to connect VCC of the Tag Connect to"
 		(exclude_from_sim no)
 		(at 53.34 255.27 90)
@@ -3406,7 +2239,7 @@
 	)
 	(text "MDBT50Q-U1MV2"
 		(exclude_from_sim no)
-		(at 201.93 129.54 0)
+		(at 198.12 72.39 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3414,27 +2247,6 @@
 			(justify left bottom)
 		)
 		(uuid "9e82338e-b8ab-4125-9c6b-930086dfe321")
-	)
-	(text "TODO: Spec Power Regulator, BVOLT voltage divider."
-		(exclude_from_sim no)
-		(at 26.67 53.34 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c4f16960-1a23-4ef5-b739-240ddeadf595")
-	)
-	(text "BQ24075RGTR"
-		(exclude_from_sim no)
-		(at 195.58 31.75 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5c681ff-5904-478d-ad2d-0328a0a7dcdf")
 	)
 	(text "TAG Connect"
 		(exclude_from_sim no)
@@ -3450,7 +2262,7 @@
 	)
 	(text "TODO: Spec Crystal and Caps Properly"
 		(exclude_from_sim no)
-		(at 261.62 135.89 0)
+		(at 257.81 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3459,214 +2271,100 @@
 		(uuid "fcb30944-bbd3-406f-8b92-7dd1ac563ca8")
 	)
 	(junction
-		(at 251.46 146.05)
+		(at 247.65 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0925a816-a6c0-4fbb-9fc1-cae098d07530")
 	)
 	(junction
-		(at 251.46 161.29)
+		(at 247.65 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "190da0b5-d265-4342-9aa3-2e8ded8ee78b")
 	)
 	(junction
-		(at 234.95 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bfe0319-1eac-4f5a-844e-1b53939cbb75")
-	)
-	(junction
-		(at 168.91 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fbb0c42-9c93-4551-a7f5-1e7d086a3355")
-	)
-	(junction
-		(at 266.7 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3de5b859-bb7d-4b0f-a82f-1bf6199bb587")
-	)
-	(junction
-		(at 173.99 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40ff2f75-8766-4bb7-b05d-a1f22089aedf")
-	)
-	(junction
-		(at 191.77 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48f6da29-dcb3-499a-95dc-8ab6275860d1")
-	)
-	(junction
-		(at 250.19 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4914a109-0252-481a-aecd-4738232ad722")
-	)
-	(junction
-		(at 274.32 153.67)
+		(at 270.51 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cdef4c0-2bbc-49d5-805f-4c5f5d4bf9e9")
 	)
 	(junction
-		(at 171.45 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72e1ebfa-3bec-4a66-904d-d486f6c746ae")
-	)
-	(junction
-		(at 162.56 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ae402d5-c917-4298-9dcc-1b72c4b7d8e6")
-	)
-	(junction
-		(at 207.01 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f336439-c087-47e6-90e4-a17ad44ffc43")
-	)
-	(junction
-		(at 238.76 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a052d674-a3b6-49df-b243-16f373e0d9b1")
-	)
-	(junction
-		(at 191.77 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a472ae4e-7da7-4f0b-a7d3-17a6b974e7c8")
-	)
-	(junction
-		(at 238.76 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1fed12a-1a0f-48c5-bd28-c277c8a0c68a")
-	)
-	(junction
-		(at 215.9 135.89)
+		(at 212.09 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf2c6da9-3922-4c36-bb81-a59408c1c9ff")
 	)
-	(junction
-		(at 266.7 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c038c64d-3318-4e48-90eb-9ce6b1f70596")
-	)
-	(junction
-		(at 250.19 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c65b3fcc-c442-41d4-aafd-0e1678faa92f")
-	)
-	(junction
-		(at 168.91 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc95742c-6ebe-4c97-89b8-95d7d618f131")
-	)
-	(junction
-		(at 266.7 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d56d606f-c6f5-4070-ac7a-7cb26c0cf111")
-	)
 	(no_connect
-		(at 238.76 219.71)
+		(at 234.95 162.56)
 		(uuid "0565f3e5-db90-48b8-ba2b-f7a6bf9130fb")
 	)
 	(no_connect
-		(at 238.76 184.15)
+		(at 234.95 127)
 		(uuid "0762c840-5fb7-4b7b-93fa-d846441f7944")
 	)
 	(no_connect
-		(at 238.76 168.91)
+		(at 234.95 111.76)
 		(uuid "07e73fd2-9513-4eab-bfef-794f1bac068c")
 	)
 	(no_connect
-		(at 238.76 166.37)
+		(at 234.95 109.22)
 		(uuid "35f143a2-da95-4023-9f3a-b83a7326c322")
 	)
 	(no_connect
-		(at 223.52 148.59)
+		(at 219.71 91.44)
 		(uuid "4573b9c7-c614-4a1e-8ace-11530ba90f05")
 	)
 	(no_connect
-		(at 238.76 224.79)
+		(at 234.95 167.64)
 		(uuid "4f788eeb-9a34-4e8b-9ab0-40524913f084")
 	)
 	(no_connect
-		(at 238.76 204.47)
+		(at 234.95 147.32)
 		(uuid "52291677-8b3c-4512-9f24-98da47ad2496")
 	)
 	(no_connect
-		(at 238.76 229.87)
+		(at 234.95 172.72)
 		(uuid "54a54348-16d3-4661-9412-b068d372353c")
 	)
 	(no_connect
-		(at 238.76 176.53)
+		(at 234.95 119.38)
 		(uuid "59dfe72c-2632-4d84-8d16-de8ec37c1505")
 	)
 	(no_connect
-		(at 238.76 227.33)
+		(at 234.95 170.18)
 		(uuid "78b2688e-c6df-473a-b359-629bb0521308")
-	)
-	(no_connect
-		(at 194.31 58.42)
-		(uuid "874ede42-810e-4925-a96e-da9fafef6cac")
 	)
 	(no_connect
 		(at 45.4025 268.605)
 		(uuid "9a3a523f-6a98-4f93-9315-08cc7b41e091")
 	)
 	(no_connect
-		(at 238.76 222.25)
+		(at 234.95 165.1)
 		(uuid "9c85a4ce-f4bd-4e3d-8926-f318e455feda")
 	)
 	(no_connect
-		(at 219.71 68.58)
-		(uuid "ac84a0d5-c281-4c8d-a492-1d178c0713bb")
-	)
-	(no_connect
-		(at 238.76 194.31)
+		(at 234.95 137.16)
 		(uuid "c4f2b769-f581-4524-9d9d-f8f48b83c8a0")
 	)
 	(no_connect
-		(at 198.12 219.71)
+		(at 194.31 162.56)
 		(uuid "c6ad3029-a2b9-4378-8a5b-37eb8be9b7e4")
 	)
 	(no_connect
-		(at 238.76 173.99)
+		(at 234.95 116.84)
 		(uuid "cca053c0-90c7-492b-9242-29631977cc3b")
 	)
 	(no_connect
-		(at 238.76 181.61)
+		(at 234.95 124.46)
 		(uuid "d35cf3c3-25a3-4268-9bc9-fd694376f3f9")
 	)
 	(no_connect
-		(at 238.76 179.07)
+		(at 234.95 121.92)
 		(uuid "e7343df1-6fd8-4e1a-a4d1-ada3456c2426")
 	)
 	(wire
 		(pts
-			(xy 186.69 63.5) (xy 194.31 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06b9128a-a13c-4b31-a2ff-2c8c452fda3f")
-	)
-	(wire
-		(pts
-			(xy 269.24 189.23) (xy 279.4 189.23)
+			(xy 265.43 132.08) (xy 275.59 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3676,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 148.59) (xy 215.9 135.89)
+			(xy 212.09 91.44) (xy 212.09 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3686,7 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 217.17) (xy 198.12 217.17)
+			(xy 171.45 160.02) (xy 194.31 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3696,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 171.45) (xy 198.12 171.45)
+			(xy 171.45 114.3) (xy 194.31 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3706,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 176.53) (xy 198.12 176.53)
+			(xy 171.45 119.38) (xy 194.31 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3716,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 163.83) (xy 198.12 163.83)
+			(xy 171.45 106.68) (xy 194.31 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3726,47 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 71.12) (xy 176.53 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12261dcd-85d0-4755-97f3-d8c1c65f8163")
-	)
-	(wire
-		(pts
-			(xy 266.7 58.42) (xy 279.4 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b14afb-7106-4146-9ad7-874ff352e73a")
-	)
-	(wire
-		(pts
-			(xy 186.69 50.8) (xy 194.31 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aa2694d-3578-4477-a19a-6f3ca0468f7f")
-	)
-	(wire
-		(pts
-			(xy 234.95 71.12) (xy 234.95 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ab7a0db-6dfd-410a-ab8d-3b23da688916")
-	)
-	(wire
-		(pts
-			(xy 265.43 146.05) (xy 274.32 146.05)
+			(xy 261.62 88.9) (xy 270.51 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3776,17 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 58.42) (xy 266.7 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ec6194-fa9f-4eb9-b8d3-baa488e872ba")
-	)
-	(wire
-		(pts
-			(xy 238.76 161.29) (xy 251.46 161.29)
+			(xy 234.95 104.14) (xy 247.65 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3796,7 +2444,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 179.07) (xy 198.12 179.07)
+			(xy 171.45 121.92) (xy 194.31 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3806,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 184.15) (xy 198.12 184.15)
+			(xy 171.45 127) (xy 194.31 127)
 		)
 		(stroke
 			(width 0)
@@ -3816,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 133.35) (xy 180.34 133.35)
+			(xy 217.17 76.2) (xy 176.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3826,27 +2474,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 83.82) (xy 266.7 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26243300-7827-43f8-91ce-0c1cfc8a227e")
-	)
-	(wire
-		(pts
-			(xy 207.01 36.83) (xy 207.01 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "269c8e80-83a9-43e2-a914-3bc8a5a90612")
-	)
-	(wire
-		(pts
-			(xy 218.44 135.89) (xy 218.44 148.59)
+			(xy 214.63 78.74) (xy 214.63 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3856,17 +2484,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 83.82) (xy 207.01 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29856c0e-2e45-487a-a423-3330dec663fb")
-	)
-	(wire
-		(pts
-			(xy 175.26 224.79) (xy 198.12 224.79)
+			(xy 171.45 167.64) (xy 194.31 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3876,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 153.67) (xy 198.12 153.67)
+			(xy 171.45 96.52) (xy 194.31 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3886,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 209.55) (xy 198.12 209.55)
+			(xy 171.45 152.4) (xy 194.31 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3906,27 +2524,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 83.82) (xy 207.01 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e378be8-7165-44ee-96fe-b0323982ae2c")
-	)
-	(wire
-		(pts
-			(xy 250.19 69.85) (xy 250.19 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f907b55-d0f1-445c-ac69-1ad9d123ff8b")
-	)
-	(wire
-		(pts
-			(xy 274.32 153.67) (xy 279.4 153.67)
+			(xy 270.51 96.52) (xy 275.59 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3936,33 +2534,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 207.01) (xy 198.12 207.01)
+			(xy 171.45 149.86) (xy 194.31 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44962bef-7054-49e5-8d8a-f770ca79934b")
-	)
-	(wire
-		(pts
-			(xy 226.06 63.5) (xy 229.87 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "451ab474-d6f4-4d7e-9f96-099a8a48d735")
-	)
-	(wire
-		(pts
-			(xy 279.4 71.12) (xy 266.7 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45ff28b1-d43e-4ab0-ad17-bc759d7de33f")
 	)
 	(wire
 		(pts
@@ -3976,57 +2554,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 71.12) (xy 171.45 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46cb69c3-5196-4051-8b63-b00d94e53b10")
-	)
-	(wire
-		(pts
-			(xy 162.56 83.82) (xy 171.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49590088-5178-4ebd-a548-8efca372c77d")
-	)
-	(wire
-		(pts
-			(xy 173.99 36.83) (xy 173.99 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a4ac061-3c13-41eb-a471-1304e97056d4")
-	)
-	(wire
-		(pts
-			(xy 238.76 50.8) (xy 279.4 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bc91684-8297-4a9e-8c9c-e7fdd458171d")
-	)
-	(wire
-		(pts
-			(xy 238.76 50.8) (xy 238.76 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51a98437-0dd2-4194-bf72-188c7762c307")
-	)
-	(wire
-		(pts
-			(xy 261.62 196.85) (xy 238.76 196.85)
+			(xy 257.81 139.7) (xy 234.95 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4036,17 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 83.82) (xy 279.4 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5748fed4-7ff3-4190-95e2-2072a70f7137")
-	)
-	(wire
-		(pts
-			(xy 175.26 229.87) (xy 198.12 229.87)
+			(xy 171.45 172.72) (xy 194.31 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4056,27 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 78.74) (xy 266.7 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bbba97f-8c37-4d35-85d3-3540fa8dd081")
-	)
-	(wire
-		(pts
-			(xy 238.76 74.93) (xy 238.76 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d0d95a1-8874-4f4c-bf9a-b37a2e652635")
-	)
-	(wire
-		(pts
-			(xy 175.26 196.85) (xy 198.12 196.85)
+			(xy 171.45 139.7) (xy 194.31 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4086,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 204.47) (xy 198.12 204.47)
+			(xy 171.45 147.32) (xy 194.31 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4096,17 +2594,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 82.55) (xy 171.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60a60c0c-c7a7-4262-9dbf-3e2525a1285f")
-	)
-	(wire
-		(pts
-			(xy 175.26 212.09) (xy 198.12 212.09)
+			(xy 171.45 154.94) (xy 194.31 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4126,17 +2614,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 46.99) (xy 173.99 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68fc8d62-250d-466a-a73b-5bfec04d560a")
-	)
-	(wire
-		(pts
-			(xy 274.32 161.29) (xy 274.32 153.67)
+			(xy 270.51 104.14) (xy 270.51 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4146,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 201.93) (xy 238.76 201.93)
+			(xy 257.81 144.78) (xy 234.95 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4156,17 +2634,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 63.5) (xy 220.98 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f852b70-ad76-4a93-80b9-3fb6743b3e25")
-	)
-	(wire
-		(pts
-			(xy 261.62 212.09) (xy 238.76 212.09)
+			(xy 257.81 154.94) (xy 234.95 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4176,27 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 71.12) (xy 266.7 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ef3cb1-c46b-4303-8769-449b29b40e75")
-	)
-	(wire
-		(pts
-			(xy 162.56 73.66) (xy 162.56 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74661096-d728-43d8-94eb-651514ec4239")
-	)
-	(wire
-		(pts
-			(xy 175.26 186.69) (xy 198.12 186.69)
+			(xy 171.45 129.54) (xy 194.31 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4206,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 227.33) (xy 198.12 227.33)
+			(xy 171.45 170.18) (xy 194.31 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4216,17 +2664,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 58.42) (xy 266.7 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a6068b9-b339-4aa8-a55b-5acfe391e8bd")
-	)
-	(wire
-		(pts
-			(xy 175.26 232.41) (xy 198.12 232.41)
+			(xy 171.45 175.26) (xy 194.31 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4246,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 146.05) (xy 260.35 146.05)
+			(xy 247.65 88.9) (xy 256.54 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4256,27 +2694,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 71.12) (xy 191.77 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8603b127-80e8-43c3-af45-40c7c32d58bf")
-	)
-	(wire
-		(pts
-			(xy 168.91 41.91) (xy 168.91 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b93fa6a-2392-4f3e-b4ce-71910476ab75")
-	)
-	(wire
-		(pts
-			(xy 261.62 214.63) (xy 238.76 214.63)
+			(xy 257.81 157.48) (xy 234.95 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4286,17 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 49.53) (xy 173.99 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7b85bc-8002-487a-81fc-2a6951cbd9ae")
-	)
-	(wire
-		(pts
-			(xy 175.26 214.63) (xy 198.12 214.63)
+			(xy 171.45 157.48) (xy 194.31 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4306,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 234.95) (xy 198.12 234.95)
+			(xy 171.45 177.8) (xy 194.31 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4316,33 +2724,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 71.12) (xy 191.77 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "955ca435-1ab8-4fb5-bd97-b6c7d03f941b")
-	)
-	(wire
-		(pts
-			(xy 218.44 248.92) (xy 233.68 248.92)
+			(xy 214.63 191.77) (xy 229.87 191.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99305009-08e6-44a6-a0f3-9e693ff39846")
-	)
-	(wire
-		(pts
-			(xy 219.71 71.12) (xy 222.25 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9acfc161-d104-4030-8675-19c8367700b0")
 	)
 	(wire
 		(pts
@@ -4356,7 +2744,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 207.01) (xy 238.76 207.01)
+			(xy 257.81 149.86) (xy 234.95 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4366,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 146.05) (xy 251.46 149.86)
+			(xy 247.65 88.9) (xy 247.65 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4376,7 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 158.75) (xy 243.84 158.75)
+			(xy 234.95 101.6) (xy 240.03 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4386,43 +2774,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 46.99) (xy 168.91 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e490a8-7891-4be5-a0a8-bf11987f921b")
-	)
-	(wire
-		(pts
-			(xy 175.26 222.25) (xy 198.12 222.25)
+			(xy 171.45 165.1) (xy 194.31 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a4d78540-01ac-48b1-9211-efa406d046b8")
-	)
-	(wire
-		(pts
-			(xy 203.2 135.89) (xy 215.9 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aae3dc30-5a84-425e-ac00-ac52d1712ef2")
-	)
-	(wire
-		(pts
-			(xy 266.7 69.85) (xy 266.7 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0717ad0-836a-4b99-abe6-2a9619acdb9f")
 	)
 	(wire
 		(pts
@@ -4436,17 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 36.83) (xy 207.01 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b100d78f-8775-4965-b26d-2ec7951715af")
-	)
-	(wire
-		(pts
-			(xy 243.84 146.05) (xy 251.46 146.05)
+			(xy 240.03 88.9) (xy 247.65 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4456,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 161.29) (xy 274.32 161.29)
+			(xy 261.62 104.14) (xy 270.51 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4466,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 161.29) (xy 260.35 161.29)
+			(xy 247.65 104.14) (xy 256.54 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4476,17 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 78.74) (xy 191.77 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4ff3f75-b805-4968-a8ca-1ac936bad300")
-	)
-	(wire
-		(pts
-			(xy 261.62 209.55) (xy 238.76 209.55)
+			(xy 257.81 152.4) (xy 234.95 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4496,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 135.89) (xy 218.44 135.89)
+			(xy 212.09 78.74) (xy 214.63 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4506,53 +2844,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 68.58) (xy 194.31 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa3d72e-b267-409e-9611-8c84fe63cce7")
-	)
-	(wire
-		(pts
-			(xy 186.69 55.88) (xy 194.31 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3f3ddde-9e06-4b67-b217-0545d7521ad7")
-	)
-	(wire
-		(pts
-			(xy 175.26 156.21) (xy 198.12 156.21)
+			(xy 171.45 99.06) (xy 194.31 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c6ee1ea4-8c71-42c2-8a40-59c276e6eab2")
-	)
-	(wire
-		(pts
-			(xy 191.77 71.12) (xy 194.31 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c84b64-57fc-46f3-8aee-3a424d04e48f")
-	)
-	(wire
-		(pts
-			(xy 207.01 83.82) (xy 238.76 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c95e9741-dd3e-465c-a4f5-14c8745b2b80")
 	)
 	(wire
 		(pts
@@ -4576,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 248.92) (xy 218.44 240.03)
+			(xy 214.63 191.77) (xy 214.63 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4596,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 166.37) (xy 198.12 166.37)
+			(xy 171.45 109.22) (xy 194.31 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4606,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 158.75) (xy 243.84 146.05)
+			(xy 240.03 101.6) (xy 240.03 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4616,63 +2914,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 83.82) (xy 191.77 83.82)
+			(xy 176.53 78.74) (xy 212.09 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d64006f4-bccd-43c6-b567-972c88410b98")
-	)
-	(wire
-		(pts
-			(xy 250.19 74.93) (xy 250.19 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d668e167-1958-458e-93d8-ffbd54665efa")
-	)
-	(wire
-		(pts
-			(xy 219.71 58.42) (xy 250.19 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d677b28c-6508-47f7-a0ac-e69fa5b2ec2e")
-	)
-	(wire
-		(pts
-			(xy 219.71 50.8) (xy 234.95 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7238979-1d74-4683-a065-fc662dd26527")
-	)
-	(wire
-		(pts
-			(xy 158.75 49.53) (xy 168.91 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daeef8fa-728b-4bb0-98b8-b2e63a09b6b2")
-	)
-	(wire
-		(pts
-			(xy 234.95 50.8) (xy 238.76 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce2344a-c22f-470e-bbd1-d4b66d2c02e6")
+		(uuid "db0a0d62-bf7d-4616-b167-934a772aae74")
 	)
 	(wire
 		(pts
@@ -4686,33 +2934,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 36.83) (xy 168.91 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df6beebd-99e9-49ad-9c94-3fd000c19c74")
-	)
-	(wire
-		(pts
-			(xy 220.98 148.59) (xy 220.98 133.35)
+			(xy 217.17 91.44) (xy 217.17 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e137e1d4-502e-4112-9ee1-2b8a60cfd8f6")
-	)
-	(wire
-		(pts
-			(xy 168.91 36.83) (xy 173.99 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e23eea88-9935-4822-82c6-4c643855e774")
 	)
 	(wire
 		(pts
@@ -4726,17 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 78.74) (xy 162.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e363076f-1876-4636-8c37-f8ce035aa8a0")
-	)
-	(wire
-		(pts
-			(xy 238.76 189.23) (xy 259.08 189.23)
+			(xy 234.95 132.08) (xy 255.27 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4746,17 +2964,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 71.12) (xy 234.95 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6e07acd-eeb9-4291-bd37-19527dcf478e")
-	)
-	(wire
-		(pts
-			(xy 175.26 173.99) (xy 198.12 173.99)
+			(xy 171.45 116.84) (xy 194.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4766,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 194.31) (xy 198.12 194.31)
+			(xy 171.45 137.16) (xy 194.31 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4776,23 +2984,13 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 146.05) (xy 274.32 153.67)
+			(xy 270.51 88.9) (xy 270.51 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eb55bcd4-4c0e-4c9a-8d07-d49270505815")
-	)
-	(wire
-		(pts
-			(xy 238.76 83.82) (xy 250.19 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0deae60-b846-4744-a619-bc13b2caec7b")
 	)
 	(wire
 		(pts
@@ -4806,17 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 60.96) (xy 194.31 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f21ac87f-3d09-42c8-9dcd-6c86b65bd2b8")
-	)
-	(wire
-		(pts
-			(xy 261.62 199.39) (xy 238.76 199.39)
+			(xy 257.81 142.24) (xy 234.95 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4836,17 +3024,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 83.82) (xy 162.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb7a86bb-d831-4568-a264-30bfa7493a43")
-	)
-	(wire
-		(pts
-			(xy 175.26 161.29) (xy 198.12 161.29)
+			(xy 171.45 104.14) (xy 194.31 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4856,7 +3034,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 157.48) (xy 251.46 161.29)
+			(xy 247.65 100.33) (xy 247.65 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4866,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 168.91) (xy 198.12 168.91)
+			(xy 171.45 111.76) (xy 194.31 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4876,23 +3054,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 201.93) (xy 198.12 201.93)
+			(xy 171.45 144.78) (xy 194.31 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ffe01985-081b-42ab-9440-ea1f63144b2c")
-	)
-	(label "GND"
-		(at 229.87 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "02a9ce36-62bf-4651-b94d-6a52fb226b31")
 	)
 	(label "SWDIO"
 		(at 45.4025 266.065 180)
@@ -4904,18 +3072,8 @@
 		)
 		(uuid "0f9db514-d6d0-42f2-9edf-124685fa0460")
 	)
-	(label "GND"
-		(at 186.69 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "126efbc1-2961-4667-bb92-dcb527bf1cb5")
-	)
 	(label "~{RST}"
-		(at 250.19 189.23 180)
+		(at 246.38 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4934,36 +3092,6 @@
 		)
 		(uuid "21a8862d-8334-432e-8d8b-c1a3a5386da4")
 	)
-	(label "VDDH"
-		(at 186.69 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2cc1f494-458a-42f2-84c8-ded252c772d1")
-	)
-	(label "GND"
-		(at 186.69 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2fec1b9a-fcc0-4a9f-8d47-7ec657a89a16")
-	)
-	(label "VDDH"
-		(at 279.4 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "325992c0-a660-491b-bf9b-63e4b6552acf")
-	)
 	(label "GND"
 		(at 381.635 49.53 0)
 		(effects
@@ -4974,18 +3102,8 @@
 		)
 		(uuid "3562a379-eaf4-475d-bbd5-a22cdac38ebe")
 	)
-	(label "BVOLT"
-		(at 279.4 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35dbed86-b70d-426c-968a-b0b824c78e7c")
-	)
 	(label "SWCLK"
-		(at 175.26 156.21 0)
+		(at 171.45 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4993,16 +3111,6 @@
 			(justify left bottom)
 		)
 		(uuid "4228d03d-f3e6-4077-b448-f8237d76af2a")
-	)
-	(label "GND"
-		(at 186.69 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5be70872-a4b0-4e22-ac73-fadac208c43f")
 	)
 	(label "BLED"
 		(at 381.635 29.21 0)
@@ -5015,7 +3123,7 @@
 		(uuid "6b4cc3ce-1bae-467f-a1c2-8581ea104fbc")
 	)
 	(label "BLED"
-		(at 261.62 212.09 180)
+		(at 257.81 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5025,7 +3133,7 @@
 		(uuid "9bd35156-48f7-443d-8bee-6df65f8b6570")
 	)
 	(label "SWDIO"
-		(at 175.26 153.67 0)
+		(at 171.45 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5033,16 +3141,6 @@
 			(justify left bottom)
 		)
 		(uuid "aa8a538e-9e23-4482-9bb2-d161a65e6644")
-	)
-	(label "GND"
-		(at 158.75 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb98d4c0-ae64-4637-aeb7-acc0a0f7804a")
 	)
 	(label "3V3"
 		(at 45.4025 252.095 180)
@@ -5065,7 +3163,7 @@
 		(uuid "d0283dde-93dd-4060-ac3f-fd3a8b44711a")
 	)
 	(label "BVOLT"
-		(at 175.26 166.37 0)
+		(at 171.45 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5084,19 +3182,9 @@
 		)
 		(uuid "df7e0e5f-0cc1-4375-85ed-3c4414a0c7c5")
 	)
-	(label "VDDH"
-		(at 203.2 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f497ad4d-8435-44fa-b8cb-cc6b93274323")
-	)
 	(hierarchical_label "COL10"
 		(shape input)
-		(at 175.26 214.63 180)
+		(at 171.45 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5107,7 +3195,7 @@
 	)
 	(hierarchical_label "COL12"
 		(shape input)
-		(at 175.26 201.93 180)
+		(at 171.45 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5118,7 +3206,7 @@
 	)
 	(hierarchical_label "COL3"
 		(shape input)
-		(at 175.26 176.53 180)
+		(at 171.45 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5127,20 +3215,9 @@
 		)
 		(uuid "0e1e911e-bffd-40f6-b544-abec9a46afab")
 	)
-	(hierarchical_label "VBUS"
-		(shape input)
-		(at 158.75 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1087c854-8e7f-4aa0-b782-bc7a74d4e348")
-	)
 	(hierarchical_label "P0.24"
 		(shape input)
-		(at 261.62 207.01 0)
+		(at 257.81 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5149,20 +3226,9 @@
 		)
 		(uuid "167bc97d-6240-46d2-9046-2d5600997028")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 279.4 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "190d8cdf-b110-44c9-85a0-a3c2a160d6a3")
-	)
 	(hierarchical_label "ROW4"
 		(shape input)
-		(at 175.26 222.25 180)
+		(at 171.45 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5173,7 +3239,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 279.4 153.67 0)
+		(at 275.59 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5184,7 +3250,7 @@
 	)
 	(hierarchical_label "COL4"
 		(shape input)
-		(at 175.26 171.45 180)
+		(at 171.45 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5195,7 +3261,7 @@
 	)
 	(hierarchical_label "COL0"
 		(shape input)
-		(at 175.26 234.95 180)
+		(at 171.45 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5206,7 +3272,7 @@
 	)
 	(hierarchical_label "POWER_PIN"
 		(shape output)
-		(at 175.26 168.91 180)
+		(at 171.45 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5217,7 +3283,7 @@
 	)
 	(hierarchical_label "COL7"
 		(shape input)
-		(at 175.26 207.01 180)
+		(at 171.45 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5228,7 +3294,7 @@
 	)
 	(hierarchical_label "COL9"
 		(shape input)
-		(at 175.26 209.55 180)
+		(at 171.45 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5239,7 +3305,7 @@
 	)
 	(hierarchical_label "P0.20"
 		(shape input)
-		(at 261.62 196.85 0)
+		(at 257.81 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5250,7 +3316,7 @@
 	)
 	(hierarchical_label "ROW0"
 		(shape input)
-		(at 175.26 232.41 180)
+		(at 171.45 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5261,7 +3327,7 @@
 	)
 	(hierarchical_label "P0.22"
 		(shape input)
-		(at 261.62 201.93 0)
+		(at 257.81 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5272,7 +3338,7 @@
 	)
 	(hierarchical_label "ROW3"
 		(shape input)
-		(at 175.26 224.79 180)
+		(at 171.45 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5283,7 +3349,7 @@
 	)
 	(hierarchical_label "P0.21"
 		(shape input)
-		(at 261.62 199.39 0)
+		(at 257.81 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5294,7 +3360,7 @@
 	)
 	(hierarchical_label "COL11"
 		(shape input)
-		(at 175.26 212.09 180)
+		(at 171.45 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5305,7 +3371,7 @@
 	)
 	(hierarchical_label "COL5"
 		(shape input)
-		(at 175.26 161.29 180)
+		(at 171.45 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5316,7 +3382,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
-		(at 180.34 133.35 180)
+		(at 176.53 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5327,7 +3393,7 @@
 	)
 	(hierarchical_label "COL13"
 		(shape input)
-		(at 175.26 204.47 180)
+		(at 171.45 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5338,7 +3404,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 279.4 189.23 0)
+		(at 275.59 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5347,20 +3413,9 @@
 		)
 		(uuid "5ead7f0a-fdac-44fc-9fb2-f69c8069f4cd")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 156.21 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "76cd64dc-2abe-4d5b-aa0a-7375e29dbb8e")
-	)
 	(hierarchical_label "COL8"
 		(shape input)
-		(at 175.26 217.17 180)
+		(at 171.45 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5369,20 +3424,9 @@
 		)
 		(uuid "822e3b28-7212-4775-acac-847173400ea3")
 	)
-	(hierarchical_label "VBAT"
-		(shape output)
-		(at 279.4 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8fad9cb8-79d5-4a8e-aebd-6169e00727f1")
-	)
 	(hierarchical_label "COL2"
 		(shape input)
-		(at 175.26 179.07 180)
+		(at 171.45 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5393,7 +3437,7 @@
 	)
 	(hierarchical_label "COL6"
 		(shape input)
-		(at 175.26 163.83 180)
+		(at 171.45 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5404,7 +3448,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 233.68 248.92 0)
+		(at 229.87 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5415,7 +3459,7 @@
 	)
 	(hierarchical_label "NFC1"
 		(shape bidirectional)
-		(at 175.26 184.15 180)
+		(at 171.45 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5426,7 +3470,7 @@
 	)
 	(hierarchical_label "RGB"
 		(shape output)
-		(at 261.62 214.63 0)
+		(at 257.81 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5437,7 +3481,7 @@
 	)
 	(hierarchical_label "USB_D_P"
 		(shape bidirectional)
-		(at 175.26 196.85 180)
+		(at 171.45 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5448,7 +3492,7 @@
 	)
 	(hierarchical_label "ROW2"
 		(shape input)
-		(at 175.26 227.33 180)
+		(at 171.45 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5459,7 +3503,7 @@
 	)
 	(hierarchical_label "NFC2"
 		(shape bidirectional)
-		(at 175.26 186.69 180)
+		(at 171.45 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5470,7 +3514,7 @@
 	)
 	(hierarchical_label "P0.25"
 		(shape input)
-		(at 261.62 209.55 0)
+		(at 257.81 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5481,7 +3525,7 @@
 	)
 	(hierarchical_label "ROW1"
 		(shape input)
-		(at 175.26 229.87 180)
+		(at 171.45 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5490,9 +3534,20 @@
 		)
 		(uuid "d3152873-461b-4bf5-9e3e-6fe235848f22")
 	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 176.53 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9fb9fe8-5409-479f-a751-1339e3c907f4")
+	)
 	(hierarchical_label "COL1"
 		(shape input)
-		(at 175.26 173.99 180)
+		(at 171.45 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5503,7 +3558,7 @@
 	)
 	(hierarchical_label "USB_D_N"
 		(shape bidirectional)
-		(at 175.26 194.31 180)
+		(at 171.45 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5513,479 +3568,8 @@
 		(uuid "da8fbdcc-5bf6-43cc-be07-07aaeac5fe79")
 	)
 	(symbol
-		(lib_name "R_Small_4")
-		(lib_id "Device:R_Small")
-		(at 171.45 74.93 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ab9e7ec-4047-4e13-bffc-6da238f5207a")
-		(property "Reference" "R18"
-			(at 169.545 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1K"
-			(at 171.45 76.2 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.10 "
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "RES 1K OHM 1% 1/16W 0603"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-071KL"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C106235"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "311-1.00KHRCT-ND"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0603FR-071KL"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b26d5e4b-ff9e-4e88-8c24-e6212c54fa32")
-		)
-		(pin "2"
-			(uuid "0109176c-0ba6-4990-b09d-8c5ceac04237")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_2")
-		(lib_id "Device:R_Small")
-		(at 229.87 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d752583-f015-4927-8648-ff1d0947700a")
-		(property "Reference" "R22"
-			(at 229.87 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 229.87 71.12 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.10 "
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "RES 10K OHM 1% 1/16W 0603"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0710KL"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 229.87 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "311-10.0KHRCT-ND"
-			(at 229.87 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0603FR-0710KL"
-			(at 229.87 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89a808ab-fd77-4ef4-bdfd-7fe4e8e63758")
-		)
-		(pin "2"
-			(uuid "3b55cb79-7ab3-45e1-98cc-4ad1b6cdf8f1")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 168.91 44.45 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "308ecfc1-3ba1-4181-a18a-aa9351a3e007")
-		(property "Reference" "C32"
-			(at 166.37 43.1735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 166.37 45.7135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/mlcc/upy-gphc_x5r_4v-to-50v.pdf"
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0603KRX5R8BB105"
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.16"
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP CER 1UF 25V X5R 0603"
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14664"
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "311-1445-1-ND"
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-CC603KRX5R8BB105"
-			(at 168.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cb578fe-68ef-4a45-86f8-13cd8c812fc5")
-		)
-		(pin "2"
-			(uuid "8e944237-1813-4305-a0ee-533bdaf241b7")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Crystal_AKL:Crystal_Generic")
-		(at 251.46 153.67 90)
+		(at 247.65 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5993,7 +3577,7 @@
 		(dnp no)
 		(uuid "30c97710-d29c-4eed-870d-edafdcc54551")
 		(property "Reference" "X2"
-			(at 252.73 149.86 90)
+			(at 248.92 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +3586,7 @@
 			)
 		)
 		(property "Value" "32.768kHz"
-			(at 255.27 152.4 90)
+			(at 251.46 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +3595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 153.67 0)
+			(at 247.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +3604,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 153.67 0)
+			(at 247.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +3613,7 @@
 			)
 		)
 		(property "Description" "Quartz crystal, Generic symbol, Alternate KiCad Library"
-			(at 251.46 153.67 0)
+			(at 247.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,164 +3631,6 @@
 			(project ""
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
 					(reference "X2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_3")
-		(lib_id "Device:R_Small")
-		(at 223.52 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34654896-0039-4332-9792-3e94ea0b76a4")
-		(property "Reference" "R21"
-			(at 223.52 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 223.52 63.5 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.10 "
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "RES 10K OHM 1% 1/16W 0603"
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0710KL"
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "311-10.0KHRCT-ND"
-			(at 223.52 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0603FR-0710KL"
-			(at 223.52 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5f77b8b-2e90-42ac-89a3-a52e2538e0da")
-		)
-		(pin "2"
-			(uuid "268eceac-c752-41a7-8b59-9d0a9af4c8f7")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6299,328 +3725,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 250.19 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d19781a-88c9-4bd6-9d4e-7ff314b54e97")
-		(property "Reference" "C35"
-			(at 252.73 71.1262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 252.73 73.6662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±20% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.60"
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP CER 4.7UF 25V X7R 0805"
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0805MKX7R8BB475"
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "311-3509-1-ND"
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
-			(at 250.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dae5a972-7b75-46ba-a1c2-f67300bd7875")
-		)
-		(pin "2"
-			(uuid "e8e1dfe5-98a0-4d7e-9c15-9863100821f8")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 266.7 67.31 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62531d09-ee41-4ac1-b8b8-6fc907775866")
-		(property "Reference" "R14"
-			(at 264.16 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "806k"
-			(at 264.16 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.10"
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "RES 10K OHM 1% 1/16W 0603"
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0710KL"
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "311-10.0KHRCT-ND"
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0603FR-0710KL"
-			(at 266.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e849ee9-7e2a-4ff8-adca-6c8f3b5a7e9f")
-		)
-		(pin "2"
-			(uuid "fe378679-1bca-4ecc-bc15-c96bcab5983f")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mad_Symbols:MDBT50Q-U1MV2")
-		(at 219.71 189.23 0)
+		(at 215.9 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6629,7 +3735,7 @@
 		(fields_autoplaced yes)
 		(uuid "648e25ed-31b3-483f-88fa-b5bd9db37538")
 		(property "Reference" "U2"
-			(at 220.5833 240.03 0)
+			(at 216.7733 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,7 +3744,7 @@
 			)
 		)
 		(property "Value" "MDBT50Q-U1MV2"
-			(at 220.5833 242.57 0)
+			(at 216.7733 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +3753,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:Raytac_MDBT50Q"
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6657,7 +3763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,7 +3772,7 @@
 			)
 		)
 		(property "Description" "802.15.4, Bluetooth Bluetooth v5.4, Thread, Zigbee® Transceiver Module 2.36GHz ~ 2.5GHz Antenna Not Included, U.FL Surface Mount"
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6675,7 +3781,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +3791,7 @@
 			)
 		)
 		(property "Manufacturer" "Raytac Corporation"
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +3800,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +3809,7 @@
 			)
 		)
 		(property "Rating" ""
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +3818,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +3827,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +3836,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +3845,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +3854,7 @@
 			)
 		)
 		(property "digikey" ""
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +3863,7 @@
 			)
 		)
 		(property "mouser" ""
-			(at 219.71 189.23 0)
+			(at 215.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,214 +4205,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery_Management:BQ24075RGT")
-		(at 207.01 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77489355-65de-4ad3-99a3-53623b8e6555")
-		(property "Reference" "U6"
-			(at 209.1533 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BQ24075RGT"
-			(at 209.1533 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
-			(at 214.63 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq24075.pdf"
-			(at 214.63 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$3.73"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "IC BATT CHG LI-ION 1CELL 16QFN"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BQ24075RGTR"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "296-38874-1-ND"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "16"
-			(uuid "95e4af4f-b503-4f3c-8e5c-5a8f8194c268")
-		)
-		(pin "6"
-			(uuid "9ec6d233-3600-4206-90ff-5351f48ab2c5")
-		)
-		(pin "8"
-			(uuid "3a5ad79a-be81-4856-bb9e-af6def350952")
-		)
-		(pin "10"
-			(uuid "d08f433f-9089-4432-b235-4eaa556e1a29")
-		)
-		(pin "4"
-			(uuid "917e0b13-c25a-4826-9c6f-d35deeadfbcf")
-		)
-		(pin "7"
-			(uuid "ebf8428c-62c8-468c-b48b-b2e85376f7c6")
-		)
-		(pin "13"
-			(uuid "00e1d463-e219-4192-b37e-4c82c6b84d66")
-		)
-		(pin "14"
-			(uuid "ded574a6-90a3-42b9-9463-59df1c2a52f7")
-		)
-		(pin "3"
-			(uuid "75dc0e6b-e737-4638-a5fb-c916d62576c2")
-		)
-		(pin "1"
-			(uuid "e561aac6-7cbe-47f1-8fa6-774a19dd6e27")
-		)
-		(pin "5"
-			(uuid "fa2d1ad5-4e2f-4dba-be27-c692117dcace")
-		)
-		(pin "17"
-			(uuid "0867bac3-0446-48e3-82bf-9aaf5c52f8a7")
-		)
-		(pin "15"
-			(uuid "d152f19d-289e-41f0-852b-46d4ec1ec0c8")
-		)
-		(pin "2"
-			(uuid "9e603fb2-e710-41b3-b2d1-f60cdc257957")
-		)
-		(pin "9"
-			(uuid "191fa118-17d5-4746-89e8-8fdb19695374")
-		)
-		(pin "11"
-			(uuid "e8171093-c067-4ab2-bec5-2eed71efa9da")
-		)
-		(pin "12"
-			(uuid "1a9287ae-8ac5-4159-9b92-f573b182bf60")
-		)
-		(instances
-			(project ""
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 264.16 189.23 0)
+		(at 260.35 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7314,7 +4214,7 @@
 		(dnp no)
 		(uuid "831040ec-f925-47bb-a785-33f3b551e738")
 		(property "Reference" "SW11"
-			(at 257.81 187.96 0)
+			(at 254 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,7 +4222,7 @@
 			)
 		)
 		(property "Value" "EVPAA202K"
-			(at 264.16 191.77 0)
+			(at 260.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,7 +4230,7 @@
 			)
 		)
 		(property "Footprint" "Mad_Footprints:EVP-AA202K"
-			(at 264.16 184.15 0)
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7339,7 +4239,7 @@
 			)
 		)
 		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_3529s.pdf"
-			(at 264.16 184.15 0)
+			(at 260.35 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,7 +4248,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Surface Mount"
-			(at 264.16 189.23 0)
+			(at 260.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,7 +4257,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 264.16 189.23 0)
+			(at 260.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,7 +4266,7 @@
 			)
 		)
 		(property "Price" "$1.26"
-			(at 264.16 189.23 0)
+			(at 260.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7375,7 +4275,7 @@
 			)
 		)
 		(property "Interface" ""
-			(at 264.16 189.23 0)
+			(at 260.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7384,7 +4284,7 @@
 			)
 		)
 		(property "Rating" "SWITCH TACTILE SPST-NO 0.02A 15V"
-			(at 264.16 189.23 0)
+			(at 260.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7393,7 +4293,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 264.16 189.23 0)
+			(at 260.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7402,7 +4302,7 @@
 			)
 		)
 		(property "MPN" "EVPAA202K"
-			(at 264.16 189.23 0)
+			(at 260.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7411,7 +4311,7 @@
 			)
 		)
 		(property "LCSC" "C79147"
-			(at 264.16 189.23 0)
+			(at 260.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,7 +4320,7 @@
 			)
 		)
 		(property "digikey" "P13348SCT-ND"
-			(at 264.16 189.23 0)
+			(at 260.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7429,7 +4329,7 @@
 			)
 		)
 		(property "mouser" "667-EVP-AA202K"
-			(at 264.16 189.23 0)
+			(at 260.35 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7453,809 +4353,8 @@
 		)
 	)
 	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "Device:R_Small")
-		(at 191.77 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8324224e-9af1-4c76-b5b8-f76097bc652e")
-		(property "Reference" "R20"
-			(at 188.595 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 191.77 76.2 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.10 "
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "RES 10K OHM 1% 1/16W 0603"
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0710KL"
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "311-10.0KHRCT-ND"
-			(at 191.77 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0603FR-0710KL"
-			(at 191.77 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f144771-7a12-4ee0-b627-27d1aec918be")
-		)
-		(pin "2"
-			(uuid "4e9c82dc-bd0a-48c1-81bc-d0837972f5b0")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 173.99 44.45 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b3b6d60-a353-4f0f-9939-6d80c5b315f9")
-		(property "Reference" "C33"
-			(at 176.53 43.1862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 176.53 45.7262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0603KPX7R9BB104"
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.10 "
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C432917"
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "311-3567-1-ND"
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-CC603KPX7R9BB104"
-			(at 173.99 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "775456de-ed24-4331-aabb-de4f0427c4c6")
-		)
-		(pin "2"
-			(uuid "b1283d5e-d0ec-4dde-b71c-6ed7a40b86ca")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_4")
-		(lib_id "Device:R_Small")
-		(at 162.56 76.2 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "98ac4b24-548a-40b1-844e-dad9c7d24ff4")
-		(property "Reference" "R23"
-			(at 160.655 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1K"
-			(at 162.56 77.47 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.10 "
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "RES 1K OHM 1% 1/16W 0603"
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-071KL"
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C106235"
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "311-1.00KHRCT-ND"
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0603FR-071KL"
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 162.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffe95934-8ed7-4d4f-8787-1dda0689b0f2")
-		)
-		(pin "2"
-			(uuid "b7ec8973-6fd1-417c-ae3e-664a472216b1")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 224.79 71.12 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad869044-50d4-491b-938f-c83f2995c551")
-		(property "Reference" "D19"
-			(at 219.71 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Yellow"
-			(at 221.615 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060YS75003.pdf"
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Yellow 590nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.55"
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "LED YELLOW CLEAR 0603 SMD"
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier PN" "732-150060YS75003CT-ND"
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "150060YS75003"
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" ""
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48c6e8ec-4181-4509-a8c9-51aa5fdc6d05")
-		)
-		(pin "2"
-			(uuid "3c8ed2d4-972d-4d0e-959c-53c4a98dd884")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_5")
-		(lib_id "Device:R_Small")
-		(at 171.45 80.01 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be84f8d8-6920-4036-a303-5b544da4d51c")
-		(property "Reference" "R19"
-			(at 169.545 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1K"
-			(at 171.45 81.28 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.10 "
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "RES 1K OHM 1% 1/16W 0603"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-071KL"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C106235"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "311-1.00KHRCT-ND"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0603FR-071KL"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73268b41-802a-451e-8c46-e7e637c7ff3d")
-		)
-		(pin "2"
-			(uuid "8b51c210-ef9c-43dc-9991-00cec26cbe1f")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 262.89 146.05 90)
+		(at 259.08 88.9 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8265,7 +4364,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd4e2ff0-0989-4ad0-bfd2-4f3e7e912a26")
 		(property "Reference" "C30"
-			(at 262.8963 139.7 90)
+			(at 259.0863 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,7 +4372,7 @@
 			)
 		)
 		(property "Value" "8pF"
-			(at 262.8963 142.24 90)
+			(at 259.0863 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,7 +4380,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 262.89 146.05 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +4389,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 262.89 146.05 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +4398,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 262.89 146.05 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +4407,7 @@
 			)
 		)
 		(property "MPN" "CC0603KPX7R9BB104"
-			(at 262.89 146.05 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +4416,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 262.89 146.05 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,7 +4425,7 @@
 			)
 		)
 		(property "Price" "$0.10"
-			(at 262.89 146.05 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8335,7 +4434,7 @@
 			)
 		)
 		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
-			(at 262.89 146.05 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8344,7 +4443,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 262.89 146.05 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8353,7 +4452,7 @@
 			)
 		)
 		(property "LCSC" "C432917"
-			(at 262.89 146.05 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8362,7 +4461,7 @@
 			)
 		)
 		(property "digikey" "311-3567-1-ND"
-			(at 262.89 146.05 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,7 +4470,7 @@
 			)
 		)
 		(property "mouser" "603-CC603KPX7R9BB104"
-			(at 262.89 146.05 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8396,7 +4495,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 262.89 161.29 90)
+		(at 259.08 104.14 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8405,7 +4504,7 @@
 		(dnp no)
 		(uuid "cfd7abb7-ad40-47e0-bb37-fca43753c457")
 		(property "Reference" "C31"
-			(at 266.7 157.48 90)
+			(at 262.89 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,7 +4512,7 @@
 			)
 		)
 		(property "Value" "8pF"
-			(at 266.7 160.02 90)
+			(at 262.89 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8421,7 +4520,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 262.89 161.29 0)
+			(at 259.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8430,7 +4529,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 262.89 161.29 0)
+			(at 259.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8439,7 +4538,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 262.89 161.29 0)
+			(at 259.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8448,7 +4547,7 @@
 			)
 		)
 		(property "MPN" "CC0603KPX7R9BB104"
-			(at 262.89 161.29 0)
+			(at 259.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,7 +4556,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 262.89 161.29 0)
+			(at 259.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,7 +4565,7 @@
 			)
 		)
 		(property "Price" "$0.10"
-			(at 262.89 161.29 0)
+			(at 259.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,7 +4574,7 @@
 			)
 		)
 		(property "Rating" "CAP CER 0.1UF 50V X7R 0603"
-			(at 262.89 161.29 0)
+			(at 259.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,7 +4583,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 262.89 161.29 0)
+			(at 259.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8493,7 +4592,7 @@
 			)
 		)
 		(property "LCSC" "C432917"
-			(at 262.89 161.29 0)
+			(at 259.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,7 +4601,7 @@
 			)
 		)
 		(property "digikey" "311-3567-1-ND"
-			(at 262.89 161.29 0)
+			(at 259.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +4610,7 @@
 			)
 		)
 		(property "mouser" "603-CC603KPX7R9BB104"
-			(at 262.89 161.29 0)
+			(at 259.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,327 +4628,6 @@
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 266.7 76.2 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd49f9a8-9b56-4f41-8f9b-69329e183ee8")
-		(property "Reference" "R13"
-			(at 264.16 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2M"
-			(at 264.16 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.10"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "RES 10K OHM 1% 1/16W 0603"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0710KL"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "311-10.0KHRCT-ND"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "603-RC0603FR-0710KL"
-			(at 266.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "015c2232-4bba-45ab-a509-33a677647b1e")
-		)
-		(pin "2"
-			(uuid "ab0de8c0-8923-431c-8a6e-94766706b5fa")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 181.61 71.12 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0fccc53-40a0-4173-ab0e-d7ee04aeab90")
-		(property "Reference" "JP1"
-			(at 175.26 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Charge Boost"
-			(at 176.53 73.025 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" ""
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" ""
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
-			(at 181.61 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d72fc254-5ff9-4b1a-87a3-db72474e897d")
-		)
-		(pin "1"
-			(uuid "202ebd27-315e-4a02-8bc2-6a1f7afc4056")
-		)
-		(instances
-			(project ""
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -8983,165 +4761,6 @@
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
 					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 238.76 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fed146e8-01a5-4de4-a262-fd45bfec3b0f")
-		(property "Reference" "C34"
-			(at 241.3 71.1262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 241.3 73.6662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±20% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.60"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Interface" ""
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "CAP CER 4.7UF 25V X7R 0805"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digikey"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0805MKX7R8BB475"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" ""
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "digikey" "311-3509-1-ND"
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
-			(at 238.76 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15085c41-b34a-41d1-b68f-f6d921bbba8a")
-		)
-		(pin "2"
-			(uuid "703cf7e1-4bda-46a9-8114-dec9193ff6ab")
-		)
-		(instances
-			(project "CrumbCatcherLight"
-				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/5668be87-7451-4e35-a0d8-99be4b22c9c7"
-					(reference "C34")
 					(unit 1)
 				)
 			)
