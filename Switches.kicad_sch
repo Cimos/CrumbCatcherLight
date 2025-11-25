@@ -2764,7 +2764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14a38035-f279-40d7-b54e-7f8d5f8424e6")
-		(property "Reference" "C19"
+		(property "Reference" "C4"
 			(at 80.01 29.8512 0)
 			(effects
 				(font
@@ -2890,7 +2890,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C19")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3037,7 +3037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e2d527a-f9a1-4ed6-aa09-ab2ed916be63")
-		(property "Reference" "SW6"
+		(property "Reference" "SW5"
 			(at 149.86 82.55 0)
 			(effects
 				(font
@@ -3143,7 +3143,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW6")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -3290,7 +3290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aaf9593-dd9a-4c6b-94f0-6441dfa70204")
-		(property "Reference" "C22"
+		(property "Reference" "C7"
 			(at 130.81 34.9312 0)
 			(effects
 				(font
@@ -3416,7 +3416,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C22")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3431,7 +3431,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2abbd368-1ea6-4932-b39e-4ef93f093437")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 94.996 27.305 0)
 			(effects
 				(font
@@ -3555,7 +3555,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3571,7 +3571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3152cb7f-9609-4ff5-a71d-f2e15a671f2c")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 99.06 57.15 0)
 			(effects
 				(font
@@ -3677,7 +3677,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -3693,7 +3693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b29caae-8531-42d3-9d8f-5901fab0a2e4")
-		(property "Reference" "SW9"
+		(property "Reference" "SW8"
 			(at 204.47 57.15 0)
 			(effects
 				(font
@@ -3799,7 +3799,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW9")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -4434,7 +4434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83b6ad80-0a5e-4ca9-a906-de3db822bbf4")
-		(property "Reference" "SW5"
+		(property "Reference" "SW4"
 			(at 145.796 27.305 0)
 			(effects
 				(font
@@ -4558,7 +4558,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW5")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -4871,7 +4871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87d18eda-5cfc-48c6-8314-177e8b7202df")
-		(property "Reference" "C20"
+		(property "Reference" "C5"
 			(at 80.01 34.9312 0)
 			(effects
 				(font
@@ -4997,7 +4997,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C20")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5275,7 +5275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f3a8c35-e361-4be6-8ad3-f0ef8de36f27")
-		(property "Reference" "SW4"
+		(property "Reference" "SW3"
 			(at 99.06 82.55 0)
 			(effects
 				(font
@@ -5381,7 +5381,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW4")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5530,7 +5530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6e01379-18e8-4243-a9ef-e72a0ea24cc4")
-		(property "Reference" "SW8"
+		(property "Reference" "SW7"
 			(at 200.406 27.305 0)
 			(effects
 				(font
@@ -5654,7 +5654,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW8")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -5670,7 +5670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf9f55c5-63eb-4fe2-b306-1d329d40a227")
-		(property "Reference" "SW10"
+		(property "Reference" "SW9"
 			(at 204.47 82.55 0)
 			(effects
 				(font
@@ -5776,7 +5776,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW10")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -5792,7 +5792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3c5f4f1-991a-4330-a6ea-6499ea466dc9")
-		(property "Reference" "C21"
+		(property "Reference" "C6"
 			(at 130.81 29.8512 0)
 			(effects
 				(font
@@ -5918,7 +5918,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C21")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5934,7 +5934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d862dd82-ec44-44cf-ba5d-8192227f297b")
-		(property "Reference" "C24"
+		(property "Reference" "C9"
 			(at 185.42 34.9312 0)
 			(effects
 				(font
@@ -6060,7 +6060,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C24")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6239,7 +6239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2874833-fdee-46d1-80a6-1bc266801836")
-		(property "Reference" "SW7"
+		(property "Reference" "SW6"
 			(at 153.67 57.15 0)
 			(effects
 				(font
@@ -6345,7 +6345,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "SW7")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -6492,7 +6492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb4d3421-2430-4998-b0cd-a624cb903ea1")
-		(property "Reference" "C23"
+		(property "Reference" "C8"
 			(at 185.42 29.8512 0)
 			(effects
 				(font
@@ -6618,7 +6618,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "C23")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6635,7 +6635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f05dd341-2a3b-493c-b6ba-54b1e5ddca84")
-		(property "Reference" "D18"
+		(property "Reference" "D17"
 			(at 207.01 42.5449 90)
 			(effects
 				(font
@@ -6752,7 +6752,7 @@
 		(instances
 			(project "CrumbCatcherLight"
 				(path "/eedae293-eb5b-47bd-b383-bccfdf81bf72/1682b9f6-7d62-400a-a0b2-d2d916d42f36"
-					(reference "D18")
+					(reference "D17")
 					(unit 1)
 				)
 			)
